@@ -1,0 +1,98 @@
+{
+  "name": "WordPress Playground",
+  "host": "playground.wp",
+  "ip": "192.168.56.233",
+  "description": "Build a vagrant Playground with a running Wordpress inside",
+  "keywords": [
+    "wordpress",
+    "multisite",
+    "plugin",
+    "database",
+    "vagrant"
+  ],
+  "license": "GPL-3.0+",
+  "type": "wordpress-playground-vagrant",
+  "homepage": "https://gist.github.com/derpixler/7d26324e651fcb72816a",
+  "authors": [
+    {
+      "name": "Rene Reimann",
+      "homepage": "http://rene-reimann.de",
+      "email": "info@rene-reimann.de",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "secure-http": false
+  },
+  "require": {
+    "php": ">=5.3",
+    "mnsami/composer-custom-directory-installer": "1.1.*",
+    "vagrant": "dev-master",
+    "wordpress/core": "4.4.2",
+	"martial-lite": "1.0.2",
+    "wpackagist-plugin/search-and-replace": "3.0.1"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "vagrant",
+        "version": "dev-master",
+        "source": {
+          "url": "https://github.com/derpixler/vagrant-apache-php-mysql.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "martial-lite",
+        "type": "wordpress-theme",
+		"version": "1.0.2",
+        "source": {
+          "url": "http://themes.svn.wordpress.org/martial-lite",
+          "type": "svn",
+          "reference": "1.0.2"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "wordpress/core",
+        "version": "4.4.2",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/WordPress/WordPress/archive/4.4.2.zip"
+        }
+      }
+    }
+  ],
+  "extra": {
+    "installer-paths": {
+      "vagrant": [
+        "vagrant"
+      ],
+      "vagrant/html/playground/wp/": [
+        "wordpress/core"
+      ],
+      "vagrant/html/playground/wp/wp-content/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "vagrant/html/playground/wp/wp-content/themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
+    }
+  },
+  "scripts" : {
+      "post-install-cmd" : [
+      	   "./prepare-vagrant.sh"
+	  ]
+  }
+}
