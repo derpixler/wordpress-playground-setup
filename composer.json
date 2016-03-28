@@ -1,7 +1,12 @@
 {
   "name": "WordPress Playground",
-  "host": "www.playground.wp | dev.playground.wp | my.playground.wp",
-  "ip": "192.168.56.234",
+  "vagrant": [
+	  {
+	  "vagrant-name": "vagrant-playground",
+	  "host": "www.playground.wp | dev.playground.wp | my.playground.wp",
+	  "ip": "192.168.56.234"
+	  }
+  ],
   "description": "Build a vagrant Playground with a running Wordpress inside",
   "keywords": [
     "wordpress",
@@ -79,20 +84,18 @@
       "vagrant": [
         "vagrant"
       ],
-      "vagrant/html/playground/wp/": [
+      "vendor/wordpress/": [
         "wordpress/core"
       ],
-      "vagrant/html/www/playground/wp-content/plugins/{$name}/": [
+      "vendor/wordpress/wp-content/plugins/{$name}/": [
         "type:wordpress-plugin"
       ],
-      "vagrant/html/www/playground/wp-content/themes/{$name}/": [
+      "vendor/wordpress/wp-content/themes/{$name}/": [
         "type:wordpress-theme"
       ]
     }
   },
   "scripts" : {
-      "post-update-cmd" : [
-      	   "./prepare-vagrant.sh"
-	  ]
+      "post-update-cmd": "./prepare-vagrant.sh"
   }
 }
