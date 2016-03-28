@@ -35,6 +35,7 @@ ip=${ip//' '/''}
 vn=$(grep -o ".*: .*" composer.json | grep -iw vagrant-name | cut -d: -f2)
 vn=${vn//'"'/''}
 vn=${vn//','/''}
+vn=${vn//' '/''}
 
 Vagrantfile=$(cat vagrant/Vagrantfile)
 Vagrantfile=${Vagrantfile//'192.168.56.101'/${ip}}
