@@ -9,13 +9,26 @@ Her you get a ready to use `composer.json` and a vagrant `prepare shell script` 
 
 3. Browse to http://www.playground.wp
 
+## Whats in the Playground?
+We have a small set of plugins and themes. 
+
+* Plugins:
+    * [Search & Replace](https://wordpress.org/plugins/search-and-replace/)
+    * [Captcha](https://de.wordpress.org/plugins/captcha/)
+
+* Themes:
+    * all WordPress default Themes
+    * [Martial Lite](https://themes.trac.wordpress.org/ticket/30278)
+    * [Human](https://wordpress.org/themes/hueman/)
+
+
 ## Customize your Vagrant setup
-At the `composer.json` you'll find a `vagrant` section.
+At the [composer.json](https://github.com/derpixler/wordpress-playground-setup/blob/master/composer.json) you'll find a *vagrant* section.
 ```
 "vagrant": [
   	  {
   	  "vagrant-name": "vagrant-playground",
-  	  "host": "www.playground.wp | dev.playground.wp | my.playground.wp",
+  	  "host": "www.playground.wp",
   	  "ip": "192.168.50.103"
   	  }
     ],
