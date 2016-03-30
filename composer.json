@@ -3,7 +3,7 @@
     "vagrant": [
   	  {
   	  "vagrant-name": "vagrant-playground",
-  	  "host": "www.playground.wp | dev.playground.wp | my.playground.wp",
+  	  "host": "www.playground.wp",
   	  "ip": "192.168.50.103"
   	  }
     ],
