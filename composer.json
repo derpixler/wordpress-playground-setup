@@ -1,101 +1,110 @@
 {
-  "name": "WordPress Playground",
-  "vagrant": [
-	  {
-	  "vagrant-name": "vagrant-playground",
-	  "host": "www.playground.wp | dev.playground.wp | my.playground.wp",
-	  "ip": "192.168.56.234"
-	  }
-  ],
-  "description": "Build a vagrant Playground with a running Wordpress inside",
-  "keywords": [
-    "wordpress",
-    "multisite",
-    "plugin",
-    "database",
-    "vagrant"
-  ],
-  "license": "GPL-3.0+",
-  "type": "wordpress-playground-vagrant",
-  "homepage": "https://gist.github.com/derpixler/7d26324e651fcb72816a",
-  "authors": [
-    {
-      "name": "Rene Reimann",
-      "homepage": "http://rene-reimann.de",
-      "email": "info@rene-reimann.de",
-      "role": "Developer"
-    }
-  ],
-  "config": {
-    "secure-http": false
-  },
-  "require": {
-    "php": ">=5.3",
-    "mnsami/composer-custom-directory-installer": "1.1.*",
-    "vagrant": "dev-master",
-    "wordpress/core": "4.4.2",
-	"martial-lite": "1.0.2",
-    "wpackagist-plugin/search-and-replace": "3.0.1"
-  },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://wpackagist.org"
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "vagrant",
-        "version": "dev-master",
-        "source": {
-          "url": "https://github.com/derpixler/vagrant-apache-php-mysql.git",
-          "type": "git",
-          "reference": "master"
+    "name": "WordPress Playground",
+    "vagrant": [
+  	  {
+  	  "vagrant-name": "vagrant-playground",
+  	  "host": "www.playground.wp | dev.playground.wp | my.playground.wp",
+  	  "ip": "192.168.50.103"
+  	  }
+    ],
+    "description": "Build a vagrant Playground with a running Wordpress inside",
+    "keywords": [
+      "wordpress",
+      "multisite",
+      "plugin",
+      "database",
+      "vagrant"
+    ],
+    "license": "GPL-3.0+",
+    "type": "wordpress-playground-vagrant",
+    "homepage": "https://gist.github.com/derpixler/7d26324e651fcb72816a",
+    "authors": [
+      {
+        "name": "Rene Reimann",
+        "homepage": "http://rene-reimann.de",
+        "email": "info@rene-reimann.de",
+        "role": "Developer"
+      }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://wpackagist.org"
+        },
+	    {
+	      "type": "package",
+	      "package": {
+	        "name": "vagrant",
+	        "version": "1.2",
+	        "source": {
+	          "url": "https://github.com/derpixler/vagrant-apache-php-mysql.git",
+	          "type": "git",
+	          "reference": "1.2"
+	        }
+	      }
+	    },
+		{
+		 "type": "package",
+		 "package": {
+		     "name": "search-replace-dev",
+		 	"type": "wordpress-plugin",
+		     "version": "dev-master",
+		     "source": {
+		         "url": "git@github.com:inpsyde/search-and-replace.git",
+		         "type": "git",
+		         "reference": "master"
+		     }
+		 }
+		},
+	    {
+	      "type": "package",
+	      "package": {
+	        "name": "martial-lite",
+	        "type": "wordpress-theme",
+			"version": "1.0.2",
+	        "source": {
+	          "url": "http://themes.svn.wordpress.org/martial-lite",
+	          "type": "svn",
+	          "reference": "1.0.2"
+	        }
+	      }
+	  },
+      {
+        "type": "package",
+        "package": {
+          "name": "wordpress/core",
+          "version": "4.4.2",
+          "dist": {
+            "type": "zip",
+            "url": "https://github.com/WordPress/WordPress/archive/4.4.2.zip"
+          }
         }
       }
+    ],
+    "config": {
+      "secure-http": false
     },
-    {
-      "type": "package",
-      "package": {
-        "name": "martial-lite",
-        "type": "wordpress-theme",
-		"version": "1.0.2",
-        "source": {
-          "url": "http://themes.svn.wordpress.org/martial-lite",
-          "type": "svn",
-          "reference": "1.0.2"
-        }
-      }
+    "require": {
+        "php": ">=5.3.0",
+        "fancyguy/webroot-installer": "~1.1",
+		"mnsami/composer-custom-directory-installer": "1.1.*",
+		"vagrant": "1.2",
+	    "wordpress/core": "4.4.2",
+		"martial-lite": "1.0.2",
+	    "search-replace-dev": "dev-master",
+		"wpackagist-plugin/captcha":">=3.9",
+		"wpackagist-theme/hueman":"*"
     },
-    {
-      "type": "package",
-      "package": {
-        "name": "wordpress/core",
-        "version": "4.4.2",
-        "dist": {
-          "type": "zip",
-          "url": "https://github.com/WordPress/WordPress/archive/4.4.2.zip"
+    "extra": {
+        "webroot-dir": "vagrant/html/wordpress",
+        "installer-paths": {
+	        "vagrant/": ["vagrant"],
+			"vagrant/html/wordpress/": ["wordpress/core"],
+            "vagrant/html/wordpress/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+            "vagrant/html/wordpress/wp-content/themes/{$name}/": ["type:wordpress-theme"]
         }
-      }
+    },
+    "scripts" : {
+        "post-update-cmd": "./prepare-vagrant.sh"
     }
-  ],
-  "extra": {
-    "installer-paths": {
-      "vagrant": [
-        "vagrant"
-      ],
-      "vendor/wordpress/": [
-        "wordpress/core"
-      ],
-      "vendor/wordpress/wp-content/plugins/{$name}/": [
-        "type:wordpress-plugin"
-      ],
-      "vendor/wordpress/wp-content/themes/{$name}/": [
-        "type:wordpress-theme"
-      ]
-    }
-  },
-  "scripts" : {
-      "post-update-cmd": "./prepare-vagrant.sh"
-  }
 }
