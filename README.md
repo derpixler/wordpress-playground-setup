@@ -1,5 +1,5 @@
 # Come lets play with WordPress
-Her you get a ready to use `composer.json` and a vagrant `prepare shell script` to generate your own Local WordPress Playground.
+Here you get a ready to use `composer.json` and a vagrant `prepare shell script` to generate your own Local WordPress Playground. What you need is a little experience with [Vagrant](https://www.vagrantup.com/) and [Composer](https://getcomposer.org/) 
 
 ## Install your local WordPress - Vagrant
 0. Check if you have installed [Vagrant](https://www.vagrantup.com/) and [Composer](https://getcomposer.org/doc/00-intro.md)
