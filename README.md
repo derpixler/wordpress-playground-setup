@@ -10,7 +10,7 @@ Here you get a ready to use `composer.json` and a vagrant `prepare shell script`
 
 ## Whats in the Playground?
 We have a small set of plugins and themes. 
-
+* Vagrant: https://github.com/derpixler/vagrant-apache-php-mysql
 * Plugins:
     * [Search & Replace](https://wordpress.org/plugins/search-and-replace/)
     * [Captcha](https://de.wordpress.org/plugins/captcha/)
