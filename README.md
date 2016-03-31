@@ -10,9 +10,9 @@ Here you get a ready to use `composer.json` and a vagrant `prepare shell script`
 git clone https://github.com/derpixler/wordpress-playground-setup.git
 ```
 2. Run Composer install and Start Vagrant
-   ```bash
-   composer install && cd vagrant && vagrant up
-   ```
+```bash
+composer install && cd vagrant && vagrant up
+```
 3. Browse to http://www.playground.wp
 
 ## Whats in the Playground?
