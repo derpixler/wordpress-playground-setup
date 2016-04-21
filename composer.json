@@ -87,24 +87,24 @@
     "require": {
         "php": ">=5.3.0",
         "fancyguy/webroot-installer": "~1.1",
-		"mnsami/composer-custom-directory-installer": "1.1.*",
-		"vagrant": "1.2",
-	    "wordpress/core": "4.4.2",
-		"martial-lite": "1.0.2",
-	    "search-replace-dev": "dev-master",
-		"wpackagist-plugin/captcha":">=3.9",
-		"wpackagist-theme/hueman":"*"
+	"mnsami/composer-custom-directory-installer": "1.1.*",
+	"vagrant": "1.2",
+	"wordpress/core": "4.4.2",
+	"martial-lite": "1.0.2",
+	"search-replace-dev": "dev-master",
+	"wpackagist-plugin/captcha":">=3.9",
+	"wpackagist-theme/hueman":"*"
     },
     "extra": {
         "webroot-dir": "vagrant/html/wordpress",
         "installer-paths": {
 	        "vagrant/": ["vagrant"],
-			"vagrant/html/wordpress/": ["wordpress/core"],
-            "vagrant/html/wordpress/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
-            "vagrant/html/wordpress/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+		"vagrant/html/wordpress/": ["wordpress/core"],
+            	"vagrant/html/wordpress/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+            	"vagrant/html/wordpress/wp-content/themes/{$name}/": ["type:wordpress-theme"]
         }
     },
     "scripts" : {
-        "post-update-cmd": "./prepare-vagrant.sh"
+        "post-install-cmd": "./prepare-vagrant.sh"
     }
 }
