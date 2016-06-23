@@ -1,0 +1,6 @@
+
+.vagrant/
+.DS*
+.idea
+composer.lock
+
