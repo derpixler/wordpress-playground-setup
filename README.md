@@ -34,6 +34,7 @@ Requirements:
 	This might take a wile on the first time because it will fetch WordPress core, WordPress plugins, WordPress Themes, Vagrant files and preapare vagrant.
 
 5.	Run vagrant
+
 	```
 	$ cd vagrant
 	$ vagrant up
