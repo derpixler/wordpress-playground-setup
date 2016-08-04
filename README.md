@@ -26,24 +26,36 @@ Requirements:
 	$ git clone git@bitbucket.org:webdevmedia/myhotelshop-vm.git
 	```
 
-4.	Let run Vagrant
+4.	Load project requirements
 	```
+	$ cd myhotelshop-vm
+	$ composer install
+	```
+	This might take a wile on the first time because it will fetch WordPress core, WordPress plugins, WordPress Themes, Vagrant files and preapare vagrant.
+
+5.	Run vagrant
+	```
+	$ cd vagrant
 	$ vagrant up
 	```
-	This might take a wile on the first time because it will fetch the image of the virtual machine and start the provisioning (configuring the VM).
 
 ## Basic VM settings
 You'll find the main setting, for this virtuallmaschine at the `vagrant.json`.
 
 lets take a look at the basic settings.
 ```
-IP: 192.168.44.111,
-Mainhost: network.myhotelshop.wp
+IP: 192.168.33.177,
+Mainhost: websites.myhotelshop.wp
 Alias: network.arabiannights.hotel
-	   www.arabiannights.hotel.uk
-	   www.arabiannights.hotel.com
-	   golden-glory-beach.hotel
-	   www.funny-beachresort.hotel
+	   network.websites.myhotelshop.wp
+	   m-privathotels.network.websites.myhotelshop.wp
+	   m-privathotels.de.websites.myhotelshop.wp
+	   m-privathotels.en.websites.myhotelshop.wp
+	   m-privathotels.it.websites.myhotelshop.wp
+	   m-privathotels.es.websites.myhotelshop.wp
+	   m-privathotels.fr.websites.myhotelshop.wp
+	   m-privathotels.ru.websites.myhotelshop.wp
+
 
 ```
 

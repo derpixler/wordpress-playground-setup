@@ -2,30 +2,30 @@
 	"box": "scotch/box",
 	"network" : {
 		"private_network": {
-			"ip": "192.168.44.111",
-			"host": "network.myhotelshop.wp",
+			"ip": "192.168.33.177",
+			"host": "websites.myhotelshop.wp",
 			"alias": [
-				"network.arabiannights.hotel",
-				"www.arabiannights.hotel.uk",
-				"www.arabiannights.hotel.com",
-				"golden-glory-beach.hotel",
-				"www.funny-beachresort.hotel"
+				"network.websites.myhotelshop.wp",
+				"m-privathotels.network.websites.myhotelshop.wp",
+				"m-privathotels.de.websites.myhotelshop.wp",
+				"m-privathotels.en.websites.myhotelshop.wp",
+				"m-privathotels.it.websites.myhotelshop.wp",
+				"m-privathotels.es.websites.myhotelshop.wp",
+				"m-privathotels.fr.websites.myhotelshop.wp",
+				"m-privathotels.ru.websites.myhotelshop.wp"
 			]
 		},
-		"forwarded_port": {
-			"22": "2222",
-			"8080": "8888"
-		}
+		"forwarded_port": {}
 	},
 	"synced_folder": {
-		"./shared": "/var/www"
+		"./html": "/var/www"
 	},
 	"provision": {
 		"file": {},
 		"shell_script": [
 			"provisioning/vhost.sh",
-			"provisioning/import-db.sh",
-			"provisioning/phpmyadmin.sh"
+			"provisioning/phpmyadmin.sh",
+			"provisioning/import-db.sh"
 		]
 	}
 }
