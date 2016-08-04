@@ -2,5 +2,5 @@
 .vagrant/
 .DS*
 .idea
-composer.lock
-
+vendor/
+vagrant/
