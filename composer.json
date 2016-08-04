@@ -28,6 +28,10 @@
 			"type": "vcs",
 			"url": "git@bitbucket.org:webdevmedia/myhotelshop-booking-widget.git"
 		},
+		{
+			"type": "vcs",
+			"url": "git@bitbucket.org:webdevmedia/myhotelshop-base-theme.git"
+		},
 	    {
 	      "type": "package",
 	      "package": {
@@ -66,7 +70,9 @@
 	  "myhotelshop/ibe-widget":"dev-master",
 
 	  "wpackagist-plugin/wp-multi-network": "1.7.0",
-	  "wpackagist-plugin/multilingual-press": "2.4.6"
+	  "wpackagist-plugin/multilingual-press": "2.4.6",
+
+	  "myhotelshop/base-theme": "dev-master"
 
     },
     "extra": {
