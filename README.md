@@ -12,32 +12,35 @@ Requirements:
 1. 	Make sure that you have installed VirtualBox and Vagrant including the required Vagrant plugins
 
 	 1.1	[Vagrant-Hostsupdater](https://github.com/cogitatio/vagrant-hostsupdater)
-			```
+```
 			$ vagrant plugin install vagrant-hostsupdater
-			```
+```
 
 	1.2		[Vagrant-triggers](https://github.com/cogitatio/vagrant-triggers)
-			```
+```
 			$ vagrant plugin install vagrant-triggers
-			```
+```
 
 3. 	Cloning this repository 'git@bitbucket.org:webdevmedia/myhotelshop-vm.git
-	```
+```
 	$ git clone git@bitbucket.org:webdevmedia/myhotelshop-vm.git
-	```
+```
 
 4.	Load project requirements
-	```
+
+```
 	$ cd myhotelshop-vm
 	$ composer install
-	```
+```
+
 	This might take a wile on the first time because it will fetch WordPress core, WordPress plugins, WordPress Themes, Vagrant files and preapare vagrant.
 
 5.	Run vagrant
-	```
+
+```
 	$ cd vagrant
 	$ vagrant up
-	```
+```
 
 ## Basic VM settings
 You'll find the main setting, for this virtuallmaschine at the `vagrant.json`.
