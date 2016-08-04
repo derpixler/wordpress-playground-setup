@@ -1,4 +1,4 @@
-websites.myhotelshop.wp-- MySQL dump 10.13  Distrib 5.6.19, for Linux (i686)
+-- MySQL dump 10.13  Distrib 5.6.19, for Linux (i686)
 --
 -- Host: db4686.mydbserver.com    Database: usr_p366984_1
 -- ------------------------------------------------------
