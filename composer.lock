@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3e73bfe2dd4a9e649cc57958e6933a54",
-    "content-hash": "5b21067ede9d4fd6c1eecff81af6e7c8",
+    "hash": "df09a8b973e25bb6776f278ba4d11ae4",
+    "content-hash": "8b943335b96d61f2bacfc66d748bf5ba",
     "packages": [
         {
             "name": "composer/installers",
@@ -250,6 +250,23 @@
             "type": "library"
         },
         {
+            "name": "webdev/mark_environment_as_lokal",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:webdevmedia/mark_as_lokal.git",
+                "reference": "0b59c2e4471f05e57d7ba1c07c920a3a986c71d6"
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "time": "2016-08-05 10:58:55"
+        },
+        {
             "name": "wordpress/core",
             "version": "4.5.3",
             "dist": {
@@ -306,7 +323,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "myhotelshop/ibe-widget": 20,
-        "myhotelshop/base-theme": 20
+        "myhotelshop/base-theme": 20,
+        "webdev/mark_environment_as_lokal": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

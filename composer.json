@@ -32,6 +32,10 @@
 			"type": "vcs",
 			"url": "git@bitbucket.org:webdevmedia/myhotelshop-base-theme.git"
 		},
+		{
+			"type": "vcs",
+			"url": "git@bitbucket.org:webdevmedia/mark_as_lokal.git"
+		},
 	    {
 	      "type": "package",
 	      "package": {
@@ -72,7 +76,9 @@
 	  "wpackagist-plugin/wp-multi-network": "1.7.0",
 	  "wpackagist-plugin/multilingual-press": "2.4.6",
 
-	  "myhotelshop/base-theme": "dev-master"
+	  "myhotelshop/base-theme": "dev-master",
+
+	  "webdev/mark_environment_as_lokal":"dev-master"
 
     },
     "extra": {
