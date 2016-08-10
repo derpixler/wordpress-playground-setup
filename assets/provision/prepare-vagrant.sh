@@ -34,6 +34,6 @@ cp assets/data/.htaccess.dist vagrant/html/.htaccess
 
 printf "  - Copy .htaccess ${GREEN}.htaccess.dist -> vagrant/html/.htaccess${NC})\n    Files copied\n\n"
 
-cp assets/data/scotchbox.sql ${dumpfolder}scotchbox.sql
+cp assets/data/playbox.sql ${dumpfolder}playbox.sql
 
-printf "  - Copy scotchbox.sql ${GREEN}scotchbox.sql -> ${dumpfolder}scotchbox.sql${NC})\n    Files copied\n\n"
+printf "  - Copy scotchbox.sql ${GREEN}playbox.sql -> ${dumpfolder}playbox.sql${NC})\n    Files copied\n\n"
