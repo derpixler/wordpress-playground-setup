@@ -270,16 +270,16 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:webdevmedia/cpt-inhaltselemente-plugin.git",
-                "reference": "0a5fba9e068e755ea5100e309dc6a1d68ed95375"
+                "reference": "26d417262a7b36bab2546794be4b297404de4b0e"
             },
             "require": {
                 "php": ">=5.3"
             },
-            "type": "wordpress-theme",
+            "type": "wordpress-plugin",
             "license": [
                 "GPL-2.0"
             ],
-            "time": "2016-08-17 06:20:15"
+            "time": "2016-08-17 06:34:29"
         },
         {
             "name": "myhotelshop/ibe-widget",

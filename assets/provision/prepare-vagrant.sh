@@ -23,17 +23,26 @@ fi
 cp vagrant.json vagrant/vagrant.json
 cp vagrant.dist.json vagrant/vagrant.dist.json
 
-printf "  - Moved Vagrant config ${GREEN}Copy vagrant.json -> vagrant/vagrant.json${NC})\n    Files copied\n\n"
+printf "  - Moved Vagrant config (${GREEN}Copy vagrant.json -> vagrant/vagrant.json${NC})\n    Files copied\n\n"
 
 
 cp assets/data/wp-config.php vagrant/html/wp-config.php
 
-printf "  - Copy wp-config ${GREEN}wp-config.php -> vagrant/html/wp-config.php${NC})\n    Files copied\n\n"
+printf "  - Copy wp-config (${GREEN}wp-config.php -> vagrant/html/wp-config.php${NC})\n    Files copied\n\n"
 
 cp assets/data/.htaccess.dist vagrant/html/.htaccess
 
-printf "  - Copy .htaccess ${GREEN}.htaccess.dist -> vagrant/html/.htaccess${NC})\n    Files copied\n\n"
+printf "  - Copy .htaccess (${GREEN}.htaccess.dist -> vagrant/html/.htaccess${NC})\n    Files copied\n\n"
 
 cp assets/data/website_myhotelshop_wp.sql ${dumpfolder}website_myhotelshop_wp.sql
 
-printf "  - Copy website_myhotelshop_wp.sql ${GREEN}website_myhotelshop_wp.sql -> ${dumpfolder}website_myhotelshop_wp.sql${NC})\n    Files copied\n\n"
+printf "  - Copy website_myhotelshop_wp.sql (${GREEN}website_myhotelshop_wp.sql -> ${dumpfolder}website_myhotelshop_wp.sql${NC})\n    Files copied\n\n"
+
+rm -rf vagrant/html/wordpress/wp-content/themes/twentyeleven
+rm -rf vagrant/html/wordpress/wp-content/themes/twentyfifteen
+rm -rf vagrant/html/wordpress/wp-content/themes/twentyfourteen
+rm -rf vagrant/html/wordpress/wp-content/themes/twentyten
+rm -rf vagrant/html/wordpress/wp-content/themes/twentythirteen
+rm -rf vagrant/html/wordpress/wp-content/themes/twentytwelve
+
+printf "  - ${RED}Delete${NC} WordPress default Themes\n    ${GREEN}Themes deleted${NC}\n\n"
