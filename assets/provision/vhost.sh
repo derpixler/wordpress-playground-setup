@@ -47,19 +47,23 @@ write_vHosts() {
 	conf=$(cat <<EOF
 <VirtualHost *:80>
 
-	ServerName localhost
-	ServerAlias ${URL}
+	ServerName ${URL}
 	${aliases}
 
-	CustomLog /srv/log/apache2/vhosts/${URL//'.'/'_'}.log vhost_combined
+	DocumentRoot ${DocumentRoot}
 
-		DocumentRoot ${DocumentRoot}/
+	<Directory ${DocumentRoot} >
+		DirectoryIndex index.php index.html
+		AllowOverride All
+		Options -Indexes +SymLinksIfOwnerMatch
+	</Directory>
 
-		<Directory ${DocumentRoot} >
-			Options Indexes FollowSymLinks MultiViews
-			AllowOverride
-			allow from all
-		</Directory>
+	ErrorLog ${logFilePah}${URL//'.'/'_'}.error.log
+	# Possible values include: debug, info, notice, warn, error, crit,
+	# alert, emerg.
+	LogLevel warn
+
+	CustomLog ${logFilePah}/${URL//'.'/'_'}.access.log combined
 
 </VirtualHost>
 EOF

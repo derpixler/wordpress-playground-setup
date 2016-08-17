@@ -14,6 +14,11 @@ YELLOW='\033[1;33;40m'
 NC='\033[0m' # No Color
 symlinkFile="create-symlink.sh"
 
+dumpfolder='vagrant/database/imports/'
+
+if [ ! -d "$dumpfolder" ]; then
+	mkdir -p ${dumpfolder}
+fi
 
 cp vagrant.json vagrant/vagrant.json
 cp vagrant.dist.json vagrant/vagrant.dist.json
@@ -21,20 +26,14 @@ cp vagrant.dist.json vagrant/vagrant.dist.json
 printf "  - Moved Vagrant config ${GREEN}Copy vagrant.json -> vagrant/vagrant.json${NC})\n    Files copied\n\n"
 
 
-cp wp-config.php vagrant/html/wp-config.php
+cp assets/data/wp-config.php vagrant/html/wp-config.php
 
-printf "  - Copie wp-config ${GREEN}wp-config.php -> vagrant/html/wp-config.php${NC})\n    Files copied\n\n"
+printf "  - Copy wp-config ${GREEN}wp-config.php -> vagrant/html/wp-config.php${NC})\n    Files copied\n\n"
 
-dumpfolder='vagrant/database/imports/'
+cp assets/data/.htaccess.dist vagrant/html/.htaccess
 
-if [ ! -d "$dumpfolder" ]; then
-	mkdir -p ${dumpfolder}
-fi
+printf "  - Copy .htaccess ${GREEN}.htaccess.dist -> vagrant/html/.htaccess${NC})\n    Files copied\n\n"
 
-cp -p website_myhotelshop_wp.sql vagrant/database/imports/website_myhotelshop_wp.sql
+cp assets/data/playbox.sql ${dumpfolder}playbox.sql
 
-printf "  - Copie DB Dump ${GREEN}website_myhotelshop_wp -> vagrant/database/imports/website_myhotelshop_wp.sql${NC})\n    Files copied\n\n"
-
-cp -p vhost.sh vagrant/provisioning/vhost.sh
-
-printf "  - Copie vhost.sh ${GREEN}vhost.sh -> vagrant/provisioning/vhost.sh${NC})\n    Files copied\n\n"
+printf "  - Copy scotchbox.sql ${GREEN}playbox.sql -> ${dumpfolder}playbox.sql${NC})\n    Files copied\n\n"

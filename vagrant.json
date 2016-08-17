@@ -7,12 +7,7 @@
 			"alias": [
 				"network.websites.myhotelshop.wp",
 				"m-privathotels.network.websites.myhotelshop.wp",
-				"m-privathotels.de.websites.myhotelshop.wp",
-				"m-privathotels.en.websites.myhotelshop.wp",
-				"m-privathotels.it.websites.myhotelshop.wp",
-				"m-privathotels.es.websites.myhotelshop.wp",
-				"m-privathotels.fr.websites.myhotelshop.wp",
-				"m-privathotels.ru.websites.myhotelshop.wp"
+				"m-privathotels.websites.myhotelshop.wp"
 			]
 		},
 		"forwarded_port": {}
@@ -23,7 +18,7 @@
 	"provision": {
 		"file": {},
 		"shell_script": [
-			"provisioning/vhost.sh",
+			"../assets/provision/vhost.sh",
 			"provisioning/phpmyadmin.sh",
 			"provisioning/import-db.sh"
 		]
