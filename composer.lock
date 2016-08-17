@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a38f02c9df9c448fc7d529fb7444ae0b",
-    "content-hash": "e4cfb21d946487a4033ae861afdef461",
+    "hash": "47bafdbeb0e64244781c18f0bcd067e0",
+    "content-hash": "cef7659b4f7691aabaffaccdfbfd40f6",
     "packages": [
         {
             "name": "composer/installers",
@@ -111,16 +111,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.5.3",
+            "version": "4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "f5c6f4dd899e6365ddf2752d2705ed1de7e10715"
+                "reference": "1fb4b67e331d82f9061eaf3fcbc94163db85c135"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/f5c6f4dd899e6365ddf2752d2705ed1de7e10715",
-                "reference": "f5c6f4dd899e6365ddf2752d2705ed1de7e10715",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/1fb4b67e331d82f9061eaf3fcbc94163db85c135",
+                "reference": "1fb4b67e331d82f9061eaf3fcbc94163db85c135",
                 "shasum": ""
             },
             "require": {
@@ -144,7 +144,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-06-21 16:31:21"
+            "time": "2016-08-16 18:32:04"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -317,6 +317,17 @@
             "time": "2016-08-17 06:16:51"
         },
         {
+            "name": "myhotelshop/uploads",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:webdevmedia/uploads.git",
+                "reference": "master"
+            },
+            "type": "library",
+            "time": "2016-08-17 11:55:16"
+        },
+        {
             "name": "vagrant",
             "version": "1.3.1",
             "source": {
@@ -328,15 +339,15 @@
         },
         {
             "name": "wpackagist-plugin/multilingual-press",
-            "version": "2.4.6",
+            "version": "2.4.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/multilingual-press/",
-                "reference": "tags/2.4.6"
+                "reference": "tags/2.4.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/multilingual-press.2.4.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/multilingual-press.2.4.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -372,6 +383,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "myhotelshop/ibe-widget": 20,
+        "myhotelshop/uploads": 20,
         "myhotelshop/base-theme": 20,
         "myhotelshop/m-privathotels-theme": 20,
         "myhotelshop/cpt-inhaltselemente-plugin": 20
