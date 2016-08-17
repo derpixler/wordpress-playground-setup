@@ -57,11 +57,11 @@
 		"mnsami/composer-custom-directory-installer": "1.1.*",
 		"vagrant": "1.3.*",
 
-		"johnpbloch/wordpress": "~4.5.0",
+		"johnpbloch/wordpress": "4.*",
 
 		"myhotelshop/ibe-widget":"dev-master",
 
-		"wpackagist-plugin/wp-multi-network": "1.7.0",
+		"wpackagist-plugin/wp-multi-network": "1.*",
 		"wpackagist-plugin/multilingual-press": "2.4.6",
 
 		"myhotelshop/base-theme": "dev-master"
