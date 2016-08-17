@@ -17,6 +17,21 @@
  *
  * @package WordPress
  */
+function debug( $data, $display = 'print', $die = TRUE ) {
+	echo '<pre>';
+
+	if( $display == 'var' ) {
+		var_dump( $data );
+	} else {
+		print_r( $data );
+	}
+
+	echo '</pre>';
+
+	if( $die == TRUE) {
+		die();
+	}
+}
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
@@ -56,6 +71,7 @@ define('LOGGED_IN_SALT',   '-o&l*rYgpEB*PX +fH}?POV}}KLD?-?9,a*nRq Tuffqum.8Y3Jg
 define('NONCE_SALT',       'g!.`p,+2U%@j9r/xeO3$:Gh#x<Bxl,pq;S{LIus.y@lU]aO_e,W6aO>ybOk1+@4#');
 
 
+
 $table_prefix = 'nwtmyhsp_';
 
 /* Multisite */
@@ -71,8 +87,6 @@ define('BLOG_ID_CURRENT_SITE', 1);
 define('COOKIE_DOMAIN', '');
 define('COOKIEPATH', '');
 define('SITECOOKIEPATH', '');
-
-
 /**
  * For developers: WordPress debugging mode.
  *
