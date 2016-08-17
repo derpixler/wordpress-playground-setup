@@ -36,6 +36,14 @@
 			"type": "vcs",
 			"url": "git@bitbucket.org:webdevmedia/mark_as_lokal.git"
 		},
+		{
+			"type": "vcs",
+			"url": "git@bitbucket.org:webdevmedia/cpt-inhaltselemente-plugin.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@bitbucket.org:webdevmedia/m-privathotels-theme.git"
+		},
 	    {
 	      "type": "package",
 	      "package": {
@@ -64,7 +72,9 @@
 		"wpackagist-plugin/wp-multi-network": "1.*",
 		"wpackagist-plugin/multilingual-press": "2.4.6",
 
-		"myhotelshop/base-theme": "dev-master"
+		"myhotelshop/base-theme": "dev-master",
+		"myhotelshop/m-privathotels-theme": "dev-master",
+		"myhotelshop/cpt-inhaltselemente-plugin": "dev-master"
     },
     "extra": {
 		"wordpress-install-dir": "vagrant/html/wordpress",

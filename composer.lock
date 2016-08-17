@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "89e622e325fbee7278a11e0efdca32e8",
-    "content-hash": "d0b03529a25e6ba9cdf0f78ff9258a68",
+    "hash": "88e6dc10758b9d83ddf278520cd46143",
+    "content-hash": "acc082730e266a8542f96a2a9f602b38",
     "packages": [
         {
             "name": "composer/installers",
@@ -265,6 +265,23 @@
             "time": "2016-08-10 15:10:25"
         },
         {
+            "name": "myhotelshop/cpt-inhaltselemente-plugin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:webdevmedia/cpt-inhaltselemente-plugin.git",
+                "reference": "0a5fba9e068e755ea5100e309dc6a1d68ed95375"
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "GPL-2.0"
+            ],
+            "time": "2016-08-17 06:20:15"
+        },
+        {
             "name": "myhotelshop/ibe-widget",
             "version": "dev-master",
             "source": {
@@ -281,6 +298,23 @@
                 "GPL-2.0"
             ],
             "time": "2016-06-24 11:32:28"
+        },
+        {
+            "name": "myhotelshop/m-privathotels-theme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:webdevmedia/m-privathotels-theme.git",
+                "reference": "714149af5d26d5c3415345117452ed47e5607464"
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "GPL-2.0"
+            ],
+            "time": "2016-08-17 06:16:51"
         },
         {
             "name": "vagrant",
@@ -338,7 +372,9 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "myhotelshop/ibe-widget": 20,
-        "myhotelshop/base-theme": 20
+        "myhotelshop/base-theme": 20,
+        "myhotelshop/m-privathotels-theme": 20,
+        "myhotelshop/cpt-inhaltselemente-plugin": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
