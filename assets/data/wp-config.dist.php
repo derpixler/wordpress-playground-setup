@@ -53,7 +53,7 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
 /* custom uploads */
-define( 'UPLOADS', '/var/www/html/wp-content/uploads' );
+define( 'WP_CONTENT_DIR', '/var/www/wordpress/wp-content' );
 
 
 /**#@+
@@ -104,7 +104,7 @@ define('SITECOOKIEPATH', '');
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define('WP_DEBUG', TRUE);
-define('SCRIPT_DEBUG', TRUE;
+define('SCRIPT_DEBUG', TRUE);
 
 /* That's all, stop editing! Happy blogging. */
 

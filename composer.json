@@ -77,7 +77,7 @@
 		"myhotelshop/cpt-inhaltselemente-plugin": "dev-master"
     },
     "extra": {
-		"wordpress-install-dir": "vagrant/html/wordpress",
+		"wordpress-install-dir": "vagrant/html/wordpress/wp",
 		"wordpress-content-dir": "vagrant/html/wordpress/wp-content",
         "installer-paths": {
 	      "vagrant/": ["vagrant"],
