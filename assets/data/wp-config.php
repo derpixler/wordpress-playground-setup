@@ -17,10 +17,25 @@
  *
  * @package WordPress
  */
+function debug( $data, $display = 'print', $die = TRUE ) {
+	echo '<pre>';
+
+	if( $display == 'var' ) {
+		var_dump( $data );
+	} else {
+		print_r( $data );
+	}
+
+	echo '</pre>';
+
+	if( $die == TRUE) {
+		die();
+	}
+}
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'playbox');
+define('DB_NAME', 'website_myhotelshop_wp');
 
 /** MySQL database username */
 define('DB_USER', 'root');
@@ -56,7 +71,22 @@ define('LOGGED_IN_SALT',   '-o&l*rYgpEB*PX +fH}?POV}}KLD?-?9,a*nRq Tuffqum.8Y3Jg
 define('NONCE_SALT',       'g!.`p,+2U%@j9r/xeO3$:Gh#x<Bxl,pq;S{LIus.y@lU]aO_e,W6aO>ybOk1+@4#');
 
 
-$table_prefix = 'foo_';
+
+$table_prefix = 'nwtmyhsp_';
+
+/* Multisite */
+define( 'WP_ALLOW_MULTISITE', true );
+define('MULTISITE', true);
+define('SUBDOMAIN_INSTALL', true);
+#define('DOMAIN_CURRENT_SITE', 'network.websites.myhotelshop.de');
+define('PATH_CURRENT_SITE', '/');
+define('SITE_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);
+
+#define('ADMIN_COOKIE_PATH', '/');
+define('COOKIE_DOMAIN', '');
+define('COOKIEPATH', '');
+define('SITECOOKIEPATH', '');
 /**
  * For developers: WordPress debugging mode.
  *
