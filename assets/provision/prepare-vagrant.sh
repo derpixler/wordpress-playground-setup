@@ -43,6 +43,11 @@ cp assets/data/website_myhotelshop_wp.sql ${dumpfolder}website_myhotelshop_wp.sq
 
 printf "  - Copy ${GREEN}website_myhotelshop_wp.sql -> ${dumpfolder}website_myhotelshop_wp.sql${NC}\n    Files copied\n\n"
 
+cp assets/data/sunrise.php vagrant/html/wordpress/wp-content/sunrise.php
+
+printf "  - Copy ${GREEN}sunrise.php -> vagrant/html/wordpress/wp-content/sunrise.php${NC}\n    Files copied\n\n"
+
 rm -rf vagrant/html/wordpress/wp/wp-content/
 
 printf "  - ${RED}Delete${NC} WordPress default wp-content\n    ${GREEN}folder deleted${NC}\n\n"
+

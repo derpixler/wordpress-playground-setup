@@ -54,6 +54,7 @@ define('DB_COLLATE', '');
 
 /* custom uploads */
 define( 'WP_CONTENT_DIR', '/var/www/wordpress/wp-content' );
+define( 'WP_CONTENT_URL', $_SERVER['REQUEST_SCHEME'] . '://'. $_SERVER['HTTP_HOST'] . '/wp-content' );
 
 
 /**#@+
@@ -91,6 +92,9 @@ define('BLOG_ID_CURRENT_SITE', 1);
 define('COOKIE_DOMAIN', '');
 define('COOKIEPATH', '');
 define('SITECOOKIEPATH', '');
+
+define( 'SUNRISE', 'on' );
+
 /**
  * For developers: WordPress debugging mode.
  *
