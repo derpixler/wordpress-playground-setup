@@ -4,12 +4,12 @@
 	RewriteRule ^index\.php$ - [L]
 
 	# add a trailing slash to /wp-admin
-	RewriteRule ^(?:([_0-9a-zA-Z-]+)/)?wp-admin$ $1/wp-admin/ [R=302,L]
+	RewriteRule ^(?:([_0-9a-zA-Z-]+)/?){0,2}wp-admin$ $1/wp-admin/ [R=302,L]
 
 	RewriteCond %{REQUEST_FILENAME} -f [OR]
 	RewriteCond %{REQUEST_FILENAME} -d
 	RewriteRule ^ - [L]
-	RewriteRule ^(?:(?:[_0-9a-zA-Z-]+)/)?(wp-(admin|includes).*) wp/$1 [L]
-	RewriteRule ^(?:(?:[_0-9a-zA-Z-]+)/)?(.*\.php)$ wp/$1 [L]
+	RewriteRule ^(?:(?:[_0-9a-zA-Z-]+)/){0,2}(wp-(admin|includes).*) wp/$1 [L]
+	RewriteRule ^(?:(?:[_0-9a-zA-Z-]+)/){0,2}(.*\.php)$ wp/$1 [L]
 	RewriteRule . index.php [L]
 </IfModule>
