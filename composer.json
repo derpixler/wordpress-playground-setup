@@ -42,6 +42,10 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@bitbucket.org:webdevmedia/cpt-custompages.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@bitbucket.org:webdevmedia/m-privathotels-theme.git"
 		},
 	    {
@@ -89,7 +93,8 @@
 
 		"myhotelshop/base-theme": "dev-master",
 		"myhotelshop/m-privathotels-theme": "dev-master",
-		"myhotelshop/cpt-inhaltselemente-plugin": "dev-master"
+		"myhotelshop/cpt-inhaltselemente-plugin": "dev-master",
+		"myhotelshop/cpt-custompages": "dev-master"
     },
     "extra": {
 		"wordpress-install-dir": "vagrant/html/wordpress/wp",
