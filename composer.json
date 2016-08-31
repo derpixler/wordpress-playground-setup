@@ -86,6 +86,7 @@
 		"myhotelshop/ibe-widget":"dev-master",
 
 		"wpackagist-plugin/wp-multi-network": "1.*",
+		"wpackagist-plugin/wp-multisite-sso": "1.*",
 		"wpackagist-plugin/multilingual-press": "2.*",
 		"wpackagist-plugin/ml-slider": "3.*",
 
