@@ -89,6 +89,8 @@
 		"wpackagist-plugin/wp-multisite-sso": "1.*",
 		"wpackagist-plugin/multilingual-press": "2.*",
 		"wpackagist-plugin/ml-slider": "3.*",
+		"wpackagist-plugin/siteorigin-panels": "2.4.*",
+		"wpackagist-plugin/so-widgets-bundle": "1.6.*",
 
 		"myhotelshop/uploads": "dev-master",
 
