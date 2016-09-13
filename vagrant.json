@@ -6,7 +6,8 @@
 			"host": "websites.myhotelshop.wp",
 			"alias": [
 				"network.websites.myhotelshop.wp",
-				"m-privathotels.network.websites.myhotelshop.wp",
+				"controller.websites.myhotelshop.wp",
+				"controller.m-privathotels.websites.myhotelshop.wp",
 				"m-privathotels.websites.myhotelshop.wp"
 			]
 		},
