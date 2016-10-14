@@ -24,3 +24,22 @@ add_action( 'admin_init', function(){
 
 /* Remove Page from wordpress admin menu */
 add_action( 'admin_menu', function(){ remove_menu_page( 'edit.php?post_type=page' ); });
+
+
+/*
+ * Solve the issue if no posts from posttype
+ * page exists that the frontpage setting are not shown.
+ */
+add_action( 'get_pages', function( $pages ){
+
+	if ( empty( $pages ) ) {
+
+		$r['post_type'] = 'custom_pages';
+
+		$pages = get_pages( $r );
+
+	}
+
+	return $pages;
+
+});
