@@ -44,6 +44,10 @@
 			"type": "vcs",
 			"url": "git@bitbucket.org:webdevmedia/m-privathotels-theme.git"
 		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:derpixler/customeralliance-reviews.git"
+		},
 	    {
 	      "type": "package",
 	      "package": {
@@ -90,7 +94,9 @@
 
 		"myhotelshop/base-theme": "dev-master",
 		"myhotelshop/m-privathotels-theme": "dev-master",
-		"myhotelshop/cpt-custompages": "dev-master"
+		"myhotelshop/cpt-custompages": "dev-master",
+		"derpixler/customeralliance-reviews": "dev-master"
+
     },
     "extra": {
 		"wordpress-install-dir": "vagrant/html/wordpress/wp",
