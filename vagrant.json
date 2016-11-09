@@ -2,8 +2,11 @@
 	"box": "scotch/box",
 	"network" : {
 		"private_network": {
-			"ip": "192.168.33.166",
-			"host": "test.wp"
+			"ip": "192.168.12.111",
+			"host": "payground.box",
+			"alias": [
+				"word.press"
+			]
 		},
 		"forwarded_port": {}
 	},
