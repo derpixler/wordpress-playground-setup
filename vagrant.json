@@ -9,9 +9,9 @@
 				"controller.m-privathotels.websites.myhotelshop.wp",
 				"www.m-privathotels.wp",
 				"controller.hotel-waldeck.websites.myhotelshop.wp",
-				"hotel-waldeck.websites.myhotelshop.wp",
-				"waldeck-spa.websites.myhotelshop.wp",
-				"klinik-waldeck.websites.myhotelshop.wp"
+				"hotel-waldeck.wp",
+				"waldeck-spa.wp",
+				"klinik-waldeck.wp"
 			]
 		},
 		"forwarded_port": {}
