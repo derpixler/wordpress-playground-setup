@@ -35,7 +35,7 @@ function debug( $data, $display = 'print', $die = TRUE ) {
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'website_myhotelshop_wp');
+define('DB_NAME', 'dev_usr_p366984_1');
 
 /** MySQL database username */
 define('DB_USER', 'root');
@@ -52,9 +52,11 @@ define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
+$protocol = stripos( $_SERVER['SERVER_PROTOCOL'], 'https' ) === true ? 'https://' : 'http://';
+
 /* custom uploads */
 define( 'WP_CONTENT_DIR', '/var/www/wordpress/wp-content' );
-define( 'WP_CONTENT_URL', $_SERVER['REQUEST_SCHEME'] . '://'. $_SERVER['HTTP_HOST'] . '/wp-content' );
+define( 'WP_CONTENT_URL', $protocol . $_SERVER['HTTP_HOST'] . '/wp-content' );
 
 
 /**#@+

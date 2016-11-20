@@ -24,3 +24,13 @@ add_action( 'admin_init', function(){
 
 /* Remove Page from wordpress admin menu */
 add_action( 'admin_menu', function(){ remove_menu_page( 'edit.php?post_type=page' ); });
+
+
+
+add_action( 'admin_bar_menu', function ( $wp_admin_bar ){
+	$args = array(
+			'id'    => 'local:',
+			'title' => '<div style="border-radius:50%;display:inline-block;margin-left:5px;margin-top:9px;width:15px;height:15px;background:red;"></div>',
+	);
+	$wp_admin_bar->add_node( $args );
+} );

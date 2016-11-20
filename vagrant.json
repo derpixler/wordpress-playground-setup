@@ -5,11 +5,10 @@
 			"ip": "192.168.33.177",
 			"host": "websites.myhotelshop.wp",
 			"alias": [
-				"network.websites.myhotelshop.wp",
 				"controller.websites.myhotelshop.wp",
 				"controller.m-privathotels.websites.myhotelshop.wp",
-				"m-privathotels.websites.myhotelshop.wp",
-				"controller.hotel-waldeck.websites.myhotelshop.wp"
+				"www.m-privathotels.wp",
+				"controller.hotel-waldeck.websites.myhotelshop.wp",
 				"hotel-waldeck.websites.myhotelshop.wp",
 				"waldeck-spa.websites.myhotelshop.wp",
 				"klinik-waldeck.websites.myhotelshop.wp"

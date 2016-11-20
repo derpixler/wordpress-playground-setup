@@ -39,9 +39,9 @@ cp assets/data/.htaccess.dist vagrant/html/wordpress/.htaccess
 
 printf "  - Copy ${GREEN}.htaccess.dist -> vagrant/html/wordpress/.htaccess${NC}\n    Files copied\n\n"
 
-cp assets/data/website_myhotelshop_wp.sql ${dumpfolder}website_myhotelshop_wp.sql
+cp assets/data/dev_usr_p366984_1.sql ${dumpfolder}dev_usr_p366984_1.sql
 
-printf "  - Copy ${GREEN}website_myhotelshop_wp.sql -> ${dumpfolder}website_myhotelshop_wp.sql${NC}\n    Files copied\n\n"
+printf "  - Copy ${GREEN}dev_usr_p366984_1.sql -> ${dumpfolder}dev_usr_p366984_1.sql${NC}\n    Files copied\n\n"
 
 cp assets/data/sunrise.php vagrant/html/wordpress/wp-content/sunrise.php
 
