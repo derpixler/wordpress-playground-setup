@@ -17,7 +17,8 @@
 		"forwarded_port": {}
 	},
 	"synced_folder": {
-		"./html": "/var/www"
+		"./html": "/var/www",
+		"~/.ssh/": "/vagrant/.ssh"
 	},
 	"provision": {
 		"file": {},

@@ -34,10 +34,6 @@
 		},
 		{
 			"type": "vcs",
-			"url": "git@bitbucket.org:webdevmedia/mark_as_lokal.git"
-		},
-		{
-			"type": "vcs",
 			"url": "git@bitbucket.org:webdevmedia/cpt-custompages.git"
 		},
 		{
