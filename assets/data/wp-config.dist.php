@@ -3,7 +3,7 @@
 switch ( $_SERVER[ 'REDIRECT_ENV' ] ) {
     case 'production':
 		$args = [
-			'DB_NAME'						=> 'usr_p366984_2',
+			'DB_NAME'						=> 'usr_p366984_1',
 			'DB_USER'						=> 'p366984',
 			'DB_PASSWORD' 					=> 'Adivimaq%965',
 			'DB_HOST'						=> 'db4686.mydbserver.com',
