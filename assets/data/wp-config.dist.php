@@ -3,28 +3,32 @@
 switch ( $_SERVER[ 'REDIRECT_ENV' ] ) {
     case 'production':
 		$args = [
-			'DB_NAME'			=> 'usr_p366984_2',
-			'DB_USER'			=> 'p366984',
-			'DB_PASSWORD' 		=> 'Adivimaq%965',
-			'DB_HOST'			=> 'db4686.mydbserver.com',
-			'DB_CHARSET'		=> 'utf8',
-			'DB_COLLATE'		=> '',
-			'WP_CONTENT_DIR'	=> '/html/public/wp-content',
-			'WP_DEBUG'			=> FALSE,
-			'SCRIPT_DEBUG'		=> TRUE
+			'DB_NAME'						=> 'usr_p366984_2',
+			'DB_USER'						=> 'p366984',
+			'DB_PASSWORD' 					=> 'Adivimaq%965',
+			'DB_HOST'						=> 'db4686.mydbserver.com',
+			'DB_CHARSET'					=> 'utf8',
+			'DB_COLLATE'					=> '',
+			'WP_CONTENT_DIR'				=> '/html/public/wp-content',
+			'WP_DEBUG'						=> FALSE,
+			'SCRIPT_DEBUG'					=> TRUE,
+			'DISALLOW_FILE_MODS'			=> TRUE,
+			'AUTOMATIC_UPDATER_DISABLED'	=> TRUE,
 		];
 		break;
     case 'vagrant':
 		$args = [
-			'DB_NAME'			=> 'dev_usr_p366984_1',
-			'DB_USER'			=> 'root',
-			'DB_PASSWORD' 		=> 'root',
-			'DB_HOST'			=> 'localhost',
-			'DB_CHARSET'		=> 'utf8',
-			'DB_COLLATE'		=> '',
-			'WP_CONTENT_DIR'	=> '/var/www/wordpress/wp-content',
-			'WP_DEBUG'			=> TRUE,
-			'SCRIPT_DEBUG'		=> FALSE
+			'DB_NAME'						=> 'dev_usr_p366984_1',
+			'DB_USER'						=> 'root',
+			'DB_PASSWORD' 					=> 'root',
+			'DB_HOST'						=> 'localhost',
+			'DB_CHARSET'					=> 'utf8',
+			'DB_COLLATE'					=> '',
+			'WP_CONTENT_DIR'				=> '/var/www/wordpress/wp-content',
+			'WP_DEBUG'						=> TRUE,
+			'SCRIPT_DEBUG'					=> FALSE,
+			'DISALLOW_FILE_MODS'			=> FALSE,
+			'AUTOMATIC_UPDATER_DISABLED'	=> FALSE,
 		];
 		break;
 }
@@ -65,27 +69,27 @@ function debug( $data, $display = 'print', $die = TRUE ) {
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'dev_usr_p366984_1');
+define('DB_NAME', $args['DB_NAME'] );
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', $args['DB_USER'] );
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', $args['DB_PASSWORD'] );
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', $args['DB_HOST'] );
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', $args['DB_CHARSET'] );
 
 /** The Database Collate type. Don't change this if in doubt. */
-define('DB_COLLATE', '');
+define('DB_COLLATE', '' );
 
 $protocol = stripos( $_SERVER['SERVER_PROTOCOL'], 'https' ) === true ? 'https://' : 'http://';
 
 /* custom uploads */
-define( 'WP_CONTENT_DIR', '/var/www/wordpress/wp-content' );
+define( 'WP_CONTENT_DIR', $args['WP_CONTENT_DIR'] );
 define( 'WP_CONTENT_URL', $protocol . $_SERVER['HTTP_HOST'] . '/wp-content' );
 
 
@@ -139,8 +143,17 @@ define( 'SUNRISE', 'on' );
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', TRUE);
-define('SCRIPT_DEBUG', TRUE);
+define('WP_DEBUG', $args['WP_DEBUG'] );
+define('SCRIPT_DEBUG', $args['SCRIPT_DEBUG'] );
+
+define( 'AUTOMATIC_UPDATER_DISABLED', $args['AUTOMATIC_UPDATER_DISABLED'] );
+define( 'DISALLOW_FILE_MODS', $args['DISALLOW_FILE_MODS'] );
+
+define( 'WP_MEMORY_LIMIT', '256M');
+
+@ini_set( 'upload_max_size' , '64M' );
+@ini_set( 'post_max_size', '64M');
+@ini_set( 'max_execution_time', '300' );
 
 /* That's all, stop editing! Happy blogging. */
 

@@ -28,9 +28,19 @@ add_action( 'admin_menu', function(){ remove_menu_page( 'edit.php?post_type=page
 
 
 add_action( 'admin_bar_menu', function ( $wp_admin_bar ){
+
+	switch ( $_SERVER[ 'REDIRECT_ENV' ] ) {
+	    case 'production':
+			$color = 'green';
+			break;
+	    case 'vagrant':
+			$color = 'red';
+			break;
+	}
+
 	$args = array(
 			'id'    => 'local:',
-			'title' => '<div style="border-radius:50%;display:inline-block;margin-left:5px;margin-top:9px;width:15px;height:15px;background:red;"></div>',
+			'title' => '<div style="border-radius:50%;display:inline-block;margin-left:5px;margin-top:9px;width:15px;height:15px;background:' . $color . ';"></div>',
 	);
 	$wp_admin_bar->add_node( $args );
 } );
