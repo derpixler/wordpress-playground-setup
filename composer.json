@@ -65,7 +65,9 @@
       "secure-http": false
     },
 	"require-dev": {
-		"vagrant": "1.3.*"
+		"vagrant": "1.3.*",
+		"derpixler/customeralliance-reviews": "dev-master",
+		"johnpbloch/wordpress": "dev-master"
 	},
     "require": {
 		"php": ">=5.3.0",
@@ -80,12 +82,11 @@
 		"wpackagist-plugin/multilingual-press": "2.*",
 		"wpackagist-plugin/wordpress-seo": "3.5",
 
-		"myhotelshop/uploads": "1.0.*",
+		"derpixler/customeralliance-reviews": "0.2.0",
 
 		"myhotelshop/base-theme": "dev-master",
 		"myhotelshop/m-privathotels-theme": "dev-master",
-		"myhotelshop/cpt-custompages": "dev-master",
-		"derpixler/customeralliance-reviews": "dev-master"
+		"myhotelshop/cpt-custompages": "dev-master"
 
     },
     "extra": {
