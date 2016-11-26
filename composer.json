@@ -79,6 +79,7 @@
 		"wpackagist-plugin/wp-multisite-sso": "1.*",
 		"wpackagist-plugin/multilingual-press": "2.*",
 		"wpackagist-plugin/wordpress-seo": "3.5",
+		"wpackagist-plugin/kirki": "2.3.*",
 
 		"derpixler/customeralliance-reviews": "0.2.0",
 
