@@ -1,0 +1,12 @@
+preview:
+  host: p366984.mittwaldserver.info
+  user: p366984
+  identity_file: ~
+  stage: preview
+  deploy_path: /home/www/p366984/html/deployment/preview'
+production:
+  host: p366984.mittwaldserver.info
+  user: p366984
+  identity_file: ~
+  stage: production
+  deploy_path: /home/www/p366984/html/deployment/public'
