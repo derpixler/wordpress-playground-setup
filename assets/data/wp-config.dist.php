@@ -16,6 +16,21 @@ switch ( $_SERVER[ 'REDIRECT_ENV' ] ) {
 			'AUTOMATIC_UPDATER_DISABLED'	=> TRUE,
 		];
 		break;
+	case 'preview':
+		$args = [
+			'DB_NAME'						=> 'usr_p366984_2',
+			'DB_USER'						=> 'p366984',
+			'DB_PASSWORD' 					=> 'Adivimaq%965',
+			'DB_HOST'						=> 'db4686.mydbserver.com',
+			'DB_CHARSET'					=> 'utf8',
+			'DB_COLLATE'					=> '',
+			'WP_CONTENT_DIR'				=> '/html/preview/wp-content',
+			'WP_DEBUG'						=> FALSE,
+			'SCRIPT_DEBUG'					=> TRUE,
+			'DISALLOW_FILE_MODS'			=> TRUE,
+			'AUTOMATIC_UPDATER_DISABLED'	=> TRUE,
+		];
+		break;
     case 'vagrant':
 		$args = [
 			'DB_NAME'						=> 'dev_usr_p366984_1',
