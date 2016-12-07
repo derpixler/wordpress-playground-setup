@@ -10,9 +10,6 @@ set('shared_files', []);
 set('shared_dirs', []);
 set('writable_dirs', []);
 
-
-serverList('servers.yml');
-
 // Servers
 
 server('preview', 'p366984.mittwaldserver.info')
@@ -40,13 +37,13 @@ task('deploy:start_info', function() {
 
 });
 
-desc('Restart PHP-FPM service');
-task('php-fpm:restart', function () {
-    // The user must have rights for restart service
-    // /etc/sudoers: username ALL=NOPASSWD:/bin/systemctl restart php-fpm.service
-    run('sudo systemctl restart php-fpm.service');
-});
-after('deploy:symlink', 'php-fpm:restart');
+#desc('Restart PHP-FPM service');
+#task('php-fpm:restart', function () {
+#    // The user must have rights for restart service
+#    // /etc/sudoers: username ALL=NOPASSWD:/bin/systemctl restart php-fpm.service
+#    run('sudo systemctl restart php-fpm.service');
+#});
+#after('deploy:symlink', 'php-fpm:restart');
 
 desc('Deploy your project');
 task('deploy', [
