@@ -80,6 +80,7 @@
 		"wpackagist-plugin/multilingual-press": "2.*",
 		"wpackagist-plugin/wordpress-seo": "3.5",
 		"wpackagist-plugin/kirki": "2.3.*",
+		"wpackagist-plugin/wp-super-cache": "1.4.8",
 
 		"derpixler/customeralliance-reviews": "0.2.0",
 
