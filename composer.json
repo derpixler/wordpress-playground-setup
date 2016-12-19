@@ -22,7 +22,7 @@
 	"repositories": [
 		{
 			"type": "composer",
-			"url": "http://wpackagist.org"
+			"url": "https://wpackagist.org"
 		},
 		{
 			"type": "vcs",
@@ -62,7 +62,7 @@
 	    }
     ],
     "config": {
-      "secure-http": false
+      "secure-http": true
     },
 	"require-dev": {
 		"vagrant": "1.3.*"
