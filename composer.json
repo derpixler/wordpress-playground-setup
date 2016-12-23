@@ -88,6 +88,7 @@
 		"wpackagist-plugin/widget-importer-exporter": "1.3.2",
 		"wpackagist-plugin/wordpress-importer": "0.6.3",
 		"wpackagist-plugin/lazy-load": "0.6.1",
+		"wpackagist-plugin/nextgen-gallery": "2.1.*",
 
 		"derpixler/customeralliance-reviews": "0.2.0",
 
