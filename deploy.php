@@ -24,6 +24,12 @@ server('production', 'p366984.mittwaldserver.info')
     ->set('deploy_path', '/home/www/p366984/html/deployment/public')
 	->set('stage', 'production' );
 
+server('test', '139.59.135.182')
+    ->user('deployer')
+    ->identityFile()
+    ->set('deploy_path', '/var/www/deployment/')
+	->set('stage', 'test' );
+
 // Tasks
 
 
