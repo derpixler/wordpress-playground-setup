@@ -89,6 +89,7 @@
 		"wpackagist-plugin/wordpress-importer": "0.6.3",
 		"wpackagist-plugin/lazy-load": "0.6.1",
 		"wpackagist-plugin/nextgen-gallery": "2.1.*",
+		"wpackagist-plugin/duracelltomi-google-tag-manager": "1.5.*",
 
 		"derpixler/customeralliance-reviews": "0.2.0",
 
