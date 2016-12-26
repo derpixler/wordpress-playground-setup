@@ -11,7 +11,7 @@ SetEnv REDIRECT_ENV vagrant
 	RewriteCond %{REQUEST_FILENAME} -f [OR]
 	RewriteCond %{REQUEST_FILENAME} -d
 	RewriteRule ^ - [L]
-	RewriteRule ^(?:(?:[_0-9a-zA-Z-]+)/){0,2}(wp-(admin|includes).*) wp/$1 [L]
+	RewriteRule ^(?:(?:[_0-9a-zA-Z-]+)/){0,2}(wp-(admin|includes|login).*) wp/$1 [L]
 	RewriteRule ^(?:(?:[_0-9a-zA-Z-]+)/){0,2}(.*\.php)$ wp/$1 [L]
 	RewriteRule . index.php [L]
 </IfModule>

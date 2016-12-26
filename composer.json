@@ -46,6 +46,10 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@bitbucket.org:webdevmedia/wp-db-migrate-pro.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@bitbucket.org:webdevmedia/uploads.git"
 		},
 	    {
@@ -71,9 +75,12 @@
 		"php": ">=5.3.0",
 		"mnsami/composer-custom-directory-installer": "1.1.*",
 
-		"johnpbloch/wordpress": "4.6.*",
+		"johnpbloch/wordpress": "4.7.*",
 
-		"myhotelshop/ibe-widget":"dev-master",
+		"myhotelshop/ibe-widget": "dev-master",
+
+		"myhotelshop/wp-db-migrate-pro": "1.7.*",
+		"myhotelshop/wp-migrate-db-pro-multisite-tools": "1.1.5",
 
 		"wpackagist-plugin/wp-multi-network": "1.*",
 		"wpackagist-plugin/wp-multisite-sso": "1.*",
