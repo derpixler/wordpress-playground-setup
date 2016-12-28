@@ -54,6 +54,10 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@bitbucket.org:webdevmedia/wp-migrate-db-pro-multisite-tools.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@bitbucket.org:webdevmedia/uploads.git"
 		},
 	    {
@@ -85,6 +89,7 @@
 
 		"myhotelshop/wp-db-migrate-pro": "1.7.*",
 		"myhotelshop/wp-migrate-db-pro-multisite-tools": "1.1.5",
+
 		"myhotelshop/controller": "dev-master",
 
 		"wpackagist-plugin/wp-multi-network": "1.*",
