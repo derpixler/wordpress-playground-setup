@@ -46,7 +46,7 @@
 		},
 		{
 			"type": "vcs",
-			"url": "git@bitbucket.org:webdevmedia/wp-migrate-db-pro-multisite-tools.git"
+			"url": "git@bitbucket.org:webdevmedia/wp-db-migrate-pro.git"
 		},
 		{
 			"type": "vcs",
