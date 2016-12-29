@@ -4,7 +4,7 @@ require 'recipe/common.php';
 
 // Configuration
 
-set('default_stage', 'preview');
+set('default_stage', 'test');
 set('repository', 'git@bitbucket.org:webdevmedia/myhotelshop-vm.git');
 set('shared_files', []);
 set('shared_dirs', []);
