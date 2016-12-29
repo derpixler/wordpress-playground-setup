@@ -31,7 +31,22 @@ switch ( $_SERVER[ 'REDIRECT_ENV' ] ) {
 			'AUTOMATIC_UPDATER_DISABLED'	=> TRUE,
 		];
 		break;
-    case 'vagrant':
+	case 'test':
+		$args = [
+			'DB_NAME'						=> 'wordpress',
+			'DB_USER'						=> 'wordpress',
+			'DB_PASSWORD' 					=> 'IKiu2eiqu1shahghievoo9teidoc5ies',
+			'DB_HOST'						=> 'localhost',
+			'DB_CHARSET'					=> 'utf8',
+			'DB_COLLATE'					=> '',
+			'WP_CONTENT_DIR'				=> '/var/www/public/wp-core/wp-content',
+			'WP_DEBUG'						=> TRUE,
+			'SCRIPT_DEBUG'					=> FALSE,
+			'DISALLOW_FILE_MODS'			=> FALSE,
+			'AUTOMATIC_UPDATER_DISABLED'	=> TRUE,
+		];
+		break;
+	case 'vagrant':
 		$args = [
 			'DB_NAME'						=> 'dev_usr_p366984_1',
 			'DB_USER'						=> 'root',
@@ -43,7 +58,7 @@ switch ( $_SERVER[ 'REDIRECT_ENV' ] ) {
 			'WP_DEBUG'						=> TRUE,
 			'SCRIPT_DEBUG'					=> FALSE,
 			'DISALLOW_FILE_MODS'			=> FALSE,
-			'AUTOMATIC_UPDATER_DISABLED'	=> FALSE,
+			'AUTOMATIC_UPDATER_DISABLED'	=> TRUE,
 		];
 		break;
 }
