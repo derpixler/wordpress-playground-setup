@@ -33,6 +33,9 @@ add_action( 'admin_bar_menu', function ( $wp_admin_bar ){
 	    case 'production':
 			$color = 'green';
 			break;
+		case 'test':
+			$color = 'blue';
+			break;
 	    case 'vagrant':
 			$color = 'red';
 			break;
