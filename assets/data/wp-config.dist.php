@@ -39,7 +39,7 @@ switch ( $_SERVER[ 'REDIRECT_ENV' ] ) {
 			'DB_HOST'						=> 'localhost',
 			'DB_CHARSET'					=> 'utf8',
 			'DB_COLLATE'					=> '',
-			'WP_CONTENT_DIR'				=> '/var/www/public/wp-core/wp-content',
+			'WP_CONTENT_DIR'				=> '/var/www/public/wp-content',
 			'WP_DEBUG'						=> TRUE,
 			'SCRIPT_DEBUG'					=> FALSE,
 			'DISALLOW_FILE_MODS'			=> FALSE,
