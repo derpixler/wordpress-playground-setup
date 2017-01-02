@@ -105,20 +105,20 @@ task('deploy:backup_db', function() {
 desc('Deploy your project');
 task('deploy', [
 	'deploy:start_info',
-    #'deploy:prepare',
-    #'deploy:lock',
+    'deploy:prepare',
+    'deploy:lock',
 	'deploy:backup_db'
-    #'deploy:release',
-    #'deploy:update_code',
-    #'deploy:shared',
-    #'deploy:writable',
-    #'deploy:vendors',
-    #'deploy:clear_paths',
-    #'deploy:symlink',
-    #'deploy:move_wp_config',
-	#'deploy:unlock',
-    #'cleanup',
-    #'success'
+    'deploy:release',
+    'deploy:update_code',
+    'deploy:shared',
+    'deploy:writable',
+    'deploy:vendors',
+    'deploy:clear_paths',
+    'deploy:symlink',
+    'deploy:move_wp_config',
+	'deploy:unlock',
+    'cleanup',
+    'success'
 ]);
 
 after('deploy', 'success');
