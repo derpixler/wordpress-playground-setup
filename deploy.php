@@ -51,7 +51,11 @@ server('test', '139.59.135.182')
 
 
 
-#serverList('servers.yml');
+/**
+ * show a simple deploy note
+ *
+ * @siince 02.01.2017
+ */
 desc('Show deploy msg');
 task('deploy:start_info', function() {
 
@@ -61,6 +65,11 @@ task('deploy:start_info', function() {
 
 });
 
+/**
+ * copy wp-config form current release
+ *
+ * @siince 02.01.2017
+ */
 desc('Move wp-config');
 task('deploy:move_wp_config', function() {
 
@@ -78,6 +87,11 @@ task('deploy:move_wp_config', function() {
 
 });
 
+/**
+ * copy plugins & themes from current release
+ *
+ * @siince 02.01.2017
+ */
 desc('Move Plugins & Themes');
 task('deploy:move_plugins_themes', function() {
 
@@ -98,6 +112,11 @@ task('deploy:move_plugins_themes', function() {
 
 });
 
+/**
+ * Backup DB before deploy
+ *
+ * @siince 02.01.2017
+ */
 desc('Backup DB');
 task('deploy:backup_db', function() {
 
@@ -124,22 +143,22 @@ task('deploy:backup_db', function() {
 
 desc('Deploy your project');
 task('deploy', [
-	#'deploy:start_info',
-    #'deploy:prepare',
-    #'deploy:lock',
-	#'deploy:backup_db',
-    #'deploy:release',
-    #'deploy:update_code',
-    #'deploy:shared',
-    #'deploy:writable',
-    #'deploy:vendors',
-    #'deploy:clear_paths',
-    #'deploy:symlink',
-    #'deploy:move_wp_config',
+	'deploy:start_info',
+    'deploy:prepare',
+    'deploy:lock',
+	'deploy:backup_db',
+    'deploy:release',
+    'deploy:update_code',
+    'deploy:shared',
+    'deploy:writable',
+    'deploy:vendors',
+    'deploy:clear_paths',
+    'deploy:symlink',
+    'deploy:move_wp_config',
 	'deploy:move_plugins_themes',
-	#'deploy:unlock',
-    #'cleanup',
-    #'success'
+	'deploy:unlock',
+    'cleanup',
+    'success'
 ]);
 
 after('deploy', 'success');

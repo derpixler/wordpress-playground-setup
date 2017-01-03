@@ -10,8 +10,10 @@ switch ( $_SERVER[ 'REDIRECT_ENV' ] ) {
 			'DB_CHARSET'					=> 'utf8',
 			'DB_COLLATE'					=> '',
 			'WP_CONTENT_DIR'				=> '/html/public/wp-content',
-			'WP_DEBUG'						=> FALSE,
+			'WP_DEBUG'						=> TRUE,
 			'SCRIPT_DEBUG'					=> TRUE,
+			'WP_DEBUG_LOG'					=> TRUE,
+			'WP_DEBUG_DISPLAY'				=> FALSE,
 			'DISALLOW_FILE_MODS'			=> TRUE,
 			'AUTOMATIC_UPDATER_DISABLED'	=> TRUE,
 		];
@@ -25,8 +27,10 @@ switch ( $_SERVER[ 'REDIRECT_ENV' ] ) {
 			'DB_CHARSET'					=> 'utf8',
 			'DB_COLLATE'					=> '',
 			'WP_CONTENT_DIR'				=> '/html/preview/wp-content',
-			'WP_DEBUG'						=> FALSE,
+			'WP_DEBUG'						=> TRUE,
 			'SCRIPT_DEBUG'					=> TRUE,
+			'WP_DEBUG_DISPLAY'				=> FALSE,
+			'WP_DEBUG_LOG'					=> TRUE,
 			'DISALLOW_FILE_MODS'			=> TRUE,
 			'AUTOMATIC_UPDATER_DISABLED'	=> TRUE,
 		];
@@ -42,6 +46,8 @@ switch ( $_SERVER[ 'REDIRECT_ENV' ] ) {
 			'WP_CONTENT_DIR'				=> '/var/www/public/wp-content',
 			'WP_DEBUG'						=> TRUE,
 			'SCRIPT_DEBUG'					=> FALSE,
+			'WP_DEBUG_DISPLAY'				=> TRUE,
+			'WP_DEBUG_LOG'					=> TRUE,
 			'DISALLOW_FILE_MODS'			=> FALSE,
 			'AUTOMATIC_UPDATER_DISABLED'	=> TRUE,
 		];
@@ -57,6 +63,8 @@ switch ( $_SERVER[ 'REDIRECT_ENV' ] ) {
 			'WP_CONTENT_DIR'				=> '/var/www/wordpress/wp-content',
 			'WP_DEBUG'						=> TRUE,
 			'SCRIPT_DEBUG'					=> FALSE,
+			'WP_DEBUG_DISPLAY'				=> TRUE,
+			'WP_DEBUG_LOG'					=> TRUE,
 			'DISALLOW_FILE_MODS'			=> FALSE,
 			'AUTOMATIC_UPDATER_DISABLED'	=> TRUE,
 		];
@@ -122,6 +130,7 @@ $protocol = stripos( $_SERVER['SERVER_PROTOCOL'], 'https' ) === true ? 'https://
 define( 'WP_CONTENT_DIR', $args['WP_CONTENT_DIR'] );
 define( 'WP_CONTENT_URL', $protocol . $_SERVER['HTTP_HOST'] . '/wp-content' );
 
+define ('WPLANG', 'de_DE' );
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -147,17 +156,17 @@ $table_prefix = 'nwtmyhsp_';
 
 /* Multisite */
 define( 'WP_ALLOW_MULTISITE', true );
-define('MULTISITE', true);
-define('SUBDOMAIN_INSTALL', true);
-#define('DOMAIN_CURRENT_SITE', 'network.websites.myhotelshop.de');
-define('PATH_CURRENT_SITE', '/');
-define('SITE_ID_CURRENT_SITE', 1);
-define('BLOG_ID_CURRENT_SITE', 1);
+define(	'MULTISITE', true);
+define(	'SUBDOMAIN_INSTALL', true);
+#define	('DOMAIN_CURRENT_SITE', 'network.websites.myhotelshop.de');
+define(	'PATH_CURRENT_SITE', '/');
+define(	'SITE_ID_CURRENT_SITE', 1);
+define(	'BLOG_ID_CURRENT_SITE', 1);
 
 #define('ADMIN_COOKIE_PATH', '/');
-define('COOKIE_DOMAIN', '');
-define('COOKIEPATH', '');
-define('SITECOOKIEPATH', '');
+define(	'COOKIE_DOMAIN', '');
+define(	'COOKIEPATH', '');
+define(	'SITECOOKIEPATH', '');
 
 define( 'SUNRISE', 'on' );
 
@@ -173,8 +182,11 @@ define( 'SUNRISE', 'on' );
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', $args['WP_DEBUG'] );
-define('SCRIPT_DEBUG', $args['SCRIPT_DEBUG'] );
+define('WP_DEBUG', 			$args['WP_DEBUG'] );
+define('SCRIPT_DEBUG', 		$args['SCRIPT_DEBUG'] );
+define('WP_DEBUG_LOG', 		$args['WP_DEBUG_LOG'] );
+define('WP_DEBUG_DISPLAY', 	$args['WP_DEBUG_DISPLAY'] );
+
 
 define( 'AUTOMATIC_UPDATER_DISABLED', $args['AUTOMATIC_UPDATER_DISABLED'] );
 define( 'DISALLOW_FILE_MODS', $args['DISALLOW_FILE_MODS'] );
