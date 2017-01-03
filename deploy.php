@@ -78,6 +78,26 @@ task('deploy:move_wp_config', function() {
 
 });
 
+desc('Move Plugins & Themes');
+task('deploy:move_plugins_themes', function() {
+
+    $link = run("readlink {{deploy_path}}/current")->toString();
+    $currentRelease = substr($link, 0, 1) === '/' ? $link : get('deploy_path') . $link;
+
+	$plugins = $currentRelease . '/vagrant/html/wordpress/wp-content/plugins/';
+	$themes = $currentRelease . '/vagrant/html/wordpress/wp-content/themes/';
+
+	$sudo = get('sudo');
+
+	if(  $sudo === TRUE ){
+		$sudo = 'sudo ';
+	}
+
+	run( "sudo rm -rf " . get('base_path') . "/wp-content/plugins/ && " . $sudo . "cp -r " . $plugins . " " . get('base_path') . "/wp-content/");
+	run( "sudo rm -rf " . get('base_path') . "/wp-content/themes/ && " . $sudo . "cp -r " . $themes . " " . get('base_path') . "/wp-content/");
+
+});
+
 desc('Backup DB');
 task('deploy:backup_db', function() {
 
@@ -104,25 +124,31 @@ task('deploy:backup_db', function() {
 
 desc('Deploy your project');
 task('deploy', [
-	'deploy:start_info',
-    'deploy:prepare',
-    'deploy:lock',
-	'deploy:backup_db',
-    'deploy:release',
-    'deploy:update_code',
-    'deploy:shared',
-    'deploy:writable',
-    'deploy:vendors',
-    'deploy:clear_paths',
-    'deploy:symlink',
-    'deploy:move_wp_config',
-	'deploy:unlock',
-    'cleanup',
-    'success'
+	#'deploy:start_info',
+    #'deploy:prepare',
+    #'deploy:lock',
+	#'deploy:backup_db',
+    #'deploy:release',
+    #'deploy:update_code',
+    #'deploy:shared',
+    #'deploy:writable',
+    #'deploy:vendors',
+    #'deploy:clear_paths',
+    #'deploy:symlink',
+    #'deploy:move_wp_config',
+	'deploy:move_plugins_themes',
+	#'deploy:unlock',
+    #'cleanup',
+    #'success'
 ]);
 
 after('deploy', 'success');
 
+/**
+ * restore last DB Backup after rollback
+ *
+ * @siince 02.01.2017
+ */
 desc('Backup DB');
 task('rollback', function() {
 
