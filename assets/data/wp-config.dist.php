@@ -10,9 +10,9 @@ switch ( $_SERVER[ 'REDIRECT_ENV' ] ) {
 			'DB_CHARSET'					=> 'utf8',
 			'DB_COLLATE'					=> '',
 			'WP_CONTENT_DIR'				=> '/html/public/wp-content',
-			'WP_DEBUG'						=> TRUE,
-			'SCRIPT_DEBUG'					=> TRUE,
-			'WP_DEBUG_LOG'					=> TRUE,
+			'WP_DEBUG'						=> FALSE,
+			'SCRIPT_DEBUG'					=> FALSE,
+			'WP_DEBUG_LOG'					=> FALSE,
 			'WP_DEBUG_DISPLAY'				=> FALSE,
 			'DISALLOW_FILE_MODS'			=> TRUE,
 			'AUTOMATIC_UPDATER_DISABLED'	=> TRUE,
@@ -28,7 +28,7 @@ switch ( $_SERVER[ 'REDIRECT_ENV' ] ) {
 			'DB_COLLATE'					=> '',
 			'WP_CONTENT_DIR'				=> '/html/preview/wp-content',
 			'WP_DEBUG'						=> TRUE,
-			'SCRIPT_DEBUG'					=> TRUE,
+			'SCRIPT_DEBUG'					=> FALSE,
 			'WP_DEBUG_DISPLAY'				=> FALSE,
 			'WP_DEBUG_LOG'					=> TRUE,
 			'DISALLOW_FILE_MODS'			=> TRUE,
@@ -45,7 +45,7 @@ switch ( $_SERVER[ 'REDIRECT_ENV' ] ) {
 			'DB_COLLATE'					=> '',
 			'WP_CONTENT_DIR'				=> '/var/www/public/wp-content',
 			'WP_DEBUG'						=> TRUE,
-			'SCRIPT_DEBUG'					=> FALSE,
+			'SCRIPT_DEBUG'					=> TRUE,
 			'WP_DEBUG_DISPLAY'				=> TRUE,
 			'WP_DEBUG_LOG'					=> TRUE,
 			'DISALLOW_FILE_MODS'			=> FALSE,
@@ -62,7 +62,7 @@ switch ( $_SERVER[ 'REDIRECT_ENV' ] ) {
 			'DB_COLLATE'					=> '',
 			'WP_CONTENT_DIR'				=> '/var/www/wordpress/wp-content',
 			'WP_DEBUG'						=> TRUE,
-			'SCRIPT_DEBUG'					=> FALSE,
+			'SCRIPT_DEBUG'					=> TRUE,
 			'WP_DEBUG_DISPLAY'				=> TRUE,
 			'WP_DEBUG_LOG'					=> TRUE,
 			'DISALLOW_FILE_MODS'			=> FALSE,
@@ -179,6 +179,8 @@ define( 'SUNRISE', 'on' );
  *
  * For information on other constants that can be used for debugging,
  * visit the Codex.
+ *
+ * :Enable Debug logging to the /wp-content/debug.log file
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
