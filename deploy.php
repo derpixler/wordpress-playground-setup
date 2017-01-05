@@ -107,8 +107,8 @@ task('deploy:move_plugins_themes', function() {
 		$sudo = 'sudo ';
 	}
 
-	run( "sudo rm -rf " . get('base_path') . "/wp-content/plugins/ && " . $sudo . "cp -r " . $plugins . " " . get('base_path') . "/wp-content/");
-	run( "sudo rm -rf " . get('base_path') . "/wp-content/themes/ && " . $sudo . "cp -r " . $themes . " " . get('base_path') . "/wp-content/");
+	run( $sudo . " rm -rf " . get('base_path') . "/wp-content/plugins/ && " . $sudo . "cp -r " . $plugins . " " . get('base_path') . "/wp-content/");
+	run( $sudo . " rm -rf " . get('base_path') . "/wp-content/themes/ && " . $sudo . "cp -r " . $themes . " " . get('base_path') . "/wp-content/");
 
 });
 
@@ -152,10 +152,10 @@ task('deploy', [
     'deploy:shared',
     'deploy:writable',
     'deploy:vendors',
-    'deploy:clear_paths',
-    'deploy:symlink',
     'deploy:move_wp_config',
 	'deploy:move_plugins_themes',
+    'deploy:clear_paths',
+    'deploy:symlink',
 	'deploy:unlock',
     'cleanup',
     'success'
@@ -168,7 +168,7 @@ after('deploy', 'success');
  *
  * @siince 02.01.2017
  */
-desc('Backup DB');
+desc('Rollback Deploy');
 task('rollback', function() {
 
     $releases = get('releases_list');
