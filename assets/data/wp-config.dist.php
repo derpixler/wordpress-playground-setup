@@ -171,6 +171,14 @@ define(	'SITECOOKIEPATH', '');
 define( 'SUNRISE', 'on' );
 
 /**
+ * We have to force the COOKIEHASH
+ * If we dont do this the customizer will not work sinze WordPress 4.7
+ */
+if( array_key_exists( 'customize_changeset_uuid', $_GET ) ){
+	define( 'COOKIEHASH', md5( rtrim( $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REDIRECT_URL'], '/' ) ) );
+}
+
+/**
  * For developers: WordPress debugging mode.
  *
  * Change this to true to enable the display of notices during development.
