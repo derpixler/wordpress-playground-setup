@@ -58,6 +58,10 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@bitbucket.org:webdevmedia/contact-form-7-to-database-extension.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@bitbucket.org:webdevmedia/uploads.git"
 		},
 	    {
@@ -89,6 +93,7 @@
 
 		"myhotelshop/wp-db-migrate-pro": "1.7.*",
 		"myhotelshop/wp-migrate-db-pro-multisite-tools": "1.1.5",
+		"myhotelshop/contact-form-db": "dev-master",
 
 		"myhotelshop/controller": "dev-master",
 
@@ -98,7 +103,6 @@
 		"wpackagist-plugin/wordpress-seo": "3.5",
 		"wpackagist-plugin/kirki": "2.3.*",
 		"wpackagist-plugin/wp-super-cache": "1.4.8",
-		"wpackagist-plugin/contact-form-7-to-database-extension": "2.10.26",
 		"wpackagist-plugin/contact-form-7": "4.6",
 		"wpackagist-plugin/duplicate-post": "3.0.3",
 		"wpackagist-plugin/update-alt-attribute": "2.2.0",
