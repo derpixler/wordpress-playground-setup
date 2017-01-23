@@ -105,6 +105,23 @@ function debug( $data, $display = 'print', $die = TRUE ) {
 	}
 }
 
+/**
+ * Set the Server protocol for diffrend environments
+ *
+ * @see https://trello.com/c/4ypTZGat
+ */
+function get_protocol(){
+
+	$protocol = stripos( $_SERVER['SERVER_PROTOCOL'], 'https' ) === true ? 'https://' : 'http://';
+
+	if( array_key_exists( 'HTTPS', $_SERVER ) && $_SERVER[ 'HTTPS' ] == 'on' ){
+	        $protocol = 'https://';
+	}
+
+	return $protocol;
+
+}
+
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', $args['DB_NAME'] );
@@ -124,31 +141,9 @@ define('DB_CHARSET', $args['DB_CHARSET'] );
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '' );
 
-
-/**
- * Set the Server protocol for diffrend environments
- *
- * @see https://trello.com/c/4ypTZGat
- */
-$protocol = stripos( $_SERVER['SERVER_PROTOCOL'], 'https' ) === true ? 'https://' : 'http://';
-
-if( array_key_exists( 'HTTPS', $_SERVER ) && $_SERVER[ 'HTTPS' ] == 'on' ){
-        $protocol = 'https://';
-}
-
-/**
- * We have to force the COOKIEHASH
- * If we dont do this the customizer will not work sinze WordPress 4.7
- *
- * @see https://trello.com/c/4ypTZGat
- */
-if( array_key_exists( 'customize_changeset_uuid', $_GET ) ){
-	define( 'COOKIEHASH', md5( rtrim( $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REDIRECT_URL'], '/' ) ) );
-}
-
 /* custom uploads */
 define( 'WP_CONTENT_DIR', $args['WP_CONTENT_DIR'] );
-define( 'WP_CONTENT_URL', $protocol . $_SERVER['HTTP_HOST'] . '/wp-content' );
+define( 'WP_CONTENT_URL', get_protocol() . $_SERVER['HTTP_HOST'] . '/wp-content' );
 
 define ('WPLANG', 'de_DE' );
 

@@ -47,3 +47,33 @@ add_action( 'admin_bar_menu', function ( $wp_admin_bar ){
 	);
 	$wp_admin_bar->add_node( $args );
 } );
+
+
+/**
+ * We have to force the COOKIEHASH
+ * If we dont do this the customizer will not work sinze WordPress 4.7
+ *
+ * @see https://trello.com/c/4ypTZGat
+ *
+ * @TODO: Write a unittest for this freakshow - we have to test if the COOKIEHASH is well
+ */
+add_filter( 'query', function( $query ){
+
+	if( array_key_exists( 'customize_changeset_uuid', $_GET ) && ! defined( 'COOKIEHASH' ) ){
+
+		preg_match_all( "/^SELECT.*?WHERE domain IN \(\s\'(.*?)\',.*?\) AND path IN \(\s\'(.*?)\',.*?\) /", $query, $match );
+
+		$siteurl  = ( ! empty( $match[1][0] ) ) ? $match[1][0] : FALSE;
+		$siteurl .= ( ! empty( $match[2][0] ) ) ? $match[2][0] : FALSE;
+
+		$siteurl = rtrim( get_protocol() . $siteurl, '/' );
+
+		$cookiehash = md5( $siteurl );
+
+		define( 'COOKIEHASH', $cookiehash, true );
+
+	}
+
+	return $query;
+
+} );
