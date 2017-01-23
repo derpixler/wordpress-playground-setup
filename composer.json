@@ -93,6 +93,7 @@
 
 		"myhotelshop/wp-db-migrate-pro": "1.7.*",
 		"myhotelshop/wp-migrate-db-pro-multisite-tools": "1.1.5",
+		"myhotelshop/contact-form-db": "dev-master",
 
 		"myhotelshop/controller": "dev-master",
 
