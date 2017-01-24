@@ -95,7 +95,6 @@
 		"myhotelshop/wp-migrate-db-pro-multisite-tools": "1.1.5",
 		"myhotelshop/contact-form-db": "dev-master",
 
-		"myhotelshop/controller": "dev-master",
 
 		"wpackagist-plugin/wp-multi-network": "1.*",
 		"wpackagist-plugin/wp-multisite-sso": "1.*",
