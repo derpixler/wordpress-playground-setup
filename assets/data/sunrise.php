@@ -49,11 +49,15 @@ add_action( 'admin_bar_menu', function ( $wp_admin_bar ){
 } );
 
 
+
 /**
  * We have to force the COOKIEHASH
  * If we dont do this the customizer will not work sinze WordPress 4.7
  *
  * @see https://trello.com/c/4ypTZGat
+ * @since wp 4.7.2
+ *
+ * @wp_hook query  string $query Database siteurl query.
  *
  * @TODO: Write a unittest for this freakshow - we have to test if the COOKIEHASH is well
  */
@@ -61,12 +65,11 @@ add_filter( 'query', function( $query ){
 
 	if( array_key_exists( 'customize_changeset_uuid', $_GET ) && ! defined( 'COOKIEHASH' ) ){
 
-		preg_match_all( "/^SELECT.*?WHERE domain IN \(\s\'(.*?)\',.*?\) AND path IN \(\s\'(.*?)\',.*?\) /", $query, $match );
+		preg_match_all( "/^SELECT.*?WHERE domain IN \(\s\'(.*?)\',?.*?\) AND path IN \(\s'(.*?)'\s\) /", $query, $match );
 
 		$siteurl  = ( ! empty( $match[1][0] ) ) ? $match[1][0] : FALSE;
-		$siteurl .= ( ! empty( $match[2][0] ) ) ? $match[2][0] : FALSE;
-
-		$siteurl = rtrim( get_protocol() . $siteurl, '/' );
+		$sitepath = ( ! empty( $match[2][0] ) ) ? explode( "', '", $match[2][0] ) : FALSE;
+		$siteurl = ( ! empty( $sitepath ) && count( $sitepath ) > 1 ) ? rtrim( get_protocol() . $siteurl . $sitepath[0], '/' ) : get_protocol() . $siteurl . $sitepath[0];
 
 		$cookiehash = md5( $siteurl );
 
