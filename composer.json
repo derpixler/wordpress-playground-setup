@@ -89,12 +89,9 @@
 
 		"johnpbloch/wordpress": "4.7.*",
 
-		"myhotelshop/ibe-widget": "dev-master",
-
 		"myhotelshop/wp-db-migrate-pro": "1.7.*",
 		"myhotelshop/wp-migrate-db-pro-multisite-tools": "1.1.5",
 		"myhotelshop/contact-form-db": "dev-master",
-
 
 		"wpackagist-plugin/wp-multi-network": "1.*",
 		"wpackagist-plugin/wp-multisite-sso": "1.*",
@@ -113,6 +110,8 @@
 
 		"derpixler/customeralliance-reviews": "0.2.0",
 
+		"myhotelshop/ibe-widget": "dev-master",
+		"myhotelshop/controller": "dev-master",
 		"myhotelshop/base-theme": "dev-master",
 		"myhotelshop/m-privathotels-theme": "dev-master",
 		"myhotelshop/cpt-custompages": "dev-master"
