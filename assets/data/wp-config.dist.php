@@ -183,6 +183,12 @@ define(	'COOKIE_DOMAIN', '');
 define(	'COOKIEPATH', '');
 define(	'SITECOOKIEPATH', '');
 
+/**
+ * Set the COOKIEHASH Netwokwide for this Netwok
+ * @since 25.01.2017
+ */
+define( 'COOKIEHASH', md5( SECURE_AUTH_KEY . AUTH_KEY . LOGGED_IN_KEY ) );
+
 define( 'SUNRISE', 'on' );
 
 /**
