@@ -108,6 +108,7 @@
 		"wpackagist-plugin/nextgen-gallery": "2.1.*",
 		"wpackagist-plugin/duracelltomi-google-tag-manager": "1.5.*",
 		"wpackagist-plugin/attachment-taxonomies": "1.0.0",
+		"wpackagist-plugin/redirection": "2.5",
 
 		"derpixler/customeralliance-reviews": "0.2.0",
 
