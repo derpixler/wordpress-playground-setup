@@ -124,11 +124,14 @@
 		"wordpress-content-dir": "vagrant/html/wordpress/wp-content",
         "installer-paths": {
 	      "vagrant/": ["vagrant"],
+		  "vagrant/html/wordpress/wp-content/mu-plugins/{$name}/": [
+			  "myhotelshop/controller"
+		  ],
 		  "vagrant/html/wordpress/": ["wordpress/core"],
-          "vagrant/html/wordpress/wp-content/uploads/": ["myhotelshop/uploads"],
-		  "vagrant/html/wordpress/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+          "vagrant/html/wordpress/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
           "vagrant/html/wordpress/wp-content/themes/{$name}/": ["type:wordpress-theme"]
-        }
+
+		}
     },
     "scripts" : {
         "post-install-cmd": "assets/provision/prepare-vagrant.sh",
