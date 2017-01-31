@@ -144,6 +144,7 @@ define('DB_COLLATE', '' );
 /* custom uploads */
 define( 'WP_CONTENT_DIR', $args['WP_CONTENT_DIR'] );
 define( 'WP_CONTENT_URL', get_protocol() . $_SERVER['HTTP_HOST'] . '/wp-content' );
+define( 'MUPLUGINDIR', WP_CONTENT_DIR . '/mu-plugins' );
 
 define ('WPLANG', 'de_DE' );
 

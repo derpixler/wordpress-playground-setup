@@ -47,7 +47,7 @@ cp assets/data/sunrise.php vagrant/html/wordpress/wp-content/sunrise.php
 
 printf "  - Copy ${GREEN}sunrise.php -> vagrant/html/wordpress/wp-content/sunrise.php${NC}\n    Files copied\n\n"
 
-cp assets/data/sunrise.php vagrant/html/wordpress/wp-content/mu-plugins/load-mu-plugins.php
+cp assets/data/load-mu-plugins.php vagrant/html/wordpress/wp-content/mu-plugins/load-mu-plugins.php
 
 printf "  - Copy ${GREEN}load-mu-plugins.php -> vagrant/html/wordpress/wp-content/mu-plugins/load-mu-plugins.php${NC}\n    Files copied\n\n"
 
