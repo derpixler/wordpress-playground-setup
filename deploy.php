@@ -125,7 +125,7 @@ task('deploy:backup_db', function() {
 	$link = run("readlink {{deploy_path}}/current")->toString();
     $currentRelease = substr($link, 0, 1) === '/' ? $link : get('deploy_path') . '/' . $link;
 
-	$backup_dir = get('deploy_path') . 'db_backup';
+	$backup_dir = get('deploy_path') . '_db_backup';
 
 	// Create the backup dir if it doesn't exist
 	run( sprintf("if [ ! -d %s ]; then mkdir -p %s; fi", $backup_dir, $backup_dir ) );
@@ -154,11 +154,11 @@ task('deploy', [
     'deploy:shared',
     'deploy:writable',
     'deploy:vendors',
-    'deploy:move_wp_config',
+    'deploy:symlink',
+	'deploy:move_wp_config',
 	'deploy:move_plugins_themes',
     'deploy:clear_paths',
-    'deploy:symlink',
-	'deploy:unlock',
+    'deploy:unlock',
     'cleanup',
     'success'
 ]);
