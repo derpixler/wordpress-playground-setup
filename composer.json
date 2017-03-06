@@ -42,7 +42,7 @@
 		},
 		{
 			"type": "vcs",
-			"url": "git@github.com:derpixler/customeralliance-reviews.git"
+			"url": "git@bitbucket.org:webdevmedia/customeralliance-reviews.git"
 		},
 		{
 			"type": "vcs",
