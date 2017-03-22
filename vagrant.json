@@ -14,7 +14,9 @@
 				"klinik-waldeck.wp",
 				"kastanienhof.wp",
 				"www.kastanienhof.berlin.wp",
-				"controller.kastanienhof.websites.myhotelshop.wp"
+				"controller.kastanienhof.websites.myhotelshop.wp",
+				"controller.hotelambruehl.websites.myhotelshop.wp",
+				"hotelambruehl.wp"
 			]
 		},
 		"forwarded_port": {}
