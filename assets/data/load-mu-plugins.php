@@ -20,4 +20,4 @@
  * MHS Controller access management
  * Restrict the accessment on controller wp-admin dashboards.
  */
-require_once( MUPLUGINDIR . '/controller/mhs-controller.php' );
+//require_once( MUPLUGINDIR . '/controller/mhs-controller.php' );
