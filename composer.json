@@ -125,7 +125,9 @@
 		"myhotelshop/controller": "dev-master",
 		"myhotelshop/base-theme": "dev-master",
 		"myhotelshop/m-privathotels-theme": "dev-master",
-		"myhotelshop/cpt-custompages": "dev-master"
+		"myhotelshop/cpt-custompages": "dev-master",
+
+		"stuttter/wp-multi-network": "dev-master"
 
     },
     "extra": {
