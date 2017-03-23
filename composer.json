@@ -30,10 +30,6 @@
 		},
 		{
 			"type": "vcs",
-			"url": "git@bitbucket.org:webdevmedia/myhotelshop-base-theme.git"
-		},
-		{
-			"type": "vcs",
 			"url": "git@bitbucket.org:webdevmedia/cpt-custompages.git"
 		},
 		{
@@ -123,7 +119,6 @@
 
 		"myhotelshop/ibe-widget": "dev-master",
 		"myhotelshop/controller": "dev-master",
-		"myhotelshop/base-theme": "dev-master",
 		"myhotelshop/m-privathotels-theme": "dev-master",
 		"myhotelshop/cpt-custompages": "dev-master",
 
