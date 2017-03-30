@@ -30,6 +30,10 @@ cp assets/data/wp-config.dist.php vagrant/html/wordpress/wp-config.php
 
 printf "  - Copy ${GREEN}wp-config.php -> vagrant/html/wordpress/wp-config.php${NC}\n    Files copied\n\n"
 
+cp -R assets/data/languages/ vagrant/html/wordpress/wp-content/languages
+
+printf "  - Copy ${GREEN}languages/ -> vagrant/html/wordpress/wp-content/languages/${NC}\n    Files copied\n\n"
+
 cp assets/data/index.dist.php vagrant/html/wordpress/index.php
 
 printf "  - Copy ${GREEN}index.dist.php -> vagrant/html/wordpress/index.php${NC}\n    Files copied\n\n"

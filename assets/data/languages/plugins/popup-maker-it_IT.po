@@ -1,0 +1,3786 @@
+# Translation of Plugins - Popup Maker - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - Popup Maker - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-10-17 08:40:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - Popup Maker - Stable (latest release)\n"
+
+#: includes/integrations/ninja-forms/Actions/OpenPopup.php:78
+msgid "Select a popup"
+msgstr "Seleziona un popup"
+
+#: includes/integrations/ninja-forms/Actions/OpenPopup.php:42
+msgid "Popup ID"
+msgstr "ID del Popup"
+
+#: includes/integrations/ninja-forms/Actions/ClosePopup.php:46
+msgid "0"
+msgstr "0"
+
+#: includes/integrations/ninja-forms/Actions/ClosePopup.php:36
+msgid "Close Popup"
+msgstr "Chiudi Popup"
+
+#: includes/integrations/class-pum-ninja-forms.php:109
+msgid "Ninja Form Success"
+msgstr "Ninja Form inviato con successo"
+
+#: includes/shortcodes/class-pum-shortcode-popup-close.php:64
+msgid "This prevents us from disabling the browsers default action when a close button is clicked. It can be used to allow a link to a file to both close a popup and still download the file."
+msgstr "Questo ci impedisce di disabilitare l'azione predefinita del browser quando si fa clic sul pulsante di chiusura. Può essere usato per permettere a un link a un file di chiudere il popup e allo stesso tempo continuare con il download."
+
+#: includes/libs/freemius/includes/i18n.php:351
+msgid "Sorry for the inconvenience and we are here to help if you give us a chance."
+msgstr "Siamo spiacenti per l'inconveniente e siamo qui per aiutarti con il tuo permesso."
+
+#: includes/libs/freemius/includes/i18n.php:296
+msgid "How to upload and activate?"
+msgstr "Come faccio a caricare ed attivare?"
+
+#: includes/libs/freemius/includes/i18n.php:295
+msgid "Upload and activate the downloaded version"
+msgstr "Carica e attiva la versione scaricata"
+
+#: includes/libs/freemius/includes/i18n.php:294
+msgid "Deactivate the free version"
+msgstr "Disattiva la versione gratuita"
+
+#: includes/libs/freemius/includes/i18n.php:293
+msgid "Download the latest %s version"
+msgstr "Scarica l'ultima versione di %s"
+
+#: includes/libs/freemius/includes/i18n.php:292
+msgid "Please follow these steps to complete the upgrade"
+msgstr "Segui i passi seguenti per completare l'aggiornamento"
+
+#: includes/libs/freemius/includes/i18n.php:232
+msgid "We can't see any active licenses associated with that email address, are you sure it's the right address?"
+msgstr "Non siamo riusciti a trovare nessuna licenza attiva associata a questo indirizzo email, sei sicuro che sia l'indirizzo giusto?"
+
+#: includes/libs/freemius/includes/i18n.php:231
+msgid "We couldn't find your email address in the system, are you sure it's the right address?"
+msgstr "Non siamo riusciti a trovare il tuo indirizzo email nel sistema, sei sicuro che sia l'indirizzo giusto?"
+
+#: includes/libs/freemius/includes/i18n.php:230
+msgid "Can't find your license key?"
+msgstr "Non trovi la tua chiave di licenza?"
+
+#: includes/libs/freemius/includes/i18n.php:227
+msgid "Sending license key"
+msgstr "Invio chiave di licenza"
+
+#: includes/libs/freemius/includes/i18n.php:226
+msgid "Send License Key"
+msgstr "Invia chiave di licenza"
+
+#: includes/libs/freemius/includes/i18n.php:223
+msgid "Click here to use the plugin anonymously"
+msgstr "Fai clic qui per usare il plugin anonimamente"
+
+#: includes/libs/freemius/includes/i18n.php:194
+msgid "You might have missed it, but you don't have to share any data and can just %s the opt-in."
+msgstr "Potresti non averci fatto caso, ma non sei obbligato a condividere i tuoi dati e puoi semplicemente %s la tua partecipazione."
+
+#: includes/libs/freemius/includes/i18n.php:167
+msgid "Quick feedback"
+msgstr "Feedback veloce"
+
+#: includes/libs/freemius/includes/i18n.php:166
+msgid "Anonymous feedback"
+msgstr "Feedback anonimo"
+
+#: includes/libs/freemius/includes/i18n.php:108
+msgid "Email address"
+msgstr "Indirizzo email"
+
+#: includes/libs/freemius/includes/i18n.php:84
+msgid "Enter the email address you've used for the upgrade below and we will resend you the license key."
+msgstr "Inserisci qui sotto l'indirizzo email che hai usato per registrare l'aggiornamento e ti invieremo di nuovo la chiave di licenza."
+
+#: includes/libs/freemius/includes/i18n.php:64
+msgid "Payments"
+msgstr "Pagamenti"
+
+#: includes/libs/freemius/includes/i18n.php:63
+msgid "Billing"
+msgstr "Fatturazione"
+
+#: includes/libs/freemius/includes/i18n.php:62
+msgid "Invoice"
+msgstr "Fattura"
+
+#: includes/libs/freemius/includes/i18n.php:61
+msgid "Amount"
+msgstr "Importo"
+
+#: includes/libs/freemius/includes/i18n.php:60
+msgid "Date"
+msgstr "Data"
+
+#: includes/libs/freemius/includes/i18n.php:58
+msgctxt "verb"
+msgid "Hide"
+msgstr "Nascondi"
+
+#: includes/libs/freemius/includes/i18n.php:57
+msgctxt "verb"
+msgid "Show"
+msgstr "Mostra"
+
+#: includes/libs/freemius/includes/i18n.php:38
+msgid "Contact Support"
+msgstr "Contatta il supporto"
+
+#: includes/pum-condition-functions.php:88
+msgid "Default"
+msgstr "Predefinito"
+
+#: includes/pum-condition-functions.php:79
+msgctxt "condition: post type plural label ie. Pages: With Template"
+msgid "%s: With Template"
+msgstr "%s: Con template"
+
+#: includes/admin/popups/metabox-display-fields.php:305
+#: includes/class-popmake-popup-fields.php:124
+msgid "This will disable automatic repositioning of the popup on window resizing."
+msgstr "Questo disattiverà il riposizionamento automatico del popup durante il ridimensionamento della finestra."
+
+#: includes/admin/popups/metabox-display-fields.php:291
+#: includes/class-popmake-popup-fields.php:123
+msgid "Disable Repositioning"
+msgstr "Disattiva riposizionamento"
+
+#: includes/libs/freemius/includes/i18n.php:389
+msgid "View details"
+msgstr "Visualizza dettagli"
+
+#: includes/libs/freemius/includes/i18n.php:387
+msgctxt "as a discount of $5 or 10%"
+msgid "Save %s"
+msgstr "Risparmia %s"
+
+#: includes/libs/freemius/includes/i18n.php:386
+msgctxt "e.g. billed monthly"
+msgid "Billed %s"
+msgstr "Fatturato %s"
+
+#: includes/libs/freemius/includes/i18n.php:385
+msgctxt "e.g. the best product"
+msgid "Best"
+msgstr "Migliore"
+
+#: includes/libs/freemius/includes/i18n.php:384
+msgid "Lifetime"
+msgstr "Tutta la vita"
+
+#: includes/libs/freemius/includes/i18n.php:383
+msgctxt "as annual period"
+msgid "year"
+msgstr "anno"
+
+#: includes/libs/freemius/includes/i18n.php:382
+msgctxt "as once a year"
+msgid "Once"
+msgstr "Una volta"
+
+#: includes/libs/freemius/includes/i18n.php:381
+msgctxt "as once a year"
+msgid "Annually"
+msgstr "Annualmente"
+
+#: includes/libs/freemius/includes/i18n.php:380
+msgctxt "as once a year"
+msgid "Annual"
+msgstr "Annuale"
+
+#: includes/libs/freemius/includes/i18n.php:379
+msgctxt "as monthly period"
+msgid "mo"
+msgstr "mese"
+
+#: includes/libs/freemius/includes/i18n.php:378
+msgctxt "as every month"
+msgid "Monthly"
+msgstr "Mensilmente"
+
+#: includes/libs/freemius/includes/i18n.php:327
+msgid "Unexpected API error. Please contact the plugin's author with the following error."
+msgstr "Errore inaspettato dell'API. Per favore contatta l'autore del plugin riportando il seguente errore."
+
+#: includes/libs/freemius/includes/i18n.php:326
+msgid "None of the plugin's plans supports a trial period."
+msgstr "Non esiste alcun piano del plugin che offra il periodo di prova."
+
+#: includes/libs/freemius/includes/i18n.php:325
+msgid "Plan %s does not support a trial period."
+msgstr "Il piano %s non supporta il periodo di prova."
+
+#: includes/libs/freemius/includes/i18n.php:324
+msgid "Plan %s do not exist, therefore, can't start a trial."
+msgstr "Il piano %s non esiste, per questo motivo non è possibile iniziare il periodo di prova."
+
+#: includes/libs/freemius/includes/i18n.php:323
+msgid "You are already running the plugin in a trial mode."
+msgstr "Stai già usando il plugin in modalità di prova gratuita."
+
+#: includes/libs/freemius/includes/i18n.php:322
+msgid "You already utilized a trial before."
+msgstr "Hai già utilizzato una prova gratuita in passato."
+
+#: includes/libs/freemius/includes/i18n.php:303
+msgid "Your license has been cancelled. If you think it's a mistake, please contact support."
+msgstr "La tua licenza è stata cancellata. Se credi sia un errore, per favore contatta il supporto."
+
+#: includes/libs/freemius/includes/i18n.php:261
+msgid "Plugins & Themes Sync"
+msgstr "Sincronizzazione plugin e temi"
+
+#: includes/libs/freemius/includes/i18n.php:229
+msgid "Don't have a license key?"
+msgstr "Non hai una chiave di licenza?"
+
+#: includes/libs/freemius/includes/i18n.php:228
+msgid "Have a license key?"
+msgstr "Hai una chiave di licenza?"
+
+#: includes/libs/freemius/includes/i18n.php:225
+msgid "License key"
+msgstr "Chiave di licenza"
+
+#: includes/libs/freemius/includes/i18n.php:221
+msgctxt "button label"
+msgid "Agree & Activate License"
+msgstr "Accetta e attiva la licenza"
+
+#: includes/libs/freemius/includes/i18n.php:213
+msgid "Titles, versions and state."
+msgstr "Titoli, versioni e stato."
+
+#: includes/libs/freemius/includes/i18n.php:212
+msgid "Plugins & Themes"
+msgstr "Plugin e temi"
+
+#: includes/libs/freemius/includes/i18n.php:210
+msgid "Current Plugin Events"
+msgstr "Eventi correnti del plugin"
+
+#: includes/libs/freemius/includes/i18n.php:209
+msgid "Site URL, WP version, PHP info, plugins & themes"
+msgstr "URL del sito, versione di WP, informazioni PHP, plugin e temi"
+
+#: includes/libs/freemius/includes/i18n.php:204
+msgid "The plugin will be periodically sending data to %s to check for plugin updates and verify the validity of your license."
+msgstr "Il plugin invierà dati periodicamente a %s per controllare l'esistenza di aggiornamenti e verificare la validità della tua licenza."
+
+#: includes/libs/freemius/includes/i18n.php:203
+msgid "Thanks for purchasing %s! To get started, please enter your license key:"
+msgstr "Grazie per aver acquistato %s! Per iniziare, per favore inserisci la tua chiave di licenza:"
+
+#: includes/libs/freemius/includes/i18n.php:180
+msgid "Kindly tell us the reason so we can improve."
+msgstr "Spiegandoci il motivo ci aiuterai a migliorare."
+
+#: includes/libs/freemius/includes/i18n.php:178
+msgid "It's a temporary deactivation. I'm just debugging an issue."
+msgstr "È una disattivazione temporanea. Sto solo cercando di risolvere un problema."
+
+#: includes/libs/freemius/includes/i18n.php:150
+msgid "Last license"
+msgstr "Ultima licenza"
+
+#: includes/libs/freemius/includes/i18n.php:149
+msgctxt "as 5 licenses left"
+msgid "%s left"
+msgstr "%s rimanenti"
+
+#: includes/libs/freemius/includes/i18n.php:139
+msgid "Skip & Deactivate"
+msgstr "Salta e disattiva"
+
+#: includes/libs/freemius/includes/i18n.php:135
+msgid "Update License"
+msgstr "Aggiorna licenza"
+
+#: includes/libs/freemius/includes/i18n.php:134
+msgid "Change License"
+msgstr "Cambia licenza"
+
+#: includes/libs/freemius/includes/i18n.php:133
+msgid "Activating license..."
+msgstr "Sto attivando la licenza..."
+
+#: includes/libs/freemius/includes/i18n.php:132
+msgid "Please enter the license key that you received in the email right after the purchase:"
+msgstr "Per favore inserisci la chiave di licenza che hai ricevuto via mail subito dopo l'acquisto:"
+
+#: includes/libs/freemius/includes/i18n.php:131
+msgid "Activate Free Version"
+msgstr "Attiva versione gratuita"
+
+#: includes/libs/freemius/includes/i18n.php:130
+msgid "Activate License"
+msgstr "Attiva licenza"
+
+#: includes/class-pum-freemius.php:120
+msgid "Allow %3$sPopup Maker%4$s​ to collect some usage data with %2$s to make the plugin even more awesome. If you skip this, that's okay! ​%3$sPopup Maker%4$s will still work just fine."
+msgstr "Permetti a %3$sPopup Maker%4$s di raccogliere alcuni dati d'utilizzo con %2$s per rendere il plugin ancora più eccezionale. Se eviti questa scelta, non c'è problema! %3$sPopup Maker%4$s funzionerà comunque perfettamente."
+
+#: includes/integrations/class-pum-buddypress-integration.php:150
+msgid "Which action variables?"
+msgstr "Quale variabile d'azione?"
+
+#: includes/integrations/class-pum-buddypress-integration.php:145
+msgid "BP: Is Action Variable"
+msgstr "BP: è una variabile d'azione"
+
+#: includes/integrations/class-pum-buddypress-integration.php:136
+msgid "Which actions?"
+msgstr "Quali azioni?"
+
+#: includes/integrations/class-pum-buddypress-integration.php:131
+msgid "BP: Is Current Action"
+msgstr "BP: è l'azione corrente"
+
+#: includes/integrations/class-pum-buddypress-integration.php:122
+msgid "Which components?"
+msgstr "Quali componenti?"
+
+#: includes/integrations/class-pum-buddypress-integration.php:113
+msgid "BP: Is Current Component"
+msgstr "BP: è il componente corrente"
+
+#: includes/integrations/class-pum-buddypress-integration.php:99
+msgid "BP: Is Directory"
+msgstr "BP: è una directory"
+
+#: includes/integrations/class-pum-buddypress-integration.php:91
+msgid "BP: Is Item Mod"
+msgstr "BP: Moderatori dell'elemento"
+
+#: includes/integrations/class-pum-buddypress-integration.php:83
+msgid "BP: Is Item Admin"
+msgstr "BP: Amministratori dell'elemento"
+
+#: includes/integrations/class-pum-buddypress-integration.php:75
+msgid "BP: Is Register Page"
+msgstr "BP: è la pagina di registrazione"
+
+#: includes/integrations/class-pum-buddypress-integration.php:67
+msgid "BP: Is Activation Page"
+msgstr "BP: è la pagina di attivazione"
+
+#: includes/integrations/class-pum-buddypress-integration.php:59
+msgid "BP: Is User Messages Page"
+msgstr "BP: è la pagina dei messaggi utente"
+
+#: includes/integrations/class-pum-buddypress-integration.php:51
+msgid "BP: Is Group Page"
+msgstr "BP: è la pagina di un gruppo"
+
+#: includes/integrations/class-pum-buddypress-integration.php:43
+msgid "BP: Is User Page"
+msgstr "BP: è la pagina utente"
+
+#: includes/integrations/class-pum-buddypress-integration.php:35
+msgid "BP: Is a BuddyPress Page"
+msgstr "BP: è una pagina di BuddyPress"
+
+#: includes/integrations/class-pum-buddypress-integration.php:33
+#: includes/integrations/class-pum-buddypress-integration.php:41
+#: includes/integrations/class-pum-buddypress-integration.php:49
+#: includes/integrations/class-pum-buddypress-integration.php:57
+#: includes/integrations/class-pum-buddypress-integration.php:65
+#: includes/integrations/class-pum-buddypress-integration.php:73
+#: includes/integrations/class-pum-buddypress-integration.php:81
+#: includes/integrations/class-pum-buddypress-integration.php:89
+#: includes/integrations/class-pum-buddypress-integration.php:97
+#: includes/integrations/class-pum-buddypress-integration.php:111
+#: includes/integrations/class-pum-buddypress-integration.php:129
+#: includes/integrations/class-pum-buddypress-integration.php:143
+#: includes/integrations/class-pum-buddypress-integration.php:256
+msgid "BuddyPress"
+msgstr "BuddyPress"
+
+#: includes/pum-condition-functions.php:175
+msgctxt "condition: taxonomy plural label ie. Category IDs"
+msgid "%s IDs: 128, 129"
+msgstr "ID %s: 128, 129"
+
+#: includes/pum-condition-functions.php:172
+msgctxt "condition: taxonomy plural label ie. Categories: Selected"
+msgid "%s: IDs"
+msgstr "%s: ID"
+
+#: includes/pum-condition-functions.php:67
+msgctxt "condition: post type singular label ie. Posts IDs"
+msgid "%s IDs: 128, 129"
+msgstr "ID %s: 128, 129"
+
+#: includes/pum-condition-functions.php:64
+msgctxt "condition: post type plural label ie. Posts: ID"
+msgid "%s: ID"
+msgstr "%s: ID"
+
+#: includes/post-types.php:222
+msgctxt "Post Type Singular: Popup, Theme"
+msgid "%1$s submitted."
+msgstr "%1$s inviato."
+
+#: includes/post-types.php:221
+msgctxt "Post Type Singular: Popup, Theme"
+msgid "%1$s saved."
+msgstr "%1$s salvato."
+
+#: includes/post-types.php:220
+msgctxt "Post Type Singular: Popup, Theme"
+msgid "%1$s published."
+msgstr "%1$s pubblicato."
+
+#: includes/post-types.php:218 includes/post-types.php:219
+msgctxt "Post Type Singular: Popup, Theme"
+msgid "%1$s updated."
+msgstr "%1$s aggiornato."
+
+#: includes/post-types.php:100
+msgctxt "Plural Post Type Label"
+msgid "Themes"
+msgstr "Temi"
+
+#: includes/post-types.php:99
+msgctxt "Singular Post Type Label"
+msgid "Theme"
+msgstr "Tema"
+
+#: includes/post-types.php:96
+msgctxt "Plural Post Type Label"
+msgid "Popups"
+msgstr "Popup"
+
+#: includes/post-types.php:95
+msgctxt "Singular Post Type Label"
+msgid "Popup"
+msgstr "Popup"
+
+#: includes/post-types.php:54
+msgctxt "Post Type Menu Label"
+msgid "Popup Themes"
+msgstr "Temi del popup"
+
+#: includes/post-types.php:31 includes/post-types.php:61
+msgctxt "Post Type Plural: \"Popups\""
+msgid "No %2$s found in Trash"
+msgstr "Nessun %2$s trovato nel cestino"
+
+#: includes/post-types.php:30 includes/post-types.php:60
+msgctxt "Post Type Plural: \"Popups\""
+msgid "No %2$s found"
+msgstr "Nessun %2$s trovato"
+
+#: includes/post-types.php:29 includes/post-types.php:59
+msgctxt "Post Type Plural: \"Popups\""
+msgid "Search %2$s"
+msgstr "Cerca %2$s"
+
+#: includes/post-types.php:28 includes/post-types.php:58
+msgctxt "Post Type Singular: \"Popup\""
+msgid "View %1$s"
+msgstr "Visualizza %1$s"
+
+#: includes/post-types.php:27
+msgctxt "Post Type Plural: \"Popups\""
+msgid "All %2$s"
+msgstr "Tutti i %2$s"
+
+#: includes/post-types.php:26 includes/post-types.php:57
+msgctxt "Post Type Singular: \"Popup\""
+msgid "New %1$s"
+msgstr "Nuovo %1$s"
+
+#: includes/post-types.php:25 includes/post-types.php:56
+msgctxt "Post Type Singular: \"Popup\""
+msgid "Edit %1$s"
+msgstr "Modifica %1$s"
+
+#: includes/post-types.php:24 includes/post-types.php:62
+msgctxt "Post Type Singular: \"Popup\""
+msgid "Add %1$s"
+msgstr "Aggiungi %1$s"
+
+#: includes/post-types.php:23 includes/post-types.php:55
+msgctxt "Post Type Singular: \"Popup\""
+msgid "Add New %1$s"
+msgstr "Aggiungi nuovo %1$s"
+
+#: includes/admin/popups/metabox-display-fields.php:359
+#: includes/admin/popups/metabox-display-fields.php:378
+#: includes/admin/popups/metabox-display-fields.php:397
+#: includes/admin/popups/metabox-display-fields.php:416
+#: includes/class-popmake-popup-fields.php:146
+#: includes/class-popmake-popup-fields.php:157
+#: includes/class-popmake-popup-fields.php:168
+#: includes/class-popmake-popup-fields.php:179
+#: includes/shortcodes/class-pum-shortcode-popup.php:144
+#: includes/shortcodes/class-pum-shortcode-popup.php:155
+#: includes/shortcodes/class-pum-shortcode-popup.php:166
+#: includes/shortcodes/class-pum-shortcode-popup.php:177
+msgctxt "Screen Edge: top, bottom"
+msgid "Distance from the %s edge of the screen."
+msgstr "Distanza dal bordo %s dello schermo."
+
+#: includes/admin/popups/class-metabox-conditions.php:69
+msgid "Conditions are used to limit where and who will see a popup. %sLearn More!%s"
+msgstr "Le Condizioni servono per limitare dove e chi potrà visualizzare un popup. %sDimmi di più!%s"
+
+#: includes/pum-trigger-functions.php:118
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:77
+msgid "This prevents us from disabling the browsers default action when a trigger is clicked. It can be used to allow a link to a file to both trigger a popup and still download the file."
+msgstr "Questo impedirà al plugin di disattivare le azioni di default del browser per quando un innesco viene cliccato. Ad esempio, un link che punta a un file innescherà sia il popup che il download del file."
+
+#: includes/pum-trigger-functions.php:117
+#: includes/shortcodes/class-pum-shortcode-popup-close.php:63
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:76
+msgid "Do not prevent the default click functionality."
+msgstr "Non impedire le funzionalità di default del clic."
+
+#: includes/admin/popups/metabox-themes-fields.php:23
+msgid "Customize This Theme"
+msgstr "Personalizza questo Tema"
+
+#: includes/admin/admin-pages.php:36
+msgid "Popup Themes"
+msgstr "Temi dei Popup"
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:126
+msgid "Height Unit"
+msgstr "Unità di altezza"
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:115
+msgid "Width Unit"
+msgstr "Unità di larghezza"
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:88
+msgid "Choose which popup theme will be used."
+msgstr "Scegli quale tema popup verrà utilizzato."
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:87
+msgid "Choose a theme,"
+msgstr "Scegli un tema,"
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:86
+msgid "Popup Theme"
+msgstr "Tema Popup"
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:79
+msgid "This will be displayed above the content. Leave it empty to disable it."
+msgstr "Questo verrà mostrato sopra al contenuto. Lascialo vuoto per disattivarlo."
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:78
+msgid "Enter popup title text,"
+msgstr "Inserire testo titolo popup,"
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:77
+msgid "Popup Title"
+msgstr "Titolo popup"
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:72
+msgid "Used in popup triggers to target this popup"
+msgstr "Usato negli inneschi per azionare questo popup."
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:71
+msgid "`offer`, `more-info`"
+msgstr "`offerta`, `più-info`"
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:70
+msgid "Unique Popup ID"
+msgstr "ID Unico Popup"
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:47
+msgid "Display"
+msgstr "Visualizza"
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:30
+msgid "Insert a popup inline rather. Great for simple popups used for supporting content."
+msgstr "Inserisci un popup inline. Ottimo per semplici popup adatti a contenuti di supporto."
+
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:48
+msgid "Choose which popup will be targeted by this trigger."
+msgstr "Scegli i popup a cui vuoi applicare questo innesco."
+
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:47
+msgid "Choose a Popup"
+msgstr "Scegli un Popup"
+
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:46
+msgid "Targeted Popup"
+msgstr "Popup da innescare"
+
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:33
+msgid "Trigger Content"
+msgstr "Contenuto dell'innesco"
+
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:28
+msgid "Inserts a click-able popup trigger."
+msgstr "Inserisce un innesco del popup cliccabile."
+
+#: includes/shortcodes/class-pum-shortcode-popup-close.php:58
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:71
+msgid "Add additional classes for styling."
+msgstr "Aggiungere altre classi per stilizzare."
+
+#: includes/shortcodes/class-pum-shortcode-popup-close.php:55
+#: includes/shortcodes/class-pum-shortcode-popup-close.php:56
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:68
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:69
+msgid "CSS Class"
+msgstr "Classe CSS"
+
+#: includes/shortcodes/class-pum-shortcode-popup-close.php:48
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:61
+msgid "The HTML tag used to generate the trigger and wrap your text."
+msgstr "Il tag HTML usato per generare l'innesco e contenere il tuo testo."
+
+#: includes/shortcodes/class-pum-shortcode-popup-close.php:47
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:60
+msgid "HTML Tags: button, span etc."
+msgstr "Tag HTML: pulsanti, span etc."
+
+#: includes/shortcodes/class-pum-shortcode-popup-close.php:46
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:59
+msgid "HTML Tag"
+msgstr "Tag HTML"
+
+#: includes/shortcodes/class-pum-shortcode-popup-close.php:34
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:34
+#: includes/shortcodes/class-pum-shortcode-popup.php:36
+msgid "Can contain other shortcodes, images, text or html content."
+msgstr "Può contenere altri shortcode, immagini, testi, o contenuto html."
+
+#: includes/shortcodes/class-pum-shortcode-popup-close.php:33
+#: includes/shortcodes/class-pum-shortcode-popup.php:35
+msgid "Content"
+msgstr "Contenuto"
+
+#: includes/shortcodes/class-pum-shortcode-popup-close.php:28
+msgid "Make text or html a close trigger for your popup."
+msgstr "Usa testo o HTML come innesco di chiusura del tuo popup."
+
+#: includes/shortcodes/class-pum-shortcode-popup-close.php:24
+msgid "Popup Close Button"
+msgstr "Pulsante di chiusura del popup"
+
+#: includes/pum-trigger-functions.php:112
+msgid "This allows custom css classes, ids or selector strings to trigger the popup when clicked. Separate multiple selectors using commas."
+msgstr ""
+"Questo consente alle classi, id e selettori css di innescare il popup quando cliccati.\n"
+"Separare valori multipli con delle virgole."
+
+#: includes/pum-trigger-functions.php:80
+msgid "Extra Selectors"
+msgstr "Selettori extra"
+
+#: includes/pum-trigger-functions.php:79
+msgid "Click Trigger Settings"
+msgstr "Impostazioni innesco clic"
+
+#: includes/pum-trigger-functions.php:78
+msgid "Click Open"
+msgstr "Apri con clic"
+
+#: includes/pum-install-functions.php:63
+msgid "Framed Border"
+msgstr "Cornice"
+
+#: includes/pum-install-functions.php:53
+msgid "Cutting Edge"
+msgstr "Bordo netto"
+
+#: includes/pum-install-functions.php:43
+msgid "Hello Box"
+msgstr "Disclaimer"
+
+#: includes/pum-install-functions.php:33
+msgid "Enterprise Blue"
+msgstr "Blu aziendale"
+
+#: includes/pum-install-functions.php:23
+msgid "Light Box"
+msgstr "Light Box"
+
+#: includes/pum-cookie-functions.php:81
+msgid "Manual JavaScript"
+msgstr "JavaScript manuale"
+
+#: includes/pum-cookie-functions.php:69
+msgid "On Popup Open"
+msgstr "All'apertura del Popup"
+
+#: includes/pum-cookie-functions.php:23
+msgid "The name that will be used when checking for or saving this cookie."
+msgstr "Il nome che verrà utlizzato quando si controlla o salva questo cookie."
+
+#: includes/pum-cookie-functions.php:22
+msgid "Cookie Name ex. popmaker-123"
+msgstr "Nome Cookie es. popmaker-123"
+
+#: includes/pum-cookie-functions.php:21 includes/pum-trigger-functions.php:25
+msgid "Cookie Name"
+msgstr "Nome Cookie"
+
+#: includes/pum-condition-functions.php:219
+msgid "404 Pages"
+msgstr "Pagine 404"
+
+#: includes/pum-condition-functions.php:213
+msgid "Search Pages"
+msgstr "Pagina di ricerca"
+
+#: includes/pum-condition-functions.php:206
+msgid "Blog Index"
+msgstr "Indice del blog"
+
+#: includes/pum-condition-functions.php:199
+msgid "Home Page"
+msgstr "Home Page"
+
+#: includes/pum-condition-functions.php:159
+msgctxt "condition: taxonomy plural label ie. Select Categories"
+msgid "Select %s."
+msgstr "Seleziona %s."
+
+#: includes/pum-condition-functions.php:156
+msgctxt "condition: taxonomy plural label ie. Categories: Selected"
+msgid "%s: Selected"
+msgstr "%s: Selezionate"
+
+#: includes/pum-condition-functions.php:150
+msgctxt "condition: taxonomy plural label ie. Categories: All"
+msgid "%s: All"
+msgstr "%s: Tutte"
+
+#: includes/pum-condition-functions.php:121
+msgctxt "condition: post type plural label ie. Select categories"
+msgid "Select %s."
+msgstr "Seleziona %s."
+
+#: includes/pum-condition-functions.php:118
+msgctxt "condition: post type plural and taxonomy singular label ie. Posts: With Category"
+msgid "%1$s: With %2$s"
+msgstr "%1$s: Con %2$s"
+
+#: includes/pum-condition-functions.php:51
+msgctxt "condition: post type plural label ie. Select Posts"
+msgid "Select %s."
+msgstr "Seleziona %s."
+
+#: includes/pum-condition-functions.php:48
+msgctxt "condition: post type plural label ie. Posts: Selected"
+msgid "%s: Selected"
+msgstr "%s: selezionato"
+
+#: includes/pum-condition-functions.php:42
+msgctxt "condition: post type plural label ie. Posts: All"
+msgid "All %s"
+msgstr "Tutti i %s"
+
+#: includes/pum-condition-functions.php:34
+msgctxt "condition: post type plural label ie. Posts: All"
+msgid "%s Archive"
+msgstr "%s archivio"
+
+#: includes/libs/freemius/includes/i18n.php:59
+msgctxt "verb"
+msgid "Edit"
+msgstr "Modifica"
+
+#: includes/libs/freemius/includes/i18n.php:375
+msgid "%s free trial was successfully cancelled. Since the add-on is premium only it was automatically deactivated. If you like to use it in the future, you'll have to purchase a license."
+msgstr "Il periodo di prova gratuito %s è stato annullato con successo. Siccome l'add-on è premium, è stato disattivato automaticamente. Se vorrai usarlo in futuro, dovrai comprare una licenza."
+
+#: includes/libs/freemius/includes/i18n.php:374
+msgid "%s is a premium only add-on. You have to purchase a license first before activating the plugin."
+msgstr "%s è un add-on premium. Devi comprare una licenza prima di poter attivare il plugin."
+
+#: includes/libs/freemius/includes/i18n.php:372
+msgid "Paid add-on must be deployed to Freemius."
+msgstr "Gli add-on a pagamento devono essere distribuiti da Freemius."
+
+#: includes/libs/freemius/includes/i18n.php:371
+msgid "Add-on must be deployed to WordPress.org or Freemius."
+msgstr "L'add-on dev'essere distribuito da WordPress.org o Freemius."
+
+#: includes/libs/freemius/includes/i18n.php:370
+msgctxt "Plugin installer section title"
+msgid "Features & Pricing"
+msgstr "Caratteristiche & prezzi"
+
+#: includes/libs/freemius/includes/i18n.php:369
+msgctxt "pluginX activation was successfully..."
+msgid "%s activation was successfully completed."
+msgstr "%s è stato attivato con successo."
+
+#: includes/libs/freemius/includes/i18n.php:368
+msgctxt "addonX cannot run..."
+msgid "%s cannot run without the plugin."
+msgstr "%s non può funzionare senza il plugin."
+
+#: includes/libs/freemius/includes/i18n.php:367
+msgctxt "addonX cannot run without pluginY"
+msgid "%s cannot run without %s."
+msgstr "%s non può funzionare senza %s."
+
+#: includes/libs/freemius/includes/i18n.php:365
+msgid "%s is the new owner of the account."
+msgstr "%s è il nuovo proprietario dell'account."
+
+#: includes/libs/freemius/includes/i18n.php:364
+msgid "Thanks for confirming the ownership change. An email was just sent to %s for final approval."
+msgstr "Grazie per aver confermato il cambiamento del proprietario. Un' email è stata appena inviata a %s per la conferma finale."
+
+#: includes/libs/freemius/includes/i18n.php:363
+msgid "Please check your mailbox, you should receive an email via %s to confirm the ownership change. From security reasons, you must confirm the change within the next 15 min. If you cannot find the email, please check your spam folder."
+msgstr "Verifica di aver ricevuto l'email da %s per confermare il cambiamento del proprietario. Per ragioni di sicurezza devi confermare il cambiamento entro 15 minuti. Se non trovi l'email controlla nella posta indesiderata."
+
+#: includes/libs/freemius/includes/i18n.php:360
+msgid "It seems like one of the authentication parameters is wrong. Update your Public Key, Secret Key & User ID, and try again."
+msgstr "Sembra che uno dei parametri di autenticazione sia sbagliato. Aggiorna la tua chiave pubblica, Secret Key & User ID e riprova."
+
+#: includes/libs/freemius/includes/i18n.php:359
+msgctxt "%1s - plugin title, %2s - API domain"
+msgid "Your server is blocking the access to Freemius' API, which is crucial for %1s synchronization. Please contact your host to whitelist %2s"
+msgstr "Il tuo server sta bloccando l'accesso all'API di Freemius. L'accesso è cruciale per quanto riguarda la la sincronizzazione di %1s. Per favore contatta il tuo host per aggiungere %2s alla whitelist."
+
+#: includes/libs/freemius/includes/i18n.php:358
+msgid "Thank for giving us the chance to fix it! A message was just sent to our technical staff. We will get back to you as soon as we have an update to %s. Appreciate your patience."
+msgstr "Grazie per averci dato la possibilità di risolvere il problema! È stato appena inviato un messaggio al nostro staff tecnico. Ti risponderemo non appena avremo un aggiornamento riguardante %s. Grazie per la tua pazienza."
+
+#: includes/libs/freemius/includes/i18n.php:357
+msgid "We feel your frustration and sincerely apologize for the inconvenience. Hope to see you again in the future."
+msgstr "Capiamo la tua frustrazione e ci scusiamo per l'inconveniente. Speriamo di rivederti nuovamente in futuro."
+
+#: includes/libs/freemius/includes/i18n.php:356
+msgid "That's exhausting, please deactivate"
+msgstr "È estenuante, disattivalo"
+
+#: includes/libs/freemius/includes/i18n.php:355
+msgid "Uninstall this version and install the previous one."
+msgstr "Disinstalla questa versione e installa quella precedente."
+
+#: includes/libs/freemius/includes/i18n.php:354
+msgid "Let's try your previous version"
+msgstr "Proviamo con la versione precedente"
+
+#: includes/libs/freemius/includes/i18n.php:353
+msgid "We will do our best to whitelist your server and resolve this issue ASAP. You will get a follow-up email to %s once we have an update."
+msgstr "Faremo del nostro meglio per mettere il server in whitelist e risolvere il problema il prima possibile. Avrai un aggiornamento dello stato tramite email all'indirizzo %s."
+
+#: includes/libs/freemius/includes/i18n.php:352
+msgid "Yes - I'm giving you a chance to fix it"
+msgstr "Sì - sto dandovi la possibilità di risolvere il problema"
+
+#: includes/libs/freemius/includes/i18n.php:350
+msgid "We are sure it's an issue on our side and more than happy to resolve it for you ASAP if you give us a chance."
+msgstr "Siamo sicuri che sia un nostro problema e siamo più che felici di risolverlo per te al più presto. Per poter procedere abbiamo bisogno del tuo consenso."
+
+#: includes/libs/freemius/includes/i18n.php:349
+msgid "Great, please install cURL and enable it in your php.ini file. To make sure it was successfully activated, use 'phpinfo()'. Once activated, deactivate the plugin and reactivate it back again."
+msgstr "Perfetto, installa cURL ed attivalo nel tuo file php.ini. Per essere sicuro di averlo attivato con successo, usa \"phpinfo()\". Una volta attivato disattva il plugin e attivalo di nuovo."
+
+#: includes/libs/freemius/includes/i18n.php:347
+msgid "I don't know what is cURL or how to install it, help me!"
+msgstr "Non ho idea di cosa sia cURL o come installarlo, aiutami!"
+
+#: includes/libs/freemius/includes/i18n.php:346
+msgid "Great, please whitelist the following domains: %s. Once you done, deactivate the plugin and activate it again."
+msgstr "Perfetto, aggiungi alla whitelist i seguenti domini: %s. Una volta che hai fatto, disattiva il plugin e attivalo di nuovo."
+
+#: includes/libs/freemius/includes/i18n.php:345
+msgid "I'm a system administrator"
+msgstr "Sono un sistemista"
+
+#: includes/libs/freemius/includes/i18n.php:344
+#: includes/libs/freemius/includes/i18n.php:348
+msgid "We'll make sure to contact your hosting company and resolve the issue. You will get a follow-up email to %s once we have an update."
+msgstr "Contatteremo il tuo hosting e risolveremo il problema. Riceverai un' email a %s non appena ci saranno aggiornamenti."
+
+#: includes/libs/freemius/includes/i18n.php:343
+msgid "I don't know what is Squid or ACL, help me!"
+msgstr "Non ho idea di cosa sia Squid o ACL, aiutami!"
+
+#: includes/libs/freemius/includes/i18n.php:342
+msgid "It looks like your server is using Squid ACL (access control lists), which blocks the connection."
+msgstr "Sembra che il tuo server stia usando Squid ACL (lista per il controllo degli accessi) il quale blocca la connessione."
+
+#: includes/libs/freemius/includes/i18n.php:341
+msgctxt "as pluginX requires an access to our API"
+msgid "%s requires an access to our API."
+msgstr "%s richiede un accesso alla nostra API."
+
+#: includes/libs/freemius/includes/i18n.php:340
+msgid "From unknown reason, CloudFlare, the firewall we use, blocks the connection."
+msgstr "Per un motivo sconosciuto, CloudFlare, il firewall che utilizziamo, blocca la connessione."
+
+#: includes/libs/freemius/includes/i18n.php:339
+msgid "We use PHP cURL library for the API calls, which is a very common library and usually installed out of the box. Unfortunately, cURL is not installed on your server."
+msgstr "Utilizziamo la libreria PHP cURL per le chiamate alla nostra API. Questa libreria è molto comune ed è installata di base. Sfortunatamente cURL non è presente nel tuo server."
+
+#: includes/libs/freemius/includes/i18n.php:338
+msgid "It's probably a temporary issue on our end. Just to be sure, with your permission, would it be o.k to run another connectivity test?"
+msgstr "Si tratta probabilmente di un problema nei nostri sistemi. Per esserne sicuri, potresti darci il permesso di effettuare un ulteriore test della connettività? "
+
+#: includes/libs/freemius/includes/i18n.php:337
+msgid "From unknown reason, the API connectivity test failed."
+msgstr "Il test di connettività dell'API ha fallito per motivi sconosciuti."
+
+#: includes/libs/freemius/includes/i18n.php:334
+msgid "I have upgraded my account but when I try to Sync the License, the plan remains %s."
+msgstr "Ho aggiornato il mio account, ma quando cerco di sincronizzare la licenza, il piano rimane %s."
+
+#: includes/libs/freemius/includes/i18n.php:333
+msgid "Please contact us here"
+msgstr "Contattaci qui"
+
+#: includes/libs/freemius/includes/i18n.php:332
+msgid "It looks like you are still on the %s plan. If you did upgrade or change your plan, it's probably an issue on our side - sorry."
+msgstr "Sembra che tu sia ancora usando il piano %s. Se hai effettuato un upgrade o cambiato il piano, è probabile che ci sia un problema nei nostri sistemi."
+
+#: includes/libs/freemius/includes/i18n.php:331
+msgid "Please contact us with the following message:"
+msgstr "Contattaci con il seguente messaggio:"
+
+#: includes/libs/freemius/includes/i18n.php:330
+msgid "Couldn't activate %s."
+msgstr "Non é stato possibile attivare %s."
+
+#: includes/libs/freemius/includes/i18n.php:329
+msgid "Your license has expired. You can still continue using all the %s features, but you'll need to renew your license to continue getting updates and support."
+msgstr "La licenza è scaduta. È comunque possibile continuare a utilizzare tutte le funzionalità di %s, ma sarà necessario rinnovare la licenza per continuare a ricevere gli aggiornamenti ed il supporto."
+
+#: includes/libs/freemius/includes/i18n.php:328
+msgid "No commitment for %s days - cancel anytime!"
+msgstr "Nessun impegno per %s giorni - puoi annullare in qualsiasi momento!"
+
+#: includes/libs/freemius/includes/i18n.php:321
+msgid "Seems like we are having some temporary issue with your trial cancellation. Please try again in few minutes."
+msgstr "Stiamo avendo qualche problema temporaneo con l'annullamento del periodo di prova. Riprova tra qualche minuto."
+
+#: includes/libs/freemius/includes/i18n.php:320
+msgctxt "call to action"
+msgid "Start free trial"
+msgstr "Inizia il periodo di prova gratuito"
+
+#: includes/libs/freemius/includes/i18n.php:319
+msgid "How do you like %s so far? Test all our %s premium features with a %d-day free trial."
+msgstr "Come sta andando con %s? Prova tutte le funzionalità premium di %s con una prova gratuita di %d giorni."
+
+#: includes/libs/freemius/includes/i18n.php:318
+msgctxt "%s - plan name, as the latest professional version here"
+msgid "the latest %s version here"
+msgstr "l'ultima versione %s é quì"
+
+#: includes/libs/freemius/includes/i18n.php:317
+msgid "Please download %s."
+msgstr "Scarica %s."
+
+#: includes/libs/freemius/includes/i18n.php:316
+msgctxt "%s - numeric version number"
+msgid "Version %s was released."
+msgstr "La versione %s é stata rilasciata."
+
+#: includes/libs/freemius/includes/i18n.php:315
+msgid "Your %s free trial was successfully cancelled."
+msgstr "Il tuo periodo di prova gratuito %s è stato annullato con successo."
+
+#: includes/libs/freemius/includes/i18n.php:314
+msgid "It looks like you are not in trial mode anymore so there's nothing to cancel :)"
+msgstr "Sembra che tu non stia più usando la prova gratuita, quindi non c'è niente che tu debba annullare :)"
+
+#: includes/libs/freemius/includes/i18n.php:313
+msgid "Seems like we are having some temporary issue with your plan downgrade. Please try again in few minutes."
+msgstr "Stiamo avendo qualche problema temporaneo con il downgrade del piano. Riprova tra qualche minuto."
+
+#: includes/libs/freemius/includes/i18n.php:312
+msgid "Your plan was successfully downgraded. Your %s plan license will expire in %s."
+msgstr "Il tuo piano è stato declassato con successo. La licenza del piano %s scadrà in %s."
+
+#: includes/libs/freemius/includes/i18n.php:311
+msgid "Your trial has expired. You can still continue using all our free features."
+msgstr "La versione di prova è scaduta. Si può comunque continuare a utilizzare tutte le nostre funzioni gratuite."
+
+#: includes/libs/freemius/includes/i18n.php:310
+msgid "Error received from the server:"
+msgstr "Errore ricevuto dal server:"
+
+#: includes/libs/freemius/includes/i18n.php:309
+msgid "It looks like the license could not be activated."
+msgstr "Sembra che la licenza non possa essere attivata."
+
+#: includes/libs/freemius/includes/i18n.php:308
+msgid "It looks like the license deactivation failed."
+msgstr "Sembra che la disattivazione della licenza non sia riuscita."
+
+#: includes/libs/freemius/includes/i18n.php:307
+msgid "Your license was successfully deactivated, you are back to the %s plan."
+msgstr "La tua licenza é stata disattivata con successo, sei tornato al piano %s."
+
+#: includes/libs/freemius/includes/i18n.php:306
+msgid "It looks like your site currently doesn't have an active license."
+msgstr "Sembra che il tuo sito non disponga di alcuna licenza attiva."
+
+#: includes/libs/freemius/includes/i18n.php:305
+msgid "Your license was successfully activated."
+msgstr "La tua licenza è stata attivata correttamente."
+
+#: includes/libs/freemius/includes/i18n.php:304
+msgid "Your trial has been successfully started."
+msgstr "La versione di prova è stata avviata correttamente."
+
+#: includes/libs/freemius/includes/i18n.php:302
+msgid "Your license has expired. You can still continue using the free plugin forever."
+msgstr "La licenza è scaduta. È comunque possibile continuare ad utilizzare il plugin gratuito per sempre."
+
+#: includes/libs/freemius/includes/i18n.php:301
+msgid "Your plan was successfully changed to %s."
+msgstr "Il piano è stato cambiato con successo a %s."
+
+#: includes/libs/freemius/includes/i18n.php:300
+msgid "Your plan was successfully upgraded."
+msgstr "Il piano è stato aggiornato con successo."
+
+#: includes/libs/freemius/includes/i18n.php:299
+msgid "Your email has been successfully verified - you are AWESOME!"
+msgstr "Il tuo indirizzo email è stato verificato con successo - SEI UN GRANDE!"
+
+#: includes/libs/freemius/includes/i18n.php:298
+msgid "Your %s Add-on plan was successfully upgraded."
+msgstr "Il piano del tuo add-on %s è stato aggiornato con successo."
+
+#: includes/libs/freemius/includes/i18n.php:297
+msgctxt "%s - product name, e.g. Facebook add-on was successfully..."
+msgid "%s Add-on was successfully purchased."
+msgstr "L' add-on %s è stato acquistato con successo."
+
+#: includes/libs/freemius/includes/i18n.php:291
+msgid "Download the latest %s version now"
+msgstr "Scarica l'ultima versione di %s"
+
+#: includes/libs/freemius/includes/i18n.php:290
+msgid "Your account was successfully activated with the %s plan."
+msgstr "Il tuo account è stato attivato correttamente con il piano %s."
+
+#: includes/libs/freemius/includes/i18n.php:289
+msgid "The upgrade of %s was successfully completed."
+msgstr "L'aggiornamento di %s è stato completato con successo."
+
+#: includes/libs/freemius/includes/i18n.php:288
+msgid "Premium plugin version was successfully activated."
+msgstr "La versione Premium del plugin è stata attivata correttamente."
+
+#: includes/libs/freemius/includes/i18n.php:287
+msgid "No credit card required"
+msgstr "Nessuna carta di credito richiesta"
+
+#: includes/libs/freemius/includes/i18n.php:286
+msgid "Just letting you know that the add-ons information of %s is being pulled from an external server."
+msgstr "Le informazioni sugli add-on di %s vengono scaricate da un server esterno."
+
+#: includes/libs/freemius/includes/i18n.php:285
+msgid "Verification mail was just sent to %s. If you can't find it after 5 min, please check your spam box."
+msgstr "L'email di verifica è stata inviata a %s. Se dopo 5 minuti non è ancora arrivata, per favore controlla nella tua casella di posta indesiderata."
+
+#: includes/libs/freemius/includes/i18n.php:284
+msgid "Please provide your full name."
+msgstr "Per favore inserisci il tuo nome completo."
+
+#: includes/libs/freemius/includes/i18n.php:283
+msgid "You have successfully updated your %s."
+msgstr "Hai aggiornato con successo il tuo %s."
+
+#: includes/libs/freemius/includes/i18n.php:282
+msgid "Your name was successfully updated."
+msgstr "Il tuo nome è stato aggiornato correttamente."
+
+#: includes/libs/freemius/includes/i18n.php:281
+msgid "Your email was successfully updated. You should receive an email with confirmation instructions in few moments."
+msgstr "Il tuo indirizzo email è stato aggiornato correttamente. Riceverai un'email con le istruzioni di conferma in pochi istanti."
+
+#: includes/libs/freemius/includes/i18n.php:280
+msgid "If you would like to give up the ownership of the plugin's account to %s click the Change Ownership button."
+msgstr "Se vuoi cedere la proprietá dell'account del plugin a %s clicca su Cambia Proprietà."
+
+#: includes/libs/freemius/includes/i18n.php:279
+msgid "Sorry, we could not complete the email update. Another user with the same email is already registered."
+msgstr "Siamo spiacenti, non siamo riusciti a completare l'aggiornamento via email. Un altro utente con lo stesso indirizzo email è già registrato."
+
+#: includes/libs/freemius/includes/i18n.php:278
+msgid "You are all good!"
+msgstr "Sei fantastico!"
+
+#: includes/libs/freemius/includes/i18n.php:277
+msgid "Seems like you got the latest release."
+msgstr "Sembra che tu abbia la versione più recente."
+
+#: includes/libs/freemius/includes/i18n.php:273
+msgctxt "advance notice of something that will need attention."
+msgid "Heads up"
+msgstr "Attenzione"
+
+#: includes/libs/freemius/includes/i18n.php:272
+msgctxt "exclamation"
+msgid "Hey"
+msgstr "Hey"
+
+#: includes/libs/freemius/includes/i18n.php:271
+msgid "O.K"
+msgstr "OK"
+
+#: includes/libs/freemius/includes/i18n.php:270
+msgctxt "something somebody says when they are thinking about what you have just said. "
+msgid "Hmm"
+msgstr "Uhm"
+
+#: includes/libs/freemius/includes/i18n.php:269
+msgctxt "a positive response"
+msgid "Right on"
+msgstr "Sì"
+
+#: includes/libs/freemius/includes/i18n.php:268
+msgctxt "(especially in electronic communication) used to express elation, enthusiasm, or triumph."
+msgid "W00t"
+msgstr "Forte"
+
+#: includes/libs/freemius/includes/i18n.php:267
+msgctxt "interjection expressing joy or exuberance"
+msgid "Yee-haw"
+msgstr "Evvai"
+
+#: includes/libs/freemius/includes/i18n.php:266
+msgctxt "exclamation"
+msgid "Oops"
+msgstr "Ops"
+
+#: includes/libs/freemius/includes/i18n.php:265
+msgctxt "as congratulations"
+msgid "Congrats"
+msgstr "Congratulazioni"
+
+#: includes/libs/freemius/includes/i18n.php:260
+msgid "Scheduled Crons"
+msgstr "Azioni programmate"
+
+#: includes/libs/freemius/includes/i18n.php:259
+msgid "Sync Data From Server"
+msgstr "Sincronizza i dati dal server"
+
+#: includes/libs/freemius/includes/i18n.php:258
+msgid "Clear API Cache"
+msgstr "Elimina cache API"
+
+#: includes/libs/freemius/includes/i18n.php:257
+msgid "Start Fresh"
+msgstr "Inizia da capo"
+
+#: includes/libs/freemius/includes/i18n.php:256
+msgid "Delete All Accounts"
+msgstr "Eliminare tutti gli account"
+
+#: includes/libs/freemius/includes/i18n.php:254
+msgid "Are you sure you want to delete all Freemius data?"
+msgstr "Sei sicuro di voler eliminare tutti i dati di Freemius?"
+
+#: includes/libs/freemius/includes/i18n.php:253
+msgid "Add Ons of Plugin %s"
+msgstr "Add-on del Plugin %s"
+
+#: includes/libs/freemius/includes/i18n.php:252
+msgctxt "as sdk path"
+msgid "SDK Path"
+msgstr "Percorso SDK"
+
+#: includes/libs/freemius/includes/i18n.php:251
+msgctxt "as plugin folder path"
+msgid "Plugin Path"
+msgstr "Percorso del plugin"
+
+#: includes/libs/freemius/includes/i18n.php:250
+msgctxt "as software development kit versions"
+msgid "SDK Versions"
+msgstr "Versioni SDK"
+
+#: includes/libs/freemius/includes/i18n.php:249
+msgctxt "as software development kit versions"
+msgid "SDK"
+msgstr "SDK"
+
+#: includes/libs/freemius/includes/i18n.php:248
+msgctxt "as application program interface"
+msgid "API"
+msgstr "API"
+
+#: includes/libs/freemius/includes/i18n.php:247
+msgctxt "as connection blocked"
+msgid "Blocked"
+msgstr "Bloccato"
+
+#: includes/libs/freemius/includes/i18n.php:246
+msgctxt "as connection was successful"
+msgid "Connected"
+msgstr "Connesso"
+
+#: includes/libs/freemius/includes/i18n.php:245
+msgid "Freemius State"
+msgstr "Stato di Freemius"
+
+#: includes/libs/freemius/includes/i18n.php:244
+msgctxt "as code debugging"
+msgid "Debugging"
+msgstr "Debugging"
+
+#: includes/libs/freemius/includes/i18n.php:243
+msgctxt "as turned off"
+msgid "Off"
+msgstr "Non attivo"
+
+#: includes/libs/freemius/includes/i18n.php:242
+msgctxt "as turned on"
+msgid "On"
+msgstr "Attivo"
+
+#: includes/libs/freemius/includes/i18n.php:241
+msgid "Freemius Debug"
+msgstr "Debug Freemius"
+
+#: includes/libs/freemius/includes/i18n.php:237
+msgid "Click to view full-size screenshot %d"
+msgstr "Fare clic per visualizzare lo screenshot in grandi dimensioni %d"
+
+#: includes/libs/freemius/includes/i18n.php:236
+msgid "Screenshots"
+msgstr "Screenshots"
+
+#: includes/libs/freemius/includes/i18n.php:224
+msgid "Re-send activation email"
+msgstr "Invia nuovamente l'email di attivazione"
+
+#: includes/libs/freemius/includes/i18n.php:222
+msgctxt "verb"
+msgid "Skip"
+msgstr "Salta"
+
+#: includes/libs/freemius/includes/i18n.php:220
+msgctxt "button label"
+msgid "Allow & Continue"
+msgstr "Consenti & Continua"
+
+#: includes/libs/freemius/includes/i18n.php:219
+msgctxt "as in the process of sending an email"
+msgid "Sending email"
+msgstr "Invio email"
+
+#: includes/libs/freemius/includes/i18n.php:218
+msgctxt "as activating plugin"
+msgid "Activating"
+msgstr "Attivazione"
+
+#: includes/libs/freemius/includes/i18n.php:217
+msgid "Terms of Service"
+msgstr "Termini del Servizio"
+
+#: includes/libs/freemius/includes/i18n.php:216
+msgid "Privacy Policy"
+msgstr "Politica sulla privacy"
+
+#: includes/libs/freemius/includes/i18n.php:215
+msgid "Updates, announcements, marketing, no spam"
+msgstr "Aggiornamenti, annunci, marketing, no spam"
+
+#: includes/libs/freemius/includes/i18n.php:214
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: includes/libs/freemius/includes/i18n.php:211
+msgid "Activation, deactivation and uninstall"
+msgstr "Attiva, disattivazione e disinstallazione"
+
+#: includes/libs/freemius/includes/i18n.php:208
+msgid "Your Site Overview"
+msgstr "Panoramica del tuo sito"
+
+#: includes/libs/freemius/includes/i18n.php:207
+msgid "Name and email address"
+msgstr "Nome ed indirizzo email"
+
+#: includes/libs/freemius/includes/i18n.php:206
+msgid "Your Profile Overview"
+msgstr "Panoramica del tuo profilo"
+
+#: includes/libs/freemius/includes/i18n.php:205
+msgid "What permissions are being granted?"
+msgstr "Quali autorizzazioni vengono concesse?"
+
+#: includes/libs/freemius/includes/i18n.php:202
+msgid "You should receive an activation email for %s to your mailbox at %s. Please make sure you click the activation button in that email to complete the install."
+msgstr "Dovresti ricevere un'email di attivazione di %s all'indirizzo %s. Assicurati di fare clic sul pulsante di attivazione nell'email per completare l'installazione."
+
+#: includes/libs/freemius/includes/i18n.php:201
+msgid "Please help us improve %2$s! If you opt-in, some data about your usage of %2$s will be sent to %5$s. If you skip this, that's okay! %2$s will still work just fine."
+msgstr "Per favore aiutaci a migliorare %2$s! Se decidi di contribuire, alcuni dei tuoi dati di utilizzo inerenti a %2$s verranno inviati a %5$s. Se salti questo passaggio, non c'è problema! %2$s funzionerà comunque perfettamente."
+
+#: includes/libs/freemius/includes/i18n.php:200
+msgid "In order to enjoy all our features and functionality, %s needs to connect your user, %s at %s, to %s"
+msgstr "Per poter sfruttare tutte le caratteristiche e funzionalità, %s deve connettere il tuo utente, %s a %s su %s"
+
+#: includes/libs/freemius/includes/i18n.php:199
+msgctxt "a greeting. E.g. Thanks John!"
+msgid "Thanks %s!"
+msgstr "Grazie %s!"
+
+#: includes/libs/freemius/includes/i18n.php:198
+msgctxt "greeting"
+msgid "Hey %s,"
+msgstr "Hey %s,"
+
+#: includes/libs/freemius/includes/i18n.php:193
+msgid "I don't like to share my information with you"
+msgstr "Non voglio condividere i miei dati con te"
+
+#: includes/libs/freemius/includes/i18n.php:192
+msgid "The plugin didn't work"
+msgstr "Il plugin non funziona"
+
+#: includes/libs/freemius/includes/i18n.php:191
+msgid "What did you expect?"
+msgstr "Che cosa ti aspettavi?"
+
+#: includes/libs/freemius/includes/i18n.php:190
+msgid "What you've been looking for?"
+msgstr "Che cosa stai cercando?"
+
+#: includes/libs/freemius/includes/i18n.php:189
+msgid "Kindly share what didn't work so we can fix it for future users..."
+msgstr "Condividi cosa non ha funzionato in modo da migliorare il prodotto per gli utenti futuri..."
+
+#: includes/libs/freemius/includes/i18n.php:188
+msgid "What feature?"
+msgstr "Quale funzionalitá?"
+
+#: includes/libs/freemius/includes/i18n.php:187
+msgid "The plugin didn't work as expected"
+msgstr "Il plugin non funziona come mi aspettavo"
+
+#: includes/libs/freemius/includes/i18n.php:186
+msgid "It's not what I was looking for"
+msgstr "Non é quello che stavo cercando"
+
+#: includes/libs/freemius/includes/i18n.php:185
+msgid "The plugin is not working"
+msgstr "Il plugin non funziona"
+
+#: includes/libs/freemius/includes/i18n.php:184
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr "Il plugin é ottimo ma ho bisogno di una funzionalitá specifica che non é supportata"
+
+#: includes/libs/freemius/includes/i18n.php:183
+msgid "I couldn't understand how to make it work"
+msgstr "Non capisco come farlo funzionare"
+
+#: includes/libs/freemius/includes/i18n.php:182
+msgid "What price would you feel comfortable paying?"
+msgstr "Che prezzo ritieni opportuno pagare?"
+
+#: includes/libs/freemius/includes/i18n.php:181
+msgid "What's the plugin's name?"
+msgstr "Qual è il nome del plugin?"
+
+#: includes/libs/freemius/includes/i18n.php:179
+msgctxt "the text of the \"other\" reason for deactivating the plugin that is shown in the modal box."
+msgid "Other"
+msgstr "Altro"
+
+#: includes/libs/freemius/includes/i18n.php:177
+msgid "I can't pay for it anymore"
+msgstr "Non posso piú pagarlo"
+
+#: includes/libs/freemius/includes/i18n.php:176
+msgid "The plugin suddenly stopped working"
+msgstr "Il plugin ha smesso di funzionare"
+
+#: includes/libs/freemius/includes/i18n.php:175
+msgid "The plugin broke my site"
+msgstr "Il plugin ha causato problemi al mio sito"
+
+#: includes/libs/freemius/includes/i18n.php:174
+msgid "I only needed the plugin for a short period"
+msgstr "Avevo bisogno del plugin solo per un breve periodo"
+
+#: includes/libs/freemius/includes/i18n.php:173
+msgid "I found a better plugin"
+msgstr "Ho trovato un plugin migliore"
+
+#: includes/libs/freemius/includes/i18n.php:172
+msgid "I no longer need the plugin"
+msgstr "Non ho piú bisogno di questo plugin"
+
+#: includes/libs/freemius/includes/i18n.php:171
+msgctxt "the text of the cancel button of the plugin deactivation dialog box."
+msgid "Cancel"
+msgstr "Cancella"
+
+#: includes/libs/freemius/includes/i18n.php:170
+msgid "Submit & Deactivate"
+msgstr "Invia & Disattiva"
+
+#: includes/libs/freemius/includes/i18n.php:169
+msgid "Yes - Deactivate"
+msgstr "Si - Disattiva"
+
+#: includes/libs/freemius/includes/i18n.php:168
+msgid "If you have a moment, please let us know why you are deactivating"
+msgstr "Se hai un momento, potresti dirci perché lo hai disattivato?"
+
+#: includes/libs/freemius/includes/i18n.php:164
+msgid "We could'nt load the add-ons list. It's probably an issue on our side, please try to come back in few minutes."
+msgstr "Non siamo riusciti a caricare la lista degli add-on. Si tratta probabilmente di un problema nel nostro sistema, per favore riprova tra qualche minuto."
+
+#: includes/libs/freemius/includes/i18n.php:163
+msgid "Add Ons for %s"
+msgstr "Add-on per %s"
+
+#: includes/libs/freemius/includes/i18n.php:160
+msgid "Are you sure you want to proceed?"
+msgstr "Sei sicuro di voler procedere?"
+
+#: includes/libs/freemius/includes/i18n.php:159
+msgid "Once your license expire you can still use the Free version but you will NOT have access to the %s features."
+msgstr "Una volta scaduta la licenza, sarà possibile ancora utilizzare la versione gratuita ma non avrete accesso alle funzionalità di %s."
+
+#: includes/libs/freemius/includes/i18n.php:158
+msgid "You can still enjoy all %s features but you will not have access to plugin updates and support."
+msgstr "Puoi ancora sfruttare tutte le funzionalità di %s, ma non avrai accesso al supporto ed agli aggiornamenti del plugin."
+
+#: includes/libs/freemius/includes/i18n.php:157
+msgid "Cancelling the trial will immediately block access to all premium features. Are you sure?"
+msgstr "Cancellando il periodo di prova gratuito bloccherai immediatamente l'accesso a tutte le funzionalità premium. Vuoi continuare?"
+
+#: includes/libs/freemius/includes/i18n.php:156
+msgid "Downgrading your plan will immediately stop all future recurring payments and your %s plan license will expire in %s."
+msgstr "Effettuare il downgrade del piano interromperà immediatamente tutti i futuri pagamenti ricorrenti e la licenza del piano %s scadrà in %s."
+
+#: includes/libs/freemius/includes/i18n.php:155
+msgid "Deletion is not temporary. Only delete if you no longer want to use this plugin anymore. Are you sure you would like to continue with the deletion?"
+msgstr "L'eliminazione non è temporanea. Cancella solo se non si desidera più utilizzare questo plugin. Sei sicuro di voler continuare con l'eliminazione?"
+
+#: includes/libs/freemius/includes/i18n.php:154
+msgid "Deleting the account will automatically deactivate your %s plan license so you can use it on other sites. If you want to terminate the recurring payments as well, click the \"Cancel\" button, and first \"Downgrade\" your account. Are you sure you would like to continue with the deletion?"
+msgstr "L'eliminazione dell'account disattiva automaticamente la tua licenza del piano %s quindi è possibile utilizzarlo su altri siti. Se si desidera anche terminare i pagamenti ricorrenti, fare clic sul pulsante \"Annulla\" ed effettuare il \"Downgrade\" del tuo account. Sei sicuro di voler continuare con l'eliminazione?"
+
+#: includes/libs/freemius/includes/i18n.php:153
+msgid "Deactivating your license will block all premium features, but will enable you to activate the license on another site. Are you sure you want to proceed?"
+msgstr "La disattivazione della licenza bloccherà tutte le funzionalità premium, ma vi permetterà di attivare la licenza su un altro sito. Sei sicuro di voler procedere?"
+
+#: includes/libs/freemius/includes/i18n.php:152
+msgid "Activate this add-on"
+msgstr "Attivare questo addon"
+
+#: includes/libs/freemius/includes/i18n.php:151
+msgid "What is your %s?"
+msgstr "Qual è il tuo %s?"
+
+#: includes/libs/freemius/includes/i18n.php:148
+msgctxt "as activate Professional plan"
+msgid "Activate %s Plan"
+msgstr "Attivare il piano %s"
+
+#: includes/libs/freemius/includes/i18n.php:147
+msgid "Localhost"
+msgstr "Localhost"
+
+#: includes/libs/freemius/includes/i18n.php:146
+msgid "More information about %s"
+msgstr "Ulteriori informazioni su %s"
+
+#: includes/libs/freemius/includes/i18n.php:143
+msgctxt "is active mode?"
+msgid "Is Active"
+msgstr "è attiva"
+
+#: includes/libs/freemius/includes/i18n.php:142
+msgctxt "active mode"
+msgid "Active"
+msgstr "Attiva"
+
+#: includes/libs/freemius/includes/i18n.php:141
+msgid "Yes - do your thing"
+msgstr "Sì - fai pure"
+
+#: includes/libs/freemius/includes/i18n.php:140
+msgid "No - just deactivate"
+msgstr "No - disattiva e basta"
+
+#: includes/libs/freemius/includes/i18n.php:138
+msgid "Deactivate"
+msgstr "Disattiva"
+
+#: includes/libs/freemius/includes/i18n.php:137
+msgid "Activate"
+msgstr "Attiva"
+
+#: includes/libs/freemius/includes/i18n.php:129
+msgctxt "as synchronize"
+msgid "Sync"
+msgstr "Sincronizza"
+
+#: includes/libs/freemius/includes/i18n.php:128
+msgctxt "as synchronize license"
+msgid "Sync License"
+msgstr "Sincronizza la licenza"
+
+#: includes/libs/freemius/includes/i18n.php:127
+msgid "No ID"
+msgstr "Nessun ID"
+
+#: includes/libs/freemius/includes/i18n.php:126
+msgctxt "as secret encryption key missing"
+msgid "No Secret"
+msgstr "Nessuna chiave"
+
+#: includes/libs/freemius/includes/i18n.php:125
+msgid "Secret Key"
+msgstr "Chiave segreta"
+
+#: includes/libs/freemius/includes/i18n.php:124
+msgid "Public Key"
+msgstr "Chiave pubblica"
+
+#: includes/libs/freemius/includes/i18n.php:123
+msgid "Site ID"
+msgstr "ID del sito"
+
+#: includes/libs/freemius/includes/i18n.php:122
+msgid "User ID"
+msgstr "ID utente"
+
+#: includes/libs/freemius/includes/i18n.php:121
+msgctxt "like websites"
+msgid "Sites"
+msgstr "Siti"
+
+#: includes/libs/freemius/includes/i18n.php:120
+msgid "Plugin Installs"
+msgstr "Installazioni Plugin"
+
+#: includes/libs/freemius/includes/i18n.php:119
+msgid "Users"
+msgstr "Utenti"
+
+#: includes/libs/freemius/includes/i18n.php:118
+msgid "ID"
+msgstr "ID"
+
+#: includes/libs/freemius/includes/i18n.php:117
+msgctxt "as WP plugin slug"
+msgid "Slug"
+msgstr "Slug"
+
+#: includes/libs/freemius/includes/i18n.php:116
+msgid "Premium version"
+msgstr "Versione premium"
+
+#: includes/libs/freemius/includes/i18n.php:115
+msgid "Free version"
+msgstr "Versione gratuita"
+
+#: includes/libs/freemius/includes/i18n.php:113
+msgctxt "as file/folder path"
+msgid "Path"
+msgstr "Percorso"
+
+#: includes/libs/freemius/includes/i18n.php:111
+msgid "Plugins"
+msgstr "Plugin"
+
+#: includes/libs/freemius/includes/i18n.php:110
+msgid "Plugin"
+msgstr "Plugin"
+
+#: includes/libs/freemius/includes/i18n.php:109
+msgid "Verified"
+msgstr "Verificato"
+
+#: includes/libs/freemius/includes/i18n.php:107
+msgid "Email"
+msgstr "Email"
+
+#: includes/libs/freemius/includes/i18n.php:105
+msgctxt "as plugin version"
+msgid "Version"
+msgstr "Versione"
+
+#: includes/libs/freemius/includes/i18n.php:104
+msgctxt "e.g. 2 min ago"
+msgid "%s ago"
+msgstr "%s fa"
+
+#: includes/libs/freemius/includes/i18n.php:103
+msgctxt "e.g. In 2 hours"
+msgid "In %s"
+msgstr "In %s"
+
+#: includes/libs/freemius/includes/i18n.php:102
+msgid "Cancelled"
+msgstr "Annullato"
+
+#: includes/libs/freemius/includes/i18n.php:101
+msgid "Expired"
+msgstr "Scaduto"
+
+#: includes/libs/freemius/includes/i18n.php:100
+msgid "No expiration"
+msgstr "Nessuna scadenza"
+
+#: includes/libs/freemius/includes/i18n.php:99
+msgctxt "e.g. auto renews in 2 months"
+msgid "Auto renews in %s"
+msgstr "Rinnovo automatico in %s"
+
+#: includes/libs/freemius/includes/i18n.php:98
+msgctxt "e.g. expires in 2 months"
+msgid "Expires in %s"
+msgstr "Scade in %s"
+
+#: includes/libs/freemius/includes/i18n.php:97
+msgid "Verify Email"
+msgstr "Verifica email"
+
+#: includes/libs/freemius/includes/i18n.php:96
+msgid "not verified"
+msgstr "non verificato"
+
+#: includes/libs/freemius/includes/i18n.php:95
+msgctxt "as software license"
+msgid "License"
+msgstr "Licenza"
+
+#: includes/libs/freemius/includes/i18n.php:94
+msgctxt "as expiration date"
+msgid "Expiration"
+msgstr "Scadenza"
+
+#: includes/libs/freemius/includes/i18n.php:91
+msgid "Freemius SDK couldn't find the plugin's main file. Please contact sdk@freemius.com with the current error."
+msgstr "L'SDK di Freemius non è riuscito a trovare il file principale del plugin. Per favore contatta sdk@freemius.com riportando l'errore."
+
+#: includes/libs/freemius/includes/i18n.php:89
+msgid "Opt-in to make \"%s\" Better!"
+msgstr "Contribuisci a rendere \"%s\" migliore!"
+
+#: includes/libs/freemius/includes/i18n.php:88
+msgid "We made a few tweaks to the plugin, %s"
+msgstr "Abbiamo apportato alcune modifiche al plugin, %s"
+
+#: includes/libs/freemius/includes/i18n.php:87
+msgctxt "%s - plugin name. As complete \"Jetpack\" activation now"
+msgid "Complete \"%s\" Activation Now"
+msgstr "Completa l'attivazione di \"%s\" ora"
+
+#: includes/libs/freemius/includes/i18n.php:86
+msgid "You are just one step away - %s"
+msgstr "Sei a un passo dalla fine - %s"
+
+#: includes/libs/freemius/includes/i18n.php:85
+msgctxt "e.g. Professional Plan"
+msgid "%s Plan"
+msgstr "Piano %s"
+
+#: includes/libs/freemius/includes/i18n.php:83
+msgid "%sRenew your license now%s to access version %s features and support."
+msgstr "%sRinnova la tua licenza ora%s per accedere a funzionalità e supporto della versione %s."
+
+#: includes/libs/freemius/includes/i18n.php:82
+msgid "Up to %s Sites"
+msgstr "Fino a %s siti"
+
+#: includes/libs/freemius/includes/i18n.php:81
+msgid "Unlimited Licenses"
+msgstr "Licenze illimitate"
+
+#: includes/libs/freemius/includes/i18n.php:80
+msgid "Single Site License"
+msgstr "Licenza per sito singolo"
+
+#: includes/libs/freemius/includes/i18n.php:79
+msgid "Buy License"
+msgstr "Compra licenza"
+
+#: includes/libs/freemius/includes/i18n.php:78
+msgctxt "verb"
+msgid "Buy"
+msgstr "Compra"
+
+#: includes/libs/freemius/includes/i18n.php:77
+msgid "Purchase License"
+msgstr "Acquista licenza"
+
+#: includes/libs/freemius/includes/i18n.php:76
+msgctxt "verb"
+msgid "Purchase"
+msgstr "Acquisto"
+
+#: includes/libs/freemius/includes/i18n.php:75
+msgctxt "as trial plan"
+msgid "Trial"
+msgstr "Prova gratuita"
+
+#: includes/libs/freemius/includes/i18n.php:74
+msgid "Free"
+msgstr "Gratuito"
+
+#: includes/libs/freemius/includes/i18n.php:73
+msgid "New"
+msgstr "Nuovo"
+
+#: includes/libs/freemius/includes/i18n.php:72
+msgctxt "E.g. you have a professional license."
+msgid "You have a %s license."
+msgstr "Hai la licenza %s."
+
+#: includes/libs/freemius/includes/i18n.php:71
+msgctxt "as download latest version"
+msgid "Download Latest"
+msgstr "Scarica l'ultima versione"
+
+#: includes/libs/freemius/includes/i18n.php:70
+msgctxt "as download professional version now"
+msgid "Download %s version now"
+msgstr "Scarica la versione %s ora"
+
+#: includes/libs/freemius/includes/i18n.php:69
+msgctxt "as download professional version"
+msgid "Download %s Version"
+msgstr "Scarica la versione %s"
+
+#: includes/libs/freemius/includes/i18n.php:68
+msgid "Change Plan"
+msgstr "Cambia piano"
+
+#: includes/libs/freemius/includes/i18n.php:67
+msgctxt "as product pricing plan"
+msgid "Plan"
+msgstr "Piano"
+
+#: includes/libs/freemius/includes/i18n.php:66
+msgctxt "as close a window"
+msgid "Dismiss"
+msgstr "Chiudi"
+
+#: includes/libs/freemius/includes/i18n.php:65
+msgid "Delete Account"
+msgstr "Elimina Account"
+
+#: includes/libs/freemius/includes/i18n.php:56
+msgctxt "verb"
+msgid "Delete"
+msgstr "Elimina"
+
+#: includes/libs/freemius/includes/i18n.php:55
+msgid "Account Details"
+msgstr "Dettagli dell'account"
+
+#: includes/libs/freemius/includes/i18n.php:54
+msgid "Details"
+msgstr "Dettagli"
+
+#: includes/libs/freemius/includes/i18n.php:53
+msgid "After your free %s, pay as little as %s"
+msgstr "Dopo il tuo %s gratuito, paghi solamente %s"
+
+#: includes/libs/freemius/includes/i18n.php:52
+msgid "No commitment for %s - cancel anytime"
+msgstr "Nessun impegno con %s - cancella quando vuoi"
+
+#: includes/libs/freemius/includes/i18n.php:51
+msgid "Start my free %s"
+msgstr "Inizia la mia %s"
+
+#: includes/libs/freemius/includes/i18n.php:50
+msgid "Free Trial"
+msgstr "Prova gratuita"
+
+#: includes/libs/freemius/includes/i18n.php:49
+msgid "Cancel Trial"
+msgstr "Annulla prova gratuita"
+
+#: includes/libs/freemius/includes/i18n.php:48
+msgctxt "verb"
+msgid "Downgrade"
+msgstr "Downgrade"
+
+#: includes/libs/freemius/includes/i18n.php:47
+msgid "Unlimited Updates"
+msgstr "Aggiornamenti Illimitati"
+
+#: includes/libs/freemius/includes/i18n.php:46
+msgctxt "noun"
+msgid "Price"
+msgstr "Prezzo"
+
+#: includes/libs/freemius/includes/i18n.php:45
+msgctxt "noun"
+msgid "Pricing"
+msgstr "Prezzi"
+
+#: includes/libs/freemius/includes/i18n.php:44
+msgid "Awesome"
+msgstr "Fantastico"
+
+#: includes/libs/freemius/includes/i18n.php:43
+msgctxt "verb"
+msgid "Upgrade"
+msgstr "Aggiornamento"
+
+#: includes/libs/freemius/includes/i18n.php:42
+msgid "Add Ons"
+msgstr "Add-on"
+
+#: includes/libs/freemius/includes/i18n.php:39
+msgid "Change Ownership"
+msgstr "Cambia Proprietario"
+
+#: includes/libs/freemius/includes/i18n.php:36
+msgid "Add On"
+msgstr "Add-on"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:365
+msgid "Latest Version Installed"
+msgstr "Versione più recente installata"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:362
+msgid "Newer Version (%s) Installed"
+msgstr "Versione più recente (%s) installata"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:358
+#: includes/libs/freemius/includes/i18n.php:145
+msgid "Install Update Now"
+msgstr "Installa l'aggiornamento ora"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:352
+#: includes/libs/freemius/includes/i18n.php:144
+msgid "Install Now"
+msgstr "Installa ora"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:892
+msgid "This plugin has not been marked as compatible with your version of WordPress."
+msgstr "Questo plugin non è stato segnato come compatibile con la tua versione di WordPress."
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:890
+msgid "This plugin has not been tested with your current version of WordPress."
+msgstr "Questo plugin non è stato testato con la versione corrente di WordPress."
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:890
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:892
+msgid "Warning:"
+msgstr "Avviso:"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:862
+msgid "Contributors"
+msgstr "Contributori"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:851
+msgid "%d star"
+msgid_plural "%d stars"
+msgstr[0] "%d star"
+msgstr[1] "%d stelle"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:851
+msgid "Click to see reviews that provided a rating of %d star"
+msgid_plural "Click to see reviews that provided a rating of %d stars"
+msgstr[0] "Clicca qui per vedere le recensioni che ha fornito una valutazione della stella di %d"
+msgstr[1] "Clicca per vedere le recensioni con una valutazione di %d stelle"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:838
+msgid "(based on %s rating)"
+msgid_plural "(based on %s ratings)"
+msgstr[0] "(basato su %s rating)"
+msgstr[1] "(basato su %s valutazioni)"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:832
+msgid "Average Rating"
+msgstr "Valutazione media"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:826
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:883
+msgid "Donate to this plugin &#187;"
+msgstr "Dona a questo plugin &#187;"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:819
+msgid "Plugin Homepage &#187;"
+msgstr "Homepage del plugin &#187;"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:812
+msgid "WordPress.org Plugin Page &#187;"
+msgstr "Pagina su WordPress.org del Plugin &#187;"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:805
+msgid "%s time"
+msgid_plural "%s times"
+msgstr[0] "tempo di %s"
+msgstr[1] "%s volte"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:805
+msgid "Downloaded:"
+msgstr "Scaricato:"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:798
+msgid "Compatible up to:"
+msgstr "Compatibile fino a:"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:792
+msgid "%s or higher"
+msgstr "%s o superiore"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:792
+msgid "Requires WordPress Version:"
+msgstr "Richiede la versione di WordPress:"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:785
+msgid "%s ago"
+msgstr "%s fa"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:783
+msgid "Last Updated:"
+msgstr "Ultimo aggiornamento:"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:777
+msgid "Author:"
+msgstr "Autore:"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:771
+msgid "Version:"
+msgstr "Versione:"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:509
+msgid "Plugin Install"
+msgstr "Installazione del plugin"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:484
+msgctxt "Plugin installer section title"
+msgid "Other Notes"
+msgstr "Altre note"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:483
+msgctxt "Plugin installer section title"
+msgid "Reviews"
+msgstr "Recensioni"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:482
+msgctxt "Plugin installer section title"
+msgid "Changelog"
+msgstr "Changelog"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:481
+msgctxt "Plugin installer section title"
+msgid "Screenshots"
+msgstr "Screenshot"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:480
+msgctxt "Plugin installer section title"
+msgid "FAQ"
+msgstr "Domande frequenti"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:479
+msgctxt "Plugin installer section title"
+msgid "Installation"
+msgstr "Installazione"
+
+#: includes/libs/freemius/includes/fs-plugin-info-dialog.php:478
+msgctxt "Plugin installer section title"
+msgid "Description"
+msgstr "Descrizione"
+
+#: includes/integrations/class-pum-woocommerce-integration.php:51
+msgid "Account Page"
+msgstr "Pagina dell'Account"
+
+#: includes/integrations/class-pum-woocommerce-integration.php:44
+msgid "Checkout Page"
+msgstr "Pagina del Checkout"
+
+#: includes/integrations/class-pum-woocommerce-integration.php:37
+msgid "Cart Page"
+msgstr "Pagina del Carrello"
+
+#: includes/integrations/class-pum-woocommerce-integration.php:30
+msgid "Shop Page"
+msgstr "Pagina dello Shop"
+
+#: includes/integrations/class-pum-woocommerce-integration.php:23
+msgid "All WooCommerce"
+msgstr "Tutto WooCommerce"
+
+#: includes/integrations/class-pum-woocommerce-integration.php:21
+#: includes/integrations/class-pum-woocommerce-integration.php:28
+#: includes/integrations/class-pum-woocommerce-integration.php:35
+#: includes/integrations/class-pum-woocommerce-integration.php:42
+#: includes/integrations/class-pum-woocommerce-integration.php:49
+#: includes/integrations/class-pum-woocommerce-integration.php:60
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/class-pum-trigger.php:57
+msgid "Trigger Settings"
+msgstr "Impostazioni innesco"
+
+#: includes/class-pum-trigger.php:56
+msgid "Trigger"
+msgstr "Innesco"
+
+#: includes/class-pum-shortcode.php:145
+msgid "Options"
+msgstr "Opzioni"
+
+#: includes/class-pum-post.php:139
+msgid "Can't get property %s"
+msgstr "Impossibile ottenere la proprietà %s"
+
+#: includes/class-pum-freemius.php:97
+msgid "Popup & Theme Counts, Open Counts"
+msgstr "Conteggio Popup & Temi, Conteggio Aperture"
+
+#: includes/class-pum-freemius.php:96
+msgid "Usage Statistics"
+msgstr "Statistiche di utilizzo"
+
+#: includes/class-pum-fields.php:1123
+msgid "The callback function for \"%s\", used for the <strong>%s</strong> setting is missing."
+msgstr "La funzione di richiamo per \"%s\", usata per l'impostazione <strong>%s</strong> risulta mancante."
+
+#: includes/class-pum-fields.php:53
+msgid "Submit"
+msgstr "Invia"
+
+#: includes/class-pum-cookie.php:134 includes/class-pum-cookie.php:163
+msgid "Reset Cookie Key"
+msgstr "Reimposta la chiave dei cookie"
+
+#: includes/class-pum-cookie.php:51
+msgid "Sessions"
+msgstr "Sessione"
+
+#: includes/class-pum-conditions.php:151
+msgid "Invalid condition[target]."
+msgstr "Condizione[target] non valida"
+
+#: includes/class-pum-conditions.php:76
+msgid "Format"
+msgstr "Formato"
+
+#: includes/class-pum-conditions.php:73
+#: includes/pum-condition-functions.php:205
+msgid "Posts"
+msgstr "Articoli"
+
+#: includes/class-pum-conditions.php:72
+#: includes/pum-condition-functions.php:198
+#: includes/pum-condition-functions.php:212
+#: includes/pum-condition-functions.php:218
+msgid "Pages"
+msgstr "Pagine"
+
+#: includes/class-pum-condition.php:75
+msgid "Condition"
+msgstr "Condizioni"
+
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine.php:60
+msgid "Step %d of approximately %d running"
+msgstr "Passo %d di circa %d in corso"
+
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-6.php:42
+msgid "Clean up old data and verify data integrity."
+msgstr "Pulisci dati vecchi e verifica l'integrità dei dati correnti."
+
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-5.php:30
+msgid "Initialize popup analytics."
+msgstr "Inizializzare analisi popup"
+
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-4.php:32
+msgid "Upgrade popup targeting conditions."
+msgstr "Aggiorna le condizioni di targeting del popup."
+
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-3.php:32
+msgid "Upgrade popup triggers &amp; cookies."
+msgstr "Aggiorna gli inneschi e i cookie del popup."
+
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-2.php:27
+msgid "Update your popups & themes settings."
+msgstr "Aggiorna le impostazioni dei tuoi popup & temi"
+
+#: includes/admin/shortcode-ui/class-pum-admin-shortcode-ui.php:225
+msgid "You do not have access to preview this post."
+msgstr "Non hai il permesso di visualizzare questo post."
+
+#: includes/admin/popups/class-metabox-triggers.php:245
+msgid "Delete` this trigger"
+msgstr "Elimina questo innesco"
+
+#: includes/admin/popups/class-metabox-triggers.php:229
+#: includes/admin/popups/class-metabox-triggers.php:244
+msgid "Edit this trigger"
+msgstr "Modifica questo innesco"
+
+#: includes/admin/popups/class-metabox-triggers.php:217
+msgid "Delay: 0"
+msgstr "Ritardo: 0"
+
+#: includes/admin/popups/class-metabox-triggers.php:215
+#: includes/pum-trigger-functions.php:83
+msgid "Auto Open"
+msgstr "Apri automaticamente"
+
+#: includes/admin/popups/class-metabox-triggers.php:154
+msgid "Choose what type of trigger to add?"
+msgstr "Scegliere quale tipo di innesco aggiungere?"
+
+#: includes/admin/popups/class-metabox-triggers.php:99
+msgid "Select a trigger type."
+msgstr "Seleziona un tipo di innesco"
+
+#: includes/admin/popups/class-metabox-triggers.php:98
+msgid "Choose a type of trigger to get started."
+msgstr "Seleziona un tipo di innesco per iniziare"
+
+#: includes/admin/popups/class-metabox-triggers.php:54
+msgid "Triggers are what make your popup open."
+msgstr "Gli inneschi sono le azioni che richiamano l'apertura di un popup"
+
+#: includes/admin/popups/class-metabox-triggers.php:65
+#: includes/class-pum-cookie.php:47 includes/pum-trigger-functions.php:57
+msgid "Cookie"
+msgstr "Cookie"
+
+#: includes/admin/popups/class-metabox-triggers.php:64
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/admin/popups/class-metabox-triggers.php:51
+msgid "Add New Trigger"
+msgstr "Aggiungi nuovo innesco"
+
+#: includes/admin/popups/class-metabox-triggers.php:32
+msgid "Triggers"
+msgstr "Inneschi"
+
+#: includes/admin/popups/class-metabox-cookies.php:157
+msgid "Delete` this cookie"
+msgstr "Elimina questo cookie"
+
+#: includes/admin/popups/class-metabox-cookies.php:145
+#: includes/admin/popups/class-metabox-cookies.php:156
+msgid "Edit this cookie"
+msgstr "Modifica questo cookie"
+
+#: includes/admin/popups/class-metabox-cookies.php:132
+msgid "Time: 1 Month"
+msgstr "Tempo: 1 Mese"
+
+#: includes/admin/popups/class-metabox-cookies.php:130
+#: includes/pum-cookie-functions.php:75
+msgid "On Popup Close"
+msgstr "Quando si chuide un popup"
+
+#: includes/admin/popups/class-metabox-cookies.php:251
+#: includes/class-pum-cookie.php:48
+msgid "Cookie Settings"
+msgstr "Impostazioni cookie"
+
+#: includes/admin/popups/class-metabox-cookies.php:206
+msgid "What will trigger your cookie to be created?"
+msgstr "Cosa farà sì che il tuo cookie venga creato?"
+
+#: includes/admin/popups/class-metabox-cookies.php:102
+msgid "Select an event."
+msgstr "Seleziona un evento."
+
+#: includes/admin/popups/class-metabox-cookies.php:101
+msgid "Choose when you want to set a cookie to get started."
+msgstr "Scegli quando creare un cookie per iniziare."
+
+#: includes/admin/popups/class-metabox-cookies.php:56
+msgid "Cookies are used to prevent a trigger from opening the popup."
+msgstr "I Cookies sono usati per evitare che una determinata azione apra il popup."
+
+#: includes/admin/popups/class-metabox-cookies.php:70
+#: includes/admin/popups/class-metabox-triggers.php:67
+#: includes/libs/freemius/includes/i18n.php:255
+msgid "Actions"
+msgstr "Azioni"
+
+#: includes/admin/popups/class-metabox-cookies.php:67
+msgid "Event"
+msgstr "Evento"
+
+#: includes/admin/popups/class-metabox-cookies.php:53
+#: includes/pum-trigger-functions.php:32
+msgid "Add New Cookie"
+msgstr "Aggiungi Cookie"
+
+#: includes/admin/popups/class-metabox-cookies.php:31
+msgid "Cookies"
+msgstr "Cookies"
+
+#: includes/admin/popups/class-metabox-conditions.php:205
+#: includes/class-pum-conditions.php:132
+msgid "Select a condition"
+msgstr "Seleziona una condizione"
+
+#: includes/admin/popups/class-metabox-conditions.php:129
+msgid "Choose a condition to get started."
+msgstr "Scegli una condizione per iniziare."
+
+#: includes/admin/popups/class-metabox-conditions.php:120
+#: includes/admin/popups/class-metabox-conditions.php:177
+msgid "and"
+msgstr "e"
+
+#: includes/admin/popups/class-metabox-conditions.php:120
+#: includes/admin/popups/class-metabox-conditions.php:177
+msgctxt "aria-label for add new AND condition button"
+msgid "Add another AND condition group"
+msgstr "Aggiungi un ulteriore gruppo condizione AND"
+
+#: includes/admin/popups/class-metabox-conditions.php:116
+#: includes/admin/popups/class-metabox-conditions.php:173
+msgid "or"
+msgstr "o"
+
+#: includes/admin/popups/class-metabox-conditions.php:116
+#: includes/admin/popups/class-metabox-conditions.php:173
+msgctxt "aria-label for add new OR condition button"
+msgid "Add another OR condition"
+msgstr "Aggiungi un' ulteriore condizione OR"
+
+#: includes/admin/popups/class-metabox-conditions.php:108
+#: includes/admin/popups/class-metabox-conditions.php:226
+msgid "Remove Condition"
+msgstr "Rimuovi condizione"
+
+#: includes/admin/popups/class-metabox-conditions.php:93
+#: includes/admin/popups/class-metabox-conditions.php:131
+#: includes/admin/popups/class-metabox-conditions.php:200
+msgid "Enable the Not Operand"
+msgstr "Abilita l'operando Not"
+
+#: includes/admin/popups/class-metabox-conditions.php:39
+msgid "Conditions"
+msgstr "Condizioni"
+
+#: includes/admin/popups/class-metabox-analytics.php:75
+msgid "Lifetime Opens"
+msgstr "Tutte le aperture"
+
+#: includes/admin/popups/class-metabox-analytics.php:73
+msgid "Previous Opens"
+msgstr "Ultime aperture"
+
+#: includes/admin/popups/class-metabox-analytics.php:71
+msgid "Last Reset"
+msgstr "Ultima reimpostazione"
+
+#: includes/admin/popups/class-metabox-analytics.php:67
+msgid "Reset Open Count"
+msgstr "Reimposta il conteggio aperture"
+
+#: includes/admin/popups/class-metabox-analytics.php:60
+msgid "Opens"
+msgstr "Aperture"
+
+#: includes/admin/popups/class-metabox-analytics.php:39
+msgid "Analytics"
+msgstr "Analitica"
+
+#: includes/admin/class-pum-admin-upgrades.php:652
+msgid "Upgrade failed, please try again."
+msgstr "Aggiornamento fallito, provare di nuovo."
+
+#: includes/admin/class-pum-admin-upgrades.php:577
+msgid "The upgrade process has started, please be patient. This could take several minutes. You will be automatically redirected when the upgrade is finished."
+msgstr "Il processo di aggiornamento è stato avviato. Potrebbe durare alcuni minuti. Verrai reindirizzato automaticamente una volta completato l'aggiornamento."
+
+#: includes/admin/class-pum-admin-upgrades.php:562
+msgid "Popup Maker - Upgrades"
+msgstr "Popup Maker - Aggiornamenti"
+
+#: includes/admin/class-pum-admin-upgrades.php:301
+msgid "Upgrades have been completed successfully."
+msgstr "Gli aggiornamenti sono stati completati con successo."
+
+#: includes/admin/class-pum-admin-upgrades.php:280
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-2.php:32
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-3.php:43
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-4.php:43
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-5.php:38
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-6.php:50
+msgid "You do not have permission to do upgrades"
+msgstr "Non hai il permesso di effettuare gli aggiornamenti"
+
+#: includes/admin/class-pum-admin-upgrades.php:260
+msgid "Please click %shere%s to complete these changes now."
+msgstr "Clicca %squi%s per applicare i cambiamenti."
+
+#: includes/admin/class-pum-admin-upgrades.php:258
+msgid "Database upgrades required."
+msgstr "Aggiornamento database necessario."
+
+#: includes/admin/class-pum-admin-upgrades.php:257
+msgid "Important"
+msgstr "Importante"
+
+#: includes/admin/class-pum-admin-upgrades.php:248
+msgid "Popup Maker needs to complete a database upgrade that was previously started, click <a href=\"%s\">here</a> to resume the upgrade."
+msgstr "Popup Maker deve completare un aggiornamento dal database iniziato in precedenza. cliccare <a href=\"%s\">qui</a> per riprendere l'aggiornamento."
+
+#: includes/admin/class-pum-admin-upgrades.php:123
+#: includes/admin/class-pum-admin-upgrades.php:124
+msgid "Popup Maker Upgrades"
+msgstr "Aggiornamenti di Popup Maker"
+
+#. Author of the plugin/theme
+msgid "WP Popup Maker"
+msgstr "WP Popup Maker"
+
+#: includes/admin/class-pum-admin-helpers.php:30
+#: includes/admin/shortcode-ui/templates/helpers.php:14
+#: includes/shortcodes/class-pum-shortcode-popup.php:50 templates/popup.php:44
+msgid "Close"
+msgstr "Chiudi"
+
+#: includes/scripts.php:215
+msgid "Are you sure you want to reset the open count?"
+msgstr "Desideri reimpostare il conteggio delle aperture?"
+
+#: includes/scripts.php:209
+msgid "Are you sure you want to delete this cookie?"
+msgstr "Sei sicuro di voler eliminare questo cookie?"
+
+#: includes/scripts.php:208
+msgid "Are you sure you want to delete this trigger?"
+msgstr "Desideri eliminare questo innesco?"
+
+#: includes/scripts.php:207
+msgid "Popup Maker Shortcodes"
+msgstr "Shortcode di Popup Maker"
+
+#: includes/admin/class-pum-admin-helpers.php:14 includes/scripts.php:206
+msgid "Cancel"
+msgstr "Annulla"
+
+#: includes/scripts.php:205
+msgid "Insert"
+msgstr "Inserisci"
+
+#: includes/scripts.php:204
+msgid "Update"
+msgstr "Aggiorna"
+
+#: includes/admin/class-pum-admin-helpers.php:16 includes/scripts.php:202
+msgid "Add"
+msgstr "Aggiungi"
+
+#: includes/admin/settings/register-settings.php:170
+msgid "This will disable the popup tags & categories."
+msgstr "Questo disattiverà i tag e le categorie del popup."
+
+#: includes/admin/settings/register-settings.php:169
+msgid "Disable categories & tags?"
+msgstr "Disattivare categorie e tag?"
+
+#: includes/admin/popups/dashboard-columns.php:34
+msgid "Opened"
+msgstr "Aperto"
+
+#: includes/admin/metabox-support.php:30
+msgid "Documentation"
+msgstr "Documentazione"
+
+#: includes/admin/extensions/extensions-page.php:200
+msgid "Check it out"
+msgstr "Scopri di più"
+
+#: includes/admin/admin-pages.php:75
+msgid "All Popups"
+msgstr "Tutti i popup"
+
+#: includes/admin/admin-pages.php:34 includes/admin/admin-pages.php:82
+msgid "Extend"
+msgstr "Estendi"
+
+#: includes/admin/admin-pages.php:77
+msgid "All Themes"
+msgstr "Tutti i temi"
+
+#: includes/admin/admin-pages.php:86
+#: includes/libs/freemius/includes/i18n.php:35
+msgid "Account"
+msgstr "Account"
+
+#: includes/admin/admin-pages.php:85
+#: includes/libs/freemius/includes/i18n.php:41
+msgid "Support Forum"
+msgstr "Forum di supporto"
+
+#: includes/admin/admin-pages.php:87
+#: includes/libs/freemius/includes/i18n.php:37
+msgid "Contact Us"
+msgstr "Contattaci"
+
+#: includes/admin/extensions/extensions-page.php:18
+msgid "Extend Popup Maker"
+msgstr "Estendi Popup Maker"
+
+#: includes/admin/extensions/extensions-page.php:27
+#: includes/admin/extensions/extensions-page.php:143
+msgid "Browse All Extensions"
+msgstr "Sfoglia tutte le estensioni"
+
+#: includes/admin/extensions/extensions-page.php:29
+msgid "These extensions <strong>add extra functionality</strong> to your popups."
+msgstr "Queste estensioni <strong>aggiungono funzionalità extra</strong> ai tuoi popup."
+
+#: includes/admin/extensions/extensions-page.php:152
+msgid "Other Compatible Plugins"
+msgstr "Altri plugin compatibili"
+
+#: includes/admin/extensions/extensions-page.php:133
+msgid "Get this Extension"
+msgstr "Ottieni questa estensione"
+
+#: includes/admin/extensions/extensions-page.php:154
+msgid "These plugins should work in popups with no extra setup."
+msgstr "Questi plugin dovrebbero funzionare correttamente nei popup senza nessuna configurazione aggiuntiva."
+
+#: includes/admin/extensions/extensions-page.php:160
+msgid "Gravity Forms"
+msgstr "Gravity Forms"
+
+#: includes/admin/extensions/extensions-page.php:162
+msgid "Gravity Forms is one of the most popular form building plugins."
+msgstr "Gravity Forms è uno dei più popolari plugin per costruire form."
+
+#: includes/admin/extensions/extensions-page.php:166
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: includes/admin/extensions/extensions-page.php:184
+msgid "Ninja Forms has fast become the most extensible form plugin available. Build super custom forms and integrate with your favorite services."
+msgstr "Ninja Forms è rapidamente diventato il plugin per form più estendibile sulla piazza. Costruisci super form personalizzati e integrali con i tuoi servizi preferiti."
+
+#: includes/admin/extensions/extensions-page.php:182
+msgid "Ninja Forms"
+msgstr "Ninja Forms"
+
+#: includes/admin/extensions/extensions-page.php:168
+msgid "CF7 is one of the most downloaded plugins on the WordPress repo. Make simple forms with ease and plenty of free addons available."
+msgstr "CF7 è uno dei plugin più scaricati dal repository di WordPress. Crea form con facilità e goditi l'altissimo numero di addon gratuiti disponibili."
+
+#: includes/admin/extensions/extensions-page.php:172
+msgid "Quiz & Survey Master"
+msgstr "Quiz & Survey Master"
+
+#: includes/admin/extensions/extensions-page.php:174
+msgid "If you need more from your forms data look no further, QSM is all about the statistics & collective data, something other form plugins neglect."
+msgstr "Se vuoi spremere al massimo i dati dei tuoi form hai trovato quello che stavi cercando. QSM si occupa a 360 gradi di statistiche e dati collettivi, cosa che altri plugin tendono a trascurare."
+
+#. Description of the plugin/theme
+msgid "Easily create & style popups with any content. Theme editor to quickly style your popups. Add forms, social media boxes, videos & more."
+msgstr "Crea e personalizza facilmente popup con qualsiasi contenuto. Editor tema per applicare  velocemente stili ai tuoi popup. Aggiungi form, box social media, video e altro."
+
+#. #-#-#-#-#  tmp-popup-maker.pot (Popup Maker 1.4.20)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  tmp-popup-maker.pot (Popup Maker 1.4.20)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://wppopupmaker.com/"
+msgstr "https://wppopupmaker.com/"
+
+#. #-#-#-#-#  tmp-popup-maker.pot (Popup Maker 1.4.20)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: includes/admin/class-pum-admin-upgrades.php:256
+msgid "Popup Maker"
+msgstr "Popup Maker"
+
+#: popup-maker.php:98 popup-maker.php:110
+msgid "Cheatin&#8217; huh?"
+msgstr "Facciamo i furbi eh?"
+
+#: includes/scripts.php:59
+msgid "Powered By Popup Maker"
+msgstr "Powered By Popup Maker"
+
+#: includes/post-types.php:153
+msgid "%s Name"
+msgstr "%s Nome"
+
+#: includes/libs/freemius/includes/i18n.php:112
+msgid "Themes"
+msgstr "Temi"
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:26
+#: includes/shortcodes/class-pum-shortcode-popup.php:324
+msgid "Popup"
+msgstr "Popup"
+
+#: includes/admin/admin-pages.php:76
+msgid "Add New"
+msgstr "Aggiungi Nuovo"
+
+#: includes/admin/class-pum-admin-upgrades.php:280
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-2.php:32
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-3.php:43
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-4.php:43
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-5.php:38
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-6.php:50
+#: includes/libs/freemius/includes/i18n.php:90 includes/plugin-updater.php:337
+msgid "Error"
+msgstr "Errore"
+
+#: includes/plugin-updater.php:337
+msgid "You do not have permission to install plugin updates"
+msgstr "Non disponi dell'autorizzazione per installare gli aggiornamenti del plugin."
+
+#: includes/plugin-updater.php:188
+msgid "There is a new version of %1$s available. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s\">update now</a>."
+msgstr "Una nuova versione di %1$s è disponibile. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">Vedi dettagli della versione %3$s</a> o <a href=\"%4$s\">aggiorna adesso</a>."
+
+#: includes/plugin-updater.php:181
+msgid "There is a new version of %1$s available. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr "Una nuova versione di %1$s è disponibile. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">Vedi dettagli della versione %3$s</a>."
+
+#: includes/license-handler.php:116
+msgid "%1$s License Key"
+msgstr "%1$s Chiave Licenza"
+
+#: includes/integrations/class-popmake-woocommerce-integration.php:74
+msgid "Exclude on Shop Page"
+msgstr "Escludi la pagina Negozio"
+
+#: includes/integrations/class-popmake-woocommerce-integration.php:59
+msgid "On Shop Page"
+msgstr "Pagina Negozio"
+
+#: includes/integrations/class-popmake-woocommerce-integration.php:44
+msgid "Exclude on All WooCommerce"
+msgstr "Escludi tutte le pagine di WooCommerce"
+
+#: includes/integrations/class-popmake-woocommerce-integration.php:29
+msgid "On All WooCommerce"
+msgstr "Tutte le pagine WooCommerce"
+
+#: includes/install.php:28
+msgid "Default Theme"
+msgstr "Tema predefinito"
+
+#: includes/input-options.php:182
+msgid "Manual"
+msgstr "Manuale"
+
+#: includes/input-options.php:181
+msgid "On Close"
+msgstr "Alla chiusura"
+
+#: includes/input-options.php:180
+msgid "On Open"
+msgstr "All'apertura"
+
+#: includes/input-options.php:179
+msgid "Disabled"
+msgstr "Disabilitato"
+
+#: includes/input-options.php:141 includes/input-options.php:158
+#: includes/input-options.php:170
+msgid "Bottom Right"
+msgstr "In basso a destra"
+
+#: includes/input-options.php:140 includes/input-options.php:157
+msgid "Bottom Center"
+msgstr "In basso in centro"
+
+#: includes/input-options.php:139 includes/input-options.php:156
+#: includes/input-options.php:169
+msgid "Bottom Left"
+msgstr "In basso a sinistra"
+
+#: includes/input-options.php:138 includes/input-options.php:155
+msgid "Middle Right"
+msgstr "In centro a destra"
+
+#: includes/input-options.php:137 includes/input-options.php:154
+msgid "Middle Center"
+msgstr "In centro"
+
+#: includes/input-options.php:136 includes/input-options.php:153
+msgid "Middle Left"
+msgstr "In centro a sinistra"
+
+#: includes/input-options.php:135 includes/input-options.php:152
+#: includes/input-options.php:168
+msgid "Top Right"
+msgstr "In altro a destra"
+
+#: includes/input-options.php:134 includes/input-options.php:151
+msgid "Top Center"
+msgstr "In alto in centro"
+
+#: includes/input-options.php:133 includes/input-options.php:150
+#: includes/input-options.php:167
+msgid "Top Left"
+msgstr "In alto a sinistra"
+
+#: includes/input-options.php:120
+msgid "Grow and Slide"
+msgstr "Cresci e Slitta"
+
+#: includes/input-options.php:119
+msgid "Grow"
+msgstr "Cresci"
+
+#: includes/input-options.php:118
+msgid "Fade and Slide"
+msgstr "Scompari e Slitta"
+
+#: includes/input-options.php:117
+msgid "Fade"
+msgstr "Scompari"
+
+#: includes/input-options.php:116
+msgid "Slide"
+msgstr "Slitta"
+
+#: includes/input-options.php:106
+msgid "Custom"
+msgstr "Personalizzato"
+
+#: includes/input-options.php:105
+msgid "Auto"
+msgstr "Auto"
+
+#: includes/input-options.php:104
+msgid "Non Responsive Sizes&#10549;"
+msgstr "Grandezze Non Responsive&#10549;"
+
+#: includes/input-options.php:103
+msgid "X Large - 95%"
+msgstr "X Largo - 95%"
+
+#: includes/input-options.php:102
+msgid "Large - 80%"
+msgstr "Largo - 80%"
+
+#: includes/input-options.php:101
+msgid "Normal - 70%"
+msgstr "Normale - 70%"
+
+#: includes/input-options.php:100
+msgid "Medium - 60%"
+msgstr "Medio - 60%"
+
+#: includes/input-options.php:99
+msgid "Small - 40%"
+msgstr "Piccolo - 40%"
+
+#: includes/input-options.php:98
+msgid "Tiny - 30%"
+msgstr "Minuscolo - 30%"
+
+#: includes/input-options.php:97
+msgid "Micro - 20%"
+msgstr "Micro - 20%"
+
+#: includes/input-options.php:96
+msgid "Nano - 10%"
+msgstr "Nano - 10%"
+
+#: includes/input-options.php:95
+msgid "Responsive Sizes&#10549;"
+msgstr "Grandezze Responsive&#10549;"
+
+#: includes/input-options.php:58 includes/input-options.php:75
+msgid "Normal"
+msgstr "Normal"
+
+#: includes/input-options.php:43
+msgid "Use Your Themes"
+msgstr "Usa i tuoi Temi"
+
+#: includes/input-options.php:34
+msgid "Ridge"
+msgstr "Ridge"
+
+#: includes/input-options.php:33
+msgid "Outset"
+msgstr "Outset"
+
+#: includes/input-options.php:31
+msgid "Groove"
+msgstr "Groove"
+
+#: includes/input-options.php:30
+msgid "Double"
+msgstr "Double"
+
+#: includes/input-options.php:29
+msgid "Dashed"
+msgstr "Dashed"
+
+#: includes/input-options.php:28
+msgid "Dotted"
+msgstr "Dotted"
+
+#: includes/input-options.php:27
+msgid "Solid"
+msgstr "Solid"
+
+#: includes/input-options.php:26 includes/input-options.php:115
+#: includes/scripts.php:214
+msgid "None"
+msgstr "Nessuno"
+
+#: includes/google-fonts.php:58
+msgid "Google Web Fonts&#10549;"
+msgstr "Google Web Fonts&#10549;"
+
+#: includes/pum-cookie-functions.php:29
+msgid "Changing this will cause all existing cookies to be invalid."
+msgstr "Cambiare questo invaliderà tutti i cookie esistenti."
+
+#: includes/pum-cookie-functions.php:50
+msgid "This will prevent the popup from triggering on all pages until the cookie expires."
+msgstr "Questo farà sì che il popup non venga azionato su nessuna pagina finchè il cookie non scade."
+
+#: includes/pum-cookie-functions.php:44
+msgid "Enter a plain english time before cookie expires."
+msgstr "Inserisci il tempo di scadenza del cookie in inglese (esempio \"1 month\")."
+
+#: includes/pum-cookie-functions.php:43
+msgid "364 days 23 hours 59 minutes 59 seconds"
+msgstr "364 giorni 23 ore 59 minuti 59 secondi"
+
+#: includes/class-popmake-fields.php:174
+#: includes/class-popmake-popup-fields.php:105
+#: includes/class-popmake-popup-fields.php:224
+#: includes/shortcodes/class-pum-shortcode-popup.php:205
+msgid "ms"
+msgstr "ms"
+
+#: includes/class-popmake-cron.php:49
+msgid "Once Weekly"
+msgstr "Settimanalmente"
+
+#: includes/admin/tools/tools-page.php:130
+msgid "To copy the system info, click below then press Ctrl + C (PC) or Cmd + C (Mac)."
+msgstr "Per copiare le informazioni di sistema, fai clic qui sotto e premi CTRL+C (PC) o CMD+C (Mac)"
+
+#: includes/admin/tools/tools-page.php:106
+msgid "Import From Easy Modal v2"
+msgstr "Importa da Easy Modal v2"
+
+#: includes/admin/tools/tools-page.php:99
+msgid "Import / Export"
+msgstr "Importa / Esporta"
+
+#: includes/admin/tools/tools-page.php:98
+msgid "System Info"
+msgstr "Informazioni sistema"
+
+#: includes/admin/tools/tools-page.php:24
+msgid "Successfully Imported your themes &amp; modals from Easy Modal."
+msgstr "I tuoi temi e modal sono stati importati con successo da Easy Modal."
+
+#: includes/admin/themes/metabox.php:167
+msgid "Title Text"
+msgstr "Testo del Titolo"
+
+#: includes/admin/themes/metabox.php:43
+msgid "Content Settings"
+msgstr "Impostazioni Contenuto"
+
+#: includes/admin/themes/metabox.php:40
+msgid "Title Settings"
+msgstr "Impostazioni Titolo"
+
+#: includes/admin/themes/metabox.php:37
+msgid "Container Settings"
+msgstr "Impostazioni Contenitore"
+
+#: includes/admin/themes/metabox.php:34
+msgid "Overlay Settings"
+msgstr "Impostazioni Overlay"
+
+#: includes/admin/themes/metabox.php:31
+msgid "Theme Preview"
+msgstr "Anteprima Tema"
+
+#: includes/admin/themes/metabox-title-fields.php:111
+#: includes/class-popmake-popup-theme-fields.php:210
+msgid "Align"
+msgstr "Allineamento"
+
+#: includes/admin/themes/metabox-title-fields.php:10
+msgid "Theme the title of the popups."
+msgstr "Tema per il titolo dei popup."
+
+#: includes/admin/themes/metabox-overlay-fields.php:39
+msgid "The opacity value for the overlay."
+msgstr "Valore di opacità per l'overlay."
+
+#: includes/admin/themes/metabox-overlay-fields.php:20
+msgid "Choose the overlay color."
+msgstr "Scegli un colore di overlay."
+
+#: includes/admin/themes/metabox-overlay-fields.php:9
+msgid "Theme the overlay behind the popups."
+msgstr "Tema per l'overlay dietro ai popup."
+
+#: includes/admin/themes/metabox-content-fields.php:10
+msgid "Theme the content inside the popups."
+msgstr "Tema per il contenuto dentro ai popup."
+
+#: includes/admin/themes/metabox-container-fields.php:114
+#: includes/class-popmake-popup-theme-fields.php:71
+msgid "Choose a border style for your container button."
+msgstr "Scegli uno stile bordo per il tuo contenitore."
+
+#: includes/admin/themes/metabox-container-fields.php:98
+#: includes/class-popmake-popup-theme-fields.php:60
+msgid "Choose a corner radius for your container button."
+msgstr "Scegli l'angolo di curvatura per il pulsante."
+
+#: includes/admin/themes/metabox-container-fields.php:10
+msgid "Theme the container inside the popups."
+msgstr "Tema per il contenitore dentro ai popup."
+
+#: includes/admin/themes/metabox-close-fields.php:512
+#: includes/admin/themes/metabox-title-fields.php:131
+msgid "Text Shadow"
+msgstr "Ombreggiatura Testo"
+
+#: includes/admin/themes/metabox-close-fields.php:466
+#: includes/admin/themes/metabox-container-fields.php:221
+#: includes/class-popmake-popup-theme-fields.php:135
+#: includes/class-popmake-popup-theme-fields.php:179
+#: includes/class-popmake-popup-theme-fields.php:518
+msgid "Spread"
+msgstr "Spread"
+
+#: includes/admin/themes/metabox-close-fields.php:449
+#: includes/admin/themes/metabox-close-fields.php:550
+#: includes/admin/themes/metabox-container-fields.php:204
+#: includes/admin/themes/metabox-title-fields.php:169
+#: includes/class-popmake-popup-theme-fields.php:125
+#: includes/class-popmake-popup-theme-fields.php:237
+#: includes/class-popmake-popup-theme-fields.php:508
+#: includes/class-popmake-popup-theme-fields.php:564
+msgid "Blur Radius"
+msgstr "Blur Radius"
+
+#: includes/admin/themes/metabox-close-fields.php:432
+#: includes/admin/themes/metabox-close-fields.php:533
+#: includes/admin/themes/metabox-container-fields.php:187
+#: includes/admin/themes/metabox-title-fields.php:152
+#: includes/class-popmake-popup-theme-fields.php:115
+#: includes/class-popmake-popup-theme-fields.php:227
+#: includes/class-popmake-popup-theme-fields.php:498
+#: includes/class-popmake-popup-theme-fields.php:554
+msgid "Vertical Position"
+msgstr "Posizione Verticale"
+
+#: includes/admin/themes/metabox-close-fields.php:415
+#: includes/admin/themes/metabox-close-fields.php:516
+#: includes/admin/themes/metabox-container-fields.php:170
+#: includes/admin/themes/metabox-title-fields.php:135
+#: includes/class-popmake-popup-theme-fields.php:105
+#: includes/class-popmake-popup-theme-fields.php:217
+#: includes/class-popmake-popup-theme-fields.php:488
+#: includes/class-popmake-popup-theme-fields.php:544
+msgid "Horizontal Position"
+msgstr "Posizione Orizzontale"
+
+#: includes/admin/themes/metabox-close-fields.php:410
+#: includes/admin/themes/metabox-container-fields.php:165
+#: includes/class-popmake-popup-theme-fields.php:95
+#: includes/class-popmake-popup-theme-fields.php:478
+msgid "Set the box shadow to inset (inner shadow)."
+msgstr "Scegli il box shadow inset (ombra interna)"
+
+#: includes/admin/themes/metabox-close-fields.php:402
+#: includes/admin/themes/metabox-container-fields.php:157
+#: includes/class-popmake-popup-theme-fields.php:101
+#: includes/class-popmake-popup-theme-fields.php:484
+msgid "Yes"
+msgstr "Sì"
+
+#: includes/admin/themes/metabox-close-fields.php:401
+#: includes/admin/themes/metabox-container-fields.php:156
+#: includes/class-popmake-popup-theme-fields.php:100
+#: includes/class-popmake-popup-theme-fields.php:483
+msgid "No"
+msgstr "No"
+
+#: includes/admin/themes/metabox-close-fields.php:396
+#: includes/admin/themes/metabox-container-fields.php:151
+#: includes/class-popmake-popup-theme-fields.php:94
+#: includes/class-popmake-popup-theme-fields.php:477
+#: includes/input-options.php:32
+msgid "Inset"
+msgstr "Inset"
+
+#: includes/admin/themes/metabox-close-fields.php:392
+#: includes/admin/themes/metabox-container-fields.php:147
+msgid "Drop Shadow"
+msgstr "Drop Shadow"
+
+#: includes/admin/themes/metabox-close-fields.php:371
+#: includes/admin/themes/metabox-container-fields.php:127
+#: includes/class-popmake-popup-theme-fields.php:84
+#: includes/class-popmake-popup-theme-fields.php:467
+msgid "Thickness"
+msgstr "Spessore"
+
+#: includes/admin/themes/metabox-close-fields.php:358
+#: includes/class-popmake-popup-theme-fields.php:454
+msgid "Choose a border style for your close button."
+msgstr "Scegli uno stile bordo per il tuo bottone di chiusura."
+
+#: includes/admin/themes/metabox-close-fields.php:342
+#: includes/class-popmake-popup-theme-fields.php:443
+msgid "Choose a corner radius for your close button."
+msgstr "Scegli l'angolo di curvatura per il pulsante di chiusura."
+
+#: includes/admin/themes/metabox-close-fields.php:329
+#: includes/admin/themes/metabox-container-fields.php:85
+#: includes/class-popmake-popup-theme-fields.php:59
+#: includes/class-popmake-popup-theme-fields.php:442
+msgid "Radius"
+msgstr "Raggio"
+
+#: includes/admin/themes/metabox-close-fields.php:325
+#: includes/admin/themes/metabox-container-fields.php:81
+msgid "Border"
+msgstr "Bordo"
+
+#: includes/admin/themes/metabox-close-fields.php:317
+#: includes/admin/themes/metabox-container-fields.php:73
+#: includes/admin/themes/metabox-overlay-fields.php:48
+msgid "Check out Advanced Theme Builder!"
+msgstr "Scopri il nostro Advanced Theme Builder!"
+
+#: includes/admin/themes/metabox-close-fields.php:317
+#: includes/admin/themes/metabox-container-fields.php:73
+#: includes/admin/themes/metabox-overlay-fields.php:48
+msgid "Want to use background images?"
+msgstr "Vuoi usare immagini di sfondo?"
+
+#: includes/admin/themes/metabox-close-fields.php:294
+#: includes/admin/themes/metabox-close-fields.php:491
+#: includes/admin/themes/metabox-close-fields.php:575
+#: includes/admin/themes/metabox-container-fields.php:51
+#: includes/admin/themes/metabox-container-fields.php:246
+#: includes/admin/themes/metabox-overlay-fields.php:25
+#: includes/admin/themes/metabox-title-fields.php:194
+#: includes/class-popmake-popup-theme-fields.php:21
+#: includes/class-popmake-popup-theme-fields.php:49
+#: includes/class-popmake-popup-theme-fields.php:151
+#: includes/class-popmake-popup-theme-fields.php:253
+#: includes/class-popmake-popup-theme-fields.php:432
+#: includes/class-popmake-popup-theme-fields.php:534
+#: includes/class-popmake-popup-theme-fields.php:580
+msgid "Opacity"
+msgstr "Opacità"
+
+#: includes/admin/themes/metabox-close-fields.php:282
+#: includes/admin/themes/metabox-container-fields.php:39
+msgid "Background"
+msgstr "Sfondo"
+
+#: includes/admin/themes/metabox-close-fields.php:262
+#: includes/admin/themes/metabox-close-fields.php:347
+#: includes/admin/themes/metabox-container-fields.php:103
+#: includes/admin/themes/metabox-content-fields.php:62
+#: includes/admin/themes/metabox-title-fields.php:96
+#: includes/class-popmake-popup-theme-fields.php:70
+#: includes/class-popmake-popup-theme-fields.php:203
+#: includes/class-popmake-popup-theme-fields.php:285
+#: includes/class-popmake-popup-theme-fields.php:419
+#: includes/class-popmake-popup-theme-fields.php:453
+msgid "Style"
+msgstr "Stile"
+
+#: includes/admin/themes/metabox-close-fields.php:246
+#: includes/admin/themes/metabox-content-fields.php:46
+#: includes/admin/themes/metabox-title-fields.php:81
+#: includes/class-popmake-popup-theme-fields.php:196
+#: includes/class-popmake-popup-theme-fields.php:278
+#: includes/class-popmake-popup-theme-fields.php:412
+msgid "Weight"
+msgstr "Peso"
+
+#: includes/admin/themes/metabox-close-fields.php:230
+#: includes/admin/themes/metabox-content-fields.php:31
+#: includes/admin/themes/metabox-title-fields.php:65
+#: includes/class-popmake-popup-theme-fields.php:189
+#: includes/class-popmake-popup-theme-fields.php:271
+#: includes/class-popmake-popup-theme-fields.php:405
+msgid "Family"
+msgstr "Famiglia"
+
+#: includes/admin/themes/metabox-close-fields.php:213
+#: includes/admin/themes/metabox-title-fields.php:48
+#: includes/class-popmake-popup-theme-fields.php:169
+#: includes/class-popmake-popup-theme-fields.php:379
+msgid "Line Height"
+msgstr "Altezza Linea"
+
+#: includes/admin/themes/metabox-close-fields.php:187
+#: includes/admin/themes/metabox-close-fields.php:286
+#: includes/admin/themes/metabox-close-fields.php:363
+#: includes/admin/themes/metabox-close-fields.php:483
+#: includes/admin/themes/metabox-close-fields.php:567
+#: includes/admin/themes/metabox-container-fields.php:43
+#: includes/admin/themes/metabox-container-fields.php:119
+#: includes/admin/themes/metabox-container-fields.php:238
+#: includes/admin/themes/metabox-content-fields.php:23
+#: includes/admin/themes/metabox-overlay-fields.php:16
+#: includes/admin/themes/metabox-title-fields.php:23
+#: includes/admin/themes/metabox-title-fields.php:186
+#: includes/class-popmake-popup-theme-fields.php:15
+#: includes/class-popmake-popup-theme-fields.php:43
+#: includes/class-popmake-popup-theme-fields.php:78
+#: includes/class-popmake-popup-theme-fields.php:145
+#: includes/class-popmake-popup-theme-fields.php:163
+#: includes/class-popmake-popup-theme-fields.php:247
+#: includes/class-popmake-popup-theme-fields.php:265
+#: includes/class-popmake-popup-theme-fields.php:389
+#: includes/class-popmake-popup-theme-fields.php:426
+#: includes/class-popmake-popup-theme-fields.php:461
+#: includes/class-popmake-popup-theme-fields.php:528
+#: includes/class-popmake-popup-theme-fields.php:574
+msgid "Color"
+msgstr "Colore"
+
+#: includes/admin/themes/metabox-close-fields.php:183
+#: includes/admin/themes/metabox-content-fields.php:17
+#: includes/admin/themes/metabox-title-fields.php:19
+msgid "Font"
+msgstr "Font"
+
+#: includes/admin/themes/metabox-close-fields.php:103
+#: includes/class-popmake-popup-theme-fields.php:332
+msgid "Choose which corner the close button will be positioned."
+msgstr "Scegli in quale angolo posizionare il pulsante di chiusura."
+
+#: includes/admin/themes/metabox-close-fields.php:31
+#: includes/admin/themes/metabox-container-fields.php:17
+#: includes/class-popmake-popup-theme-fields.php:33
+#: includes/class-popmake-popup-theme-fields.php:301
+msgid "Padding"
+msgstr "Padding"
+
+#: includes/admin/themes/metabox-close-fields.php:21
+#: includes/class-popmake-popup-theme-fields.php:296
+msgid "Enter the close button text."
+msgstr "Inserisci il testo per il bottone di chiusura."
+
+#: includes/admin/themes/metabox-close-fields.php:17
+#: includes/class-popmake-popup-theme-fields.php:294
+msgid "Text"
+msgstr "Testo"
+
+#: includes/admin/themes/metabox-close-fields.php:10
+msgid "Theme the close button for the popups."
+msgstr "Tema per il bottone di chiusura dei popup."
+
+#: includes/admin/settings/settings-page.php:52
+#: includes/admin/settings/settings-page.php:58
+#: includes/admin/tools/tools-page.php:54
+#: includes/admin/tools/tools-page.php:61 includes/scripts.php:203
+msgid "Save"
+msgstr "Salva"
+
+#: includes/admin/settings/register-settings.php:776
+#: includes/libs/freemius/includes/i18n.php:136
+msgid "Deactivate License"
+msgstr "Disattiva licenza"
+
+#: includes/admin/settings/register-settings.php:698
+msgid "Upload File"
+msgstr "Carica File"
+
+#: includes/admin/settings/register-settings.php:565
+msgid "The callback function used for the <strong>%s</strong> setting is missing."
+msgstr "La funzione callback usata per l'impostazion <strong>%s</strong> è mancante."
+
+#: includes/admin/settings/register-settings.php:315
+msgid "Misc"
+msgstr "Vari"
+
+#: includes/admin/settings/register-settings.php:312
+msgid "Licenses"
+msgstr "Licenze"
+
+#: includes/admin/settings/register-settings.php:306
+msgid "Assets"
+msgstr "Risorse"
+
+#: includes/admin/settings/register-settings.php:303
+#: includes/class-popmake-fields.php:57 includes/class-pum-conditions.php:71
+#: includes/class-pum-shortcode.php:144 includes/pum-condition-functions.php:33
+#: includes/pum-trigger-functions.php:54
+#: includes/shortcodes/class-pum-shortcode-popup.php:46
+msgid "General"
+msgstr "Generale"
+
+#: includes/admin/settings/register-settings.php:271
+msgid "Settings updated."
+msgstr "Impostazioni aggiornate."
+
+#: includes/admin/settings/register-settings.php:164
+msgid "This will hide the support widget on all popup maker admin pages."
+msgstr "Nasconde il widget di supporto di Popup Maker dalle pagine di amministrazione."
+
+#: includes/admin/settings/register-settings.php:163
+msgid "Hide Admin Support Widget"
+msgstr "Nascondi il widget di supporto dall'area di amministrazione"
+
+#: includes/admin/settings/register-settings.php:158
+msgid "This will automatically make any eModal classes you have added to your site launch the appropriate Popup after import."
+msgstr "Questo farà sì che ogni classe eModal da te aggiunta al sito lanci automaticamente l'appropriato Popup dopo l'importazione."
+
+#: includes/admin/settings/register-settings.php:157
+msgid "Enable Easy Modal v2 Compatibility Mode"
+msgstr "Attiva la Modalità di Compatibilità Easy Modal v2"
+
+#: includes/admin/settings/register-settings.php:147
+msgid "Check this if you have copied the popup theme styles to your own stylesheet or are using custom styles."
+msgstr "Seleziona questa casella se hai copiato il CSS del tema nel tuo foglio di stile o se stai usando stili personalizzati."
+
+#: includes/admin/settings/register-settings.php:146
+msgid "Don't load popup theme styles to the head."
+msgstr "Non caricare gli stili del tema del popup nel tag head."
+
+#: includes/admin/settings/register-settings.php:141
+msgid "Check this disable loading of google fonts, useful if the fonts you chose are already loaded with your theme."
+msgstr "Attiva questa opzione per disabilitare il caricamento font di google, utile se la font che scegli è già caricata con il tuo tema."
+
+#: includes/admin/settings/register-settings.php:140
+msgid "Don't Load Google Fonts"
+msgstr "Non caricare i Google Fonts"
+
+#: includes/input-options.php:86
+msgid "Center"
+msgstr "Center"
+
+#: includes/input-options.php:76
+msgid "Italic"
+msgstr "Corsivo"
+
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:24
+msgid "Popup Trigger"
+msgstr "Innesco popup"
+
+#: includes/deprecated/v4.php:1249
+msgid "Add to Menu"
+msgstr "Aggiungi al Menu"
+
+#: includes/deprecated/v4.php:1136
+msgid "Most Used"
+msgstr "Più usati"
+
+#: includes/deprecated/v4.php:1027
+msgid "Add Selected"
+msgstr "Aggiungi selezionati"
+
+#: includes/deprecated/v4.php:1023 includes/deprecated/v4.php:1245
+msgid "Select All"
+msgstr "Seleziona tutti"
+
+#: includes/deprecated/v4.php:971
+msgctxt "nav menu home label"
+msgid "Home"
+msgstr "Home"
+
+#: includes/deprecated/v4.php:934 includes/deprecated/v4.php:1229
+msgid "No results found."
+msgstr "Nessun risultato trovato."
+
+#: includes/deprecated/v4.php:878 includes/deprecated/v4.php:920
+#: includes/deprecated/v4.php:922 includes/deprecated/v4.php:1150
+#: includes/deprecated/v4.php:1215 includes/deprecated/v4.php:1217
+msgid "Search"
+msgstr "Cerca"
+
+#: includes/deprecated/v4.php:871 includes/deprecated/v4.php:1143
+msgid "View All"
+msgstr "Vedi tutti"
+
+#: includes/deprecated/v4.php:864
+msgid "Most Recent"
+msgstr "Più recenti"
+
+#: includes/deprecated/v4.php:823 includes/deprecated/v4.php:1094
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: includes/deprecated/v4.php:822 includes/deprecated/v4.php:1093
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: includes/deprecated/v4.php:805 includes/deprecated/v4.php:1073
+msgid "No items."
+msgstr "Nessun elemento."
+
+#: includes/admin/popups/metabox.php:156 includes/admin/popups/metabox.php:157
+msgid "Enter popup title here"
+msgstr "Inserisci il titolo del popup"
+
+#: includes/admin/settings/settings-page.php:68
+#: includes/admin/tools/tools-page.php:71
+#: includes/libs/freemius/includes/i18n.php:40
+msgid "Support"
+msgstr "Supporto"
+
+#: includes/deprecated/v4.php:81
+msgid "Admin Debug Settings"
+msgstr "Impostazioni debug admin"
+
+#: includes/deprecated/v4.php:78 includes/pum-trigger-functions.php:84
+msgid "Auto Open Settings"
+msgstr "Apri impostazioni automaticamente"
+
+#: includes/deprecated/v4.php:75
+msgid "Click Open Settings"
+msgstr "Clicca Apri Impostazioni"
+
+#: includes/admin/popups/metabox.php:34
+msgid "Theme Settings"
+msgstr "Impostazioni Tema"
+
+#: includes/deprecated/v4.php:72
+msgid "Targeting Conditions"
+msgstr "Condizioni targeting"
+
+#: includes/admin/popups/metabox.php:31 includes/admin/themes/metabox.php:46
+msgid "Close Settings"
+msgstr "Impostazioni pulsante di chiusura"
+
+#: includes/admin/popups/metabox.php:28
+msgid "Display Settings"
+msgstr "Impostazioni di visualizzazione"
+
+#: includes/admin/popups/metabox-themes-fields.php:21
+msgid "Choose a theme for this popup."
+msgstr "Scegli un tema per questo popup"
+
+#: includes/admin/popups/metabox-themes-fields.php:12
+msgid "Theme"
+msgstr "Tema"
+
+#: includes/deprecated/v4.php:757
+msgid "Exclude on 404 Pages"
+msgstr "Escludi le pagine 404"
+
+#: includes/deprecated/v4.php:742
+msgid "On 404 Pages"
+msgstr "Sulle pagine 404"
+
+#: includes/deprecated/v4.php:727
+msgid "Exclude on Search Pages"
+msgstr "Escludi le pagine di ricerca"
+
+#: includes/deprecated/v4.php:712
+msgid "On Search Pages"
+msgstr "Sulle pagine di ricerca"
+
+#: includes/deprecated/v4.php:606
+msgid "Exclude on Blog Index"
+msgstr "Escludi l'indice del blog"
+
+#: includes/deprecated/v4.php:591
+msgid "On Blog Index"
+msgstr "Sull'indice del blog"
+
+#: includes/deprecated/v4.php:576
+msgid "Exclude on Home Page"
+msgstr "Escludi la pagina iniziale"
+
+#: includes/deprecated/v4.php:561
+msgid "On Home Page"
+msgstr "Sulla pagina iniziale"
+
+#: includes/deprecated/v4.php:546
+msgid "On Entire Site"
+msgstr "Sull'interno sito"
+
+#: includes/admin/popups/metabox-display-fields.php:444
+#: includes/class-popmake-popup-fields.php:199
+msgid "Change the z-index layer level for the popup."
+msgstr "Cambia il valore z-index del popup."
+
+#: includes/admin/popups/metabox-display-fields.php:439
+#: includes/class-popmake-popup-fields.php:198
+msgid "Popup Z-Index"
+msgstr "Z-Index Popup"
+
+#: includes/admin/popups/metabox-display-fields.php:434
+#: includes/class-popmake-popup-fields.php:190
+msgid "Change the z-index layer level for the overlay."
+msgstr "Cambia il valore z-index dell'overlay."
+
+#: includes/admin/popups/metabox-display-fields.php:429
+#: includes/class-popmake-popup-fields.php:189
+msgid "Overlay Z-Index"
+msgstr "Overlay Z-Index"
+
+#: includes/admin/popups/metabox-display-fields.php:425
+msgid "Z Index"
+msgstr "Z Index"
+
+#: includes/admin/popups/metabox-display-fields.php:402
+#: includes/admin/popups/metabox-display-fields.php:416
+#: includes/admin/themes/metabox-close-fields.php:162
+#: includes/class-popmake-popup-fields.php:178
+#: includes/class-popmake-popup-fields.php:179
+#: includes/class-popmake-popup-theme-fields.php:369
+#: includes/input-options.php:87 includes/input-options.php:132
+#: includes/shortcodes/class-pum-shortcode-popup.php:176
+#: includes/shortcodes/class-pum-shortcode-popup.php:177
+msgid "Right"
+msgstr "Destra"
+
+#: includes/admin/popups/metabox-display-fields.php:383
+#: includes/admin/popups/metabox-display-fields.php:397
+#: includes/admin/themes/metabox-close-fields.php:128
+#: includes/class-popmake-popup-fields.php:167
+#: includes/class-popmake-popup-fields.php:168
+#: includes/class-popmake-popup-theme-fields.php:349
+#: includes/input-options.php:85 includes/input-options.php:130
+#: includes/shortcodes/class-pum-shortcode-popup.php:165
+#: includes/shortcodes/class-pum-shortcode-popup.php:166
+msgid "Left"
+msgstr "Sinistra"
+
+#: includes/admin/popups/metabox-display-fields.php:364
+#: includes/admin/popups/metabox-display-fields.php:378
+#: includes/admin/themes/metabox-close-fields.php:145
+#: includes/class-popmake-popup-fields.php:156
+#: includes/class-popmake-popup-fields.php:157
+#: includes/class-popmake-popup-theme-fields.php:359
+#: includes/input-options.php:131
+#: includes/shortcodes/class-pum-shortcode-popup.php:154
+#: includes/shortcodes/class-pum-shortcode-popup.php:155
+msgid "Bottom"
+msgstr "Fondo"
+
+#: includes/admin/popups/metabox-display-fields.php:345
+#: includes/admin/popups/metabox-display-fields.php:359
+#: includes/admin/themes/metabox-close-fields.php:111
+#: includes/class-popmake-popup-fields.php:145
+#: includes/class-popmake-popup-fields.php:146
+#: includes/class-popmake-popup-theme-fields.php:339
+#: includes/input-options.php:129
+#: includes/shortcodes/class-pum-shortcode-popup.php:143
+#: includes/shortcodes/class-pum-shortcode-popup.php:144
+msgid "Top"
+msgstr "Cima"
+
+#: includes/admin/popups/metabox-display-fields.php:323
+#: includes/class-popmake-popup-fields.php:131
+msgid "Checking this sets the positioning of the popup to fixed."
+msgstr "Attivando questa opzione si renderà fissa la posizione del popup."
+
+#: includes/admin/popups/metabox-display-fields.php:309
+#: includes/class-popmake-popup-fields.php:130
+msgid "Fixed Postioning"
+msgstr "Posizione fissa"
+
+#: includes/admin/popups/metabox-display-fields.php:340
+#: includes/class-popmake-popup-fields.php:138
+#: includes/shortcodes/class-pum-shortcode-popup.php:136
+msgid "Choose where the popup will be displayed."
+msgstr "Scegli dove mostrare il popup"
+
+#: includes/admin/popups/metabox-display-fields.php:328
+#: includes/admin/themes/metabox-close-fields.php:92
+#: includes/class-popmake-popup-fields.php:137
+#: includes/class-popmake-popup-theme-fields.php:331
+#: includes/shortcodes/class-pum-shortcode-popup.php:135
+msgid "Location"
+msgstr "Luogo"
+
+#: includes/admin/popups/metabox-display-fields.php:287
+#: includes/class-popmake-popup-fields.php:117
+msgid "This enables other popups to remain open."
+msgstr "Questo fa sì che gli altri popup rimangano aperti"
+
+#: includes/admin/popups/metabox-display-fields.php:273
+#: includes/class-popmake-popup-fields.php:116
+msgid "Stackable"
+msgstr "Impilabile"
+
+#: includes/admin/popups/metabox-display-fields.php:270
+#: includes/admin/themes/metabox-close-fields.php:107
+#: includes/shortcodes/class-pum-shortcode-popup.php:48
+msgid "Position"
+msgstr "Posizione"
+
+#: includes/admin/popups/metabox-display-fields.php:259
+#: includes/class-popmake-popup-fields.php:109
+#: includes/shortcodes/class-pum-shortcode-popup.php:209
+msgid "Choose where the animation will begin."
+msgstr "Scegli da dove far partire l'animazione"
+
+#: includes/admin/popups/metabox-display-fields.php:246
+#: includes/class-popmake-popup-fields.php:108
+#: includes/shortcodes/class-pum-shortcode-popup.php:208
+msgid "Animation Origin"
+msgstr "Origine dell'animazione"
+
+#: includes/admin/popups/metabox-display-fields.php:240
+#: includes/class-popmake-popup-fields.php:98
+#: includes/shortcodes/class-pum-shortcode-popup.php:198
+msgid "Set the animation speed for the popup."
+msgstr "Imposta la velocità dell'animazione per il popup."
+
+#: includes/admin/popups/metabox-display-fields.php:225
+#: includes/class-popmake-popup-fields.php:97
+#: includes/shortcodes/class-pum-shortcode-popup.php:197
+msgid "Animation Speed"
+msgstr "Velocità dell'animazione"
+
+#: includes/admin/popups/metabox-display-fields.php:219
+#: includes/class-popmake-popup-fields.php:90
+#: includes/shortcodes/class-pum-shortcode-popup.php:190
+msgid "Select an animation type for your popup."
+msgstr "Scegli un tipo di animazione per il tuo popup."
+
+#: includes/admin/popups/metabox-display-fields.php:205
+#: includes/class-popmake-popup-fields.php:89
+#: includes/shortcodes/class-pum-shortcode-popup.php:189
+msgid "Animation Type"
+msgstr "Tipo di animazione"
+
+#: includes/admin/popups/metabox-display-fields.php:200
+#: includes/shortcodes/class-pum-shortcode-popup.php:49
+msgid "Animation"
+msgstr "Animazione"
+
+#: includes/admin/popups/metabox-display-fields.php:191
+#: includes/class-popmake-popup-fields.php:83
+#: includes/shortcodes/class-pum-shortcode-popup.php:97
+msgid "Checking this will disable and hide the overlay for this popup."
+msgstr "Attivando questa opzione si disabiliterà e verrà nascosto l'overlay per questo popup."
+
+#: includes/admin/popups/metabox-display-fields.php:177
+#: includes/class-popmake-popup-fields.php:82
+#: includes/shortcodes/class-pum-shortcode-popup.php:96
+msgid "Disable Overlay"
+msgstr "Disabilita Overlay"
+
+#: includes/admin/popups/metabox-display-fields.php:174
+msgid "Overlay"
+msgstr "Overlay"
+
+#: includes/admin/popups/metabox-display-fields.php:164
+#: includes/class-popmake-popup-fields.php:72
+msgid "Set a custom height for the popup."
+msgstr "Imposta un'altezza personalizzata per il popup."
+
+#: includes/admin/popups/metabox-display-fields.php:150
+#: includes/admin/themes/metabox-close-fields.php:53
+#: includes/class-popmake-popup-fields.php:71
+#: includes/class-popmake-popup-theme-fields.php:311
+#: includes/shortcodes/class-pum-shortcode-popup.php:122
+msgid "Height"
+msgstr "Altezza"
+
+#: includes/admin/popups/metabox-display-fields.php:143
+#: includes/class-popmake-popup-fields.php:65
+msgid "Checking this option will add a scroll bar to your content."
+msgstr "Attivando questa opzione verrà mostrata una barra di scorrimento al tuo contenuto."
+
+#: includes/admin/popups/metabox-display-fields.php:129
+#: includes/class-popmake-popup-fields.php:64
+msgid "Scrollable Content"
+msgstr "Contenuto scrollabile"
+
+#: includes/admin/popups/metabox-display-fields.php:123
+#: includes/class-popmake-popup-fields.php:58
+msgid "Checking this option will set height to fit the content."
+msgstr "Attivando questa opzione verrà impostata un'altezza sulla base del contenuto."
+
+#: includes/admin/popups/metabox-display-fields.php:109
+#: includes/class-popmake-popup-fields.php:57
+msgid "Auto Adjusted Height"
+msgstr "Altezza automatica"
+
+#: includes/admin/popups/metabox-display-fields.php:103
+#: includes/class-popmake-popup-fields.php:47
+msgid "Set a custom width for the popup."
+msgstr "Imposta una larghezza personalizzata per il popup."
+
+#: includes/admin/popups/metabox-display-fields.php:89
+#: includes/admin/themes/metabox-close-fields.php:70
+#: includes/class-popmake-popup-fields.php:46
+#: includes/class-popmake-popup-theme-fields.php:321
+#: includes/shortcodes/class-pum-shortcode-popup.php:111
+msgid "Width"
+msgstr "Larghezza"
+
+#: includes/admin/popups/metabox-display-fields.php:78
+#: includes/class-popmake-popup-fields.php:36
+msgid "Set a maximum width for the popup."
+msgstr "Seleziona una larghezza massima per il popup."
+
+#: includes/admin/popups/metabox-display-fields.php:64
+#: includes/class-popmake-popup-fields.php:35
+msgid "Max Width"
+msgstr "Larghezza massima"
+
+#: includes/admin/popups/metabox-display-fields.php:59
+#: includes/class-popmake-popup-fields.php:25
+msgid "Set a minimum width for the popup."
+msgstr "Seleziona una larghezza minima per il popup."
+
+#: includes/admin/popups/metabox-display-fields.php:45
+#: includes/class-popmake-popup-fields.php:24
+msgid "Min Width"
+msgstr "Larghezza minima"
+
+#: includes/admin/popups/metabox-display-fields.php:34
+#: includes/class-popmake-popup-fields.php:17
+#: includes/shortcodes/class-pum-shortcode-popup.php:104
+msgid "Select the size of the popup."
+msgstr "Seleziona la dimensione del popup."
+
+#: includes/admin/popups/metabox-display-fields.php:20
+#: includes/admin/themes/metabox-close-fields.php:196
+#: includes/admin/themes/metabox-title-fields.php:31
+#: includes/class-popmake-popup-fields.php:16
+#: includes/class-popmake-popup-theme-fields.php:395
+#: includes/shortcodes/class-pum-shortcode-popup.php:103
+msgid "Size"
+msgstr "Dimensione"
+
+#: includes/admin/popups/metabox-close-fields.php:84
+#: includes/class-popmake-popup-fields.php:242
+msgid "Checking this will cause popup to close when user presses F4 key."
+msgstr "Attivando questa opzione il popup verrà chiuso quando l'utente preme il tasto F4."
+
+#: includes/admin/popups/metabox-close-fields.php:81
+#: includes/class-popmake-popup-fields.php:241
+msgid "Press F4 to Close"
+msgstr "Chiudi premendo il tasto F4"
+
+#: includes/admin/popups/metabox-close-fields.php:72
+#: includes/class-popmake-popup-fields.php:235
+msgid "Checking this will cause popup to close when user presses ESC key."
+msgstr "Attivando questa opzione il popup verrà chiuso quando l'utente preme il tasto ESC."
+
+#: includes/admin/popups/metabox-close-fields.php:69
+#: includes/class-popmake-popup-fields.php:234
+msgid "Press ESC to Close"
+msgstr "Chiudi premendo il tasto ESC"
+
+#: includes/admin/popups/metabox-close-fields.php:60
+#: includes/class-popmake-popup-fields.php:228
+#: includes/shortcodes/class-pum-shortcode-popup.php:219
+msgid "Checking this will cause popup to close when user clicks on overlay."
+msgstr "Attivando questa opzione il popup verrà chiuso cliccando al di fuori di esso."
+
+#: includes/admin/popups/metabox-close-fields.php:57
+#: includes/class-popmake-popup-fields.php:227
+#: includes/shortcodes/class-pum-shortcode-popup.php:218
+msgid "Click Overlay to Close"
+msgstr "Chiudi cliccando fuori dal popup"
+
+#: includes/admin/popups/metabox-close-fields.php:49
+#: includes/class-popmake-popup-fields.php:217
+msgid "This delays the display of the close button."
+msgstr "Ritarda l'apparizione del pulsante di chiusura"
+
+#: includes/admin/popups/metabox-close-fields.php:35
+#: includes/class-popmake-popup-fields.php:216
+msgid "Close Button Delay"
+msgstr "Ritardo pulsante di chiusura"
+
+#: includes/admin/popups/metabox-close-fields.php:25
+#: includes/class-popmake-popup-fields.php:211
+msgid "Use this to override the default text set in the popup theme."
+msgstr "Usa questo per sovrascrivere il testo di default impostato nel tema del popup"
+
+#: includes/admin/popups/metabox-close-fields.php:23
+#: includes/class-popmake-popup-fields.php:210
+#: includes/class-popmake-popup-theme-fields.php:295
+#: includes/class-popmake-popup-theme-fields.php:297 includes/defaults.php:156
+msgid "CLOSE"
+msgstr "CHIUDI"
+
+#: includes/admin/popups/metabox-close-fields.php:20
+#: includes/class-popmake-popup-fields.php:209
+msgid "Close Text"
+msgstr "Testo pulsante di chiusura"
+
+#: includes/deprecated/v4.php:362
+msgid "This allows custom css classes, ids or selector strings to trigger the popup when clicked. Seperate multiple selectors using commas."
+msgstr "Questo permette a classi css, id o selettori di attivare il popup quando cliccati. Separare i diversi selettori usando virgole."
+
+#: includes/deprecated/v4.php:360 includes/pum-trigger-functions.php:113
+msgid ".my-class, #button2"
+msgstr ".mia-classe, #bottone2"
+
+#: includes/deprecated/v4.php:356 includes/pum-trigger-functions.php:111
+msgid "Extra CSS Selectors"
+msgstr "Selettori CSS supplementari"
+
+#: includes/deprecated/v4.php:495
+msgid "This changes the key used when setting and checking cookies. Resetting this will cause all existing cookies to be invalid."
+msgstr "Questo cambia la chiave usata quando è impostato un cookie. Reimposta questo valore per rendere invalidi tutti i cookie esistenti."
+
+#: includes/deprecated/v4.php:494
+msgid "Reset"
+msgstr "Reimposta"
+
+#: includes/deprecated/v4.php:490 includes/pum-cookie-functions.php:28
+msgid "Cookie Key"
+msgstr "Chiave Cookie"
+
+#: includes/deprecated/v4.php:478
+msgid "This will prevent the popup from auto opening on any page until the cookie expires."
+msgstr "Questo eviterà che il popup si apra in qualsiasi pagina prima che il cookie scada."
+
+#: includes/deprecated/v4.php:475 includes/pum-cookie-functions.php:49
+msgid "Sitewide Cookie"
+msgstr "Cookie per tutto il sito"
+
+#: includes/deprecated/v4.php:465
+msgid "Enter a plain english time before cookie expires. <br/>Example \"364 days 23 hours 59 minutes 59 seconds\" will reset just before 1 year exactly."
+msgstr "Inserisci il tempo di scadenza del cookie, in inglese base. <br/>Esempio \"364 days 23 hours 59 minutes 59 seconds\" reimposterà il cookie esattamente in 1 anno."
+
+#: includes/deprecated/v4.php:459 includes/pum-cookie-functions.php:42
+msgid "Cookie Time"
+msgstr "Tempo del Cookie"
+
+#: includes/deprecated/v4.php:447 includes/pum-cookie-functions.php:36
+msgid "Session cookies expire when the user closes their browser."
+msgstr "I Cookies della sessione scadono quando l'utente chiude il browser."
+
+#: includes/deprecated/v4.php:442 includes/pum-cookie-functions.php:35
+msgid "Use Session Cookie?"
+msgstr "Usare i cookie della sessione?"
+
+#: includes/deprecated/v4.php:430 includes/pum-trigger-functions.php:26
+msgid "When do you want to create the cookie."
+msgstr "Quando vuoi che il cookie venga creato."
+
+#: includes/deprecated/v4.php:417
+msgid "Cookie Trigger"
+msgstr "Cookie Trigger"
+
+#: includes/deprecated/v4.php:405 includes/pum-trigger-functions.php:130
+msgid "The delay before the popup will open in milliseconds."
+msgstr "Il ritardo prima dell'apertura del popup, in millisecondi."
+
+#: includes/deprecated/v4.php:391
+#: includes/integrations/ninja-forms/Actions/ClosePopup.php:43
+#: includes/pum-trigger-functions.php:85 includes/pum-trigger-functions.php:129
+msgid "Delay"
+msgstr "Ritardo"
+
+#: includes/deprecated/v4.php:380
+msgid "Checking this will cause popup to open automatically."
+msgstr "Selezionando qui il popup si aprirà automaticamente"
+
+#: includes/deprecated/v4.php:377
+msgid "Enable Auto Open Popups"
+msgstr "Abilita l'apertura automatica dei Popups"
+
+#: includes/deprecated/v4.php:513
+msgid "When Enabled, the popup will show immediately on the given page for admins."
+msgstr "Quando Attivo, questo popup verrà immediatamente mostrato nella pagina scelta agli amministratori."
+
+#: includes/deprecated/v4.php:510
+msgid "Enable Admin Debug"
+msgstr "Abilita il Debug Admin"
+
+#: includes/admin/popups/dashboard-columns.php:206
+msgid "Show all tags"
+msgstr "Mostra tutti i tag"
+
+#: includes/admin/popups/dashboard-columns.php:193
+msgid "Show all categories"
+msgstr "Mostra tutte le categorie"
+
+#: includes/admin/admin-pages.php:79
+#: includes/admin/popups/dashboard-columns.php:39
+#: includes/class-pum-conditions.php:75
+msgid "Tags"
+msgstr "Tags"
+
+#: includes/admin/admin-pages.php:78
+#: includes/admin/popups/dashboard-columns.php:43
+#: includes/class-pum-conditions.php:74
+msgid "Categories"
+msgstr "Categorie"
+
+#: includes/admin/popups/dashboard-columns.php:35
+#: includes/libs/freemius/includes/i18n.php:114
+msgid "Title"
+msgstr "Titolo"
+
+#: includes/admin/popups/dashboard-columns.php:33
+msgid "CSS Classes"
+msgstr "Classi CSS"
+
+#: includes/admin/popups/class-metabox-cookies.php:68
+#: includes/admin/popups/dashboard-columns.php:32
+#: includes/libs/freemius/includes/i18n.php:106
+msgid "Name"
+msgstr "Nome"
+
+#: includes/admin/metabox-support.php:48
+msgid "Priority Support"
+msgstr "Supporto con alta priorità"
+
+#: includes/admin/metabox-support.php:42
+msgid "Extension Support"
+msgstr "Supporto Estensione"
+
+#: includes/admin/metabox-support.php:36
+msgid "Free Support Forums"
+msgstr "Forum di supporto gratuito"
+
+#: includes/integrations/ninja-forms/Actions/OpenPopup.php:35
+msgid "Open Popup"
+msgstr "Apri Popup"
+
+#: includes/admin/admin-setup.php:57
+msgid "A Popup Preview"
+msgstr "Un'anteprima del Popup"
+
+#: includes/admin/admin-setup.php:25
+#: includes/admin/extensions/extensions-page.php:26
+#: includes/admin/settings/register-settings.php:309
+msgid "Extensions"
+msgstr "Estensioni"
+
+#: includes/admin/admin-pages.php:32 includes/admin/admin-pages.php:84
+msgid "Tools"
+msgstr "Strumenti"
+
+#: includes/admin/admin-pages.php:30 includes/admin/admin-pages.php:83
+#: includes/admin/admin-setup.php:24
+#: includes/admin/popups/class-metabox-cookies.php:69
+#: includes/admin/popups/class-metabox-triggers.php:66
+msgid "Settings"
+msgstr "Impostazioni"
