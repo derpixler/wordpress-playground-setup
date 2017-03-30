@@ -64,6 +64,10 @@
 			"type": "vcs",
 			"url": "git@bitbucket.org:webdevmedia/uploads.git"
 		},
+		{
+			"type": "vcs",
+			"url": "git@bitbucket.org:webdevmedia/beaver-builder.git"
+		},
 	    {
 	      "type": "package",
 	      "package": {
@@ -116,6 +120,8 @@
 		"wpackagist-plugin/update-alt-attribute": "2.2.0",
 
 		"webdevmedia/customeralliance-reviews": "0.2.0",
+		"webdevmedia/beaver-builder": "dev-master",
+		
 
 		"myhotelshop/ibe-widget": "dev-master",
 		"myhotelshop/controller": "dev-master",
