@@ -95,12 +95,14 @@ task('deploy:move_wp_config', function() {
 desc('Move Plugins & Themes');
 task('deploy:move_plugins_themes', function() {
 
-    $link = run("readlink {{deploy_path}}/current")->toString();
-    $currentRelease = substr($link, 0, 1) === '/' ? $link : get('deploy_path') . $link;
+	$link = run("readlink {{deploy_path}}/current")->toString();
+	$currentRelease = substr($link, 0, 1) === '/' ? $link : get('deploy_path') . $link;
 
 	$plugins 	= $currentRelease . '/vagrant/html/wordpress/wp-content/plugins/';
-	$mu_plugins = $currentRelease . '/vagrant/html/wordpress/wp-content/mu-plugins/';
+	$mu_plugins	= $currentRelease . '/vagrant/html/wordpress/wp-content/mu-plugins/';
 	$themes 	= $currentRelease . '/vagrant/html/wordpress/wp-content/themes/';
+	$languages	= $currentRelease . '/vagrant/html/wordpress/wp-content/languages/';
+	$search 	= $currentRelease . '/vagrant/html/wordpress/wp-content/uploads/sr/';
 
 	$sudo = get('sudo');
 
@@ -111,6 +113,8 @@ task('deploy:move_plugins_themes', function() {
 	run( $sudo . " rm -rf " . get('base_path') . "/wp-content/plugins/ && " . $sudo . "cp -r " . $plugins . " " . get('base_path') . "/wp-content/");
 	run( $sudo . " rm -rf " . get('base_path') . "/wp-content/mu-plugins/ && " . $sudo . "cp -r " . $mu_plugins . " " . get('base_path') . "/wp-content/");
 	run( $sudo . " rm -rf " . get('base_path') . "/wp-content/themes/ && " . $sudo . "cp -r " . $themes . " " . get('base_path') . "/wp-content/");
+	run( $sudo . " rm -rf " . get('base_path') . "/wp-content/languages/ && " . $sudo . "cp -r " . $languages . " " . get('base_path') . "/wp-content/");
+	run( $sudo . " rm -rf " . get('base_path') . "/wp-content/uploads/sr/ && " . $sudo . "cp -r " . $search . " " . get('base_path') . "/wp-content/");
 
 });
 
