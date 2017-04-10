@@ -45,6 +45,9 @@ printf "  - Copy ${GREEN}sunrise.php -> vagrant/html/wordpress/wp-content/sunris
 cp assets/data/load-mu-plugins.php vagrant/html/wordpress/wp-content/mu-plugins/load-mu-plugins.php
 printf "  - Copy ${GREEN}load-mu-plugins.php -> vagrant/html/wordpress/wp-content/mu-plugins/load-mu-plugins.php${NC}\n    Files copied\n\n"
 
+cp -r assets/data/sr/ vagrant/html/wordpress/wp-content/uploads/sr/
+printf "  - Copy ${GREEN}search-replace-db -> vagrant/html/wordpress/wp-content/uploads/sr/\n    Files copied\n\n"
+
 rm -rf vagrant/html/wordpress/wp/wp-content/
 printf "  - ${RED}Delete${NC} WordPress default wp-content\n    ${GREEN}folder deleted${NC}\n\n"
 
