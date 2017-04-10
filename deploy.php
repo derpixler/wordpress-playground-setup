@@ -102,7 +102,7 @@ task('deploy:move_plugins_themes', function() {
 	$mu_plugins	= $currentRelease . '/vagrant/html/wordpress/wp-content/mu-plugins/';
 	$themes 	= $currentRelease . '/vagrant/html/wordpress/wp-content/themes/';
 	$languages	= $currentRelease . '/vagrant/html/wordpress/wp-content/languages/';
-	$search 	= $currentRelease . '/vagrant/html/wordpress/wp-content/uploads/sr/';
+	$search 	= $currentRelease . '/assets/data/sr/';
 
 	$sudo = get('sudo');
 
