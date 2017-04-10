@@ -102,7 +102,6 @@ task('deploy:move_plugins_themes', function() {
 	$mu_plugins	= $currentRelease . '/vagrant/html/wordpress/wp-content/mu-plugins/';
 	$themes 	= $currentRelease . '/vagrant/html/wordpress/wp-content/themes/';
 	$languages	= $currentRelease . '/vagrant/html/wordpress/wp-content/languages/';
-	$search 	= $currentRelease . '/assets/data/sr/';
 
 	$sudo = get('sudo');
 
@@ -114,7 +113,6 @@ task('deploy:move_plugins_themes', function() {
 	run( $sudo . " rm -rf " . get('base_path') . "/wp-content/mu-plugins/ && " . $sudo . "cp -r " . $mu_plugins . " " . get('base_path') . "/wp-content/");
 	run( $sudo . " rm -rf " . get('base_path') . "/wp-content/themes/ && " . $sudo . "cp -r " . $themes . " " . get('base_path') . "/wp-content/");
 	run( $sudo . " rm -rf " . get('base_path') . "/wp-content/languages/ && " . $sudo . "cp -r " . $languages . " " . get('base_path') . "/wp-content/");
-	run( $sudo . " rm -rf " . get('base_path') . "/wp-content/uploads/sr/ && " . $sudo . "cp -r " . $search . " " . get('base_path') . "/wp-content/");
 
 });
 
