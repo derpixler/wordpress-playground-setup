@@ -27,7 +27,7 @@ printf "  - Moved Vagrant config (${GREEN}Copy vagrant.json -> vagrant/vagrant.j
 cp assets/data/wp-config.dist.php vagrant/html/wordpress/wp-config.php
 printf "  - Copy ${GREEN}wp-config.php -> vagrant/html/wordpress/wp-config.php${NC}\n    Files copied\n\n"
 
-cp -R assets/data/languages/ vagrant/html/wordpress/wp-content/languages
+cp -r assets/data/languages/ vagrant/html/wordpress/wp-content/languages
 printf "  - Copy ${GREEN}languages/ -> vagrant/html/wordpress/wp-content/languages/${NC}\n    Files copied\n\n"
 
 cp -r assets/data/sr/ vagrant/html/wordpress/wp-content/uploads/sr/
