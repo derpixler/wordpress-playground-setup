@@ -30,9 +30,6 @@ printf "  - Copy ${GREEN}wp-config.php -> vagrant/html/wordpress/wp-config.php${
 cp -r assets/data/languages/ vagrant/html/wordpress/wp-content/languages
 printf "  - Copy ${GREEN}languages/ -> vagrant/html/wordpress/wp-content/languages/${NC}\n    Files copied\n\n"
 
-cp -r assets/data/sr/ vagrant/html/wordpress/wp-content/uploads/sr/
-printf "  - Copy ${GREEN}search-replace-db -> vagrant/html/wordpress/wp-content/uploads/sr/\n    Files copied\n\n"
-
 cp assets/data/index.dist.php vagrant/html/wordpress/index.php
 printf "  - Copy ${GREEN}index.dist.php -> vagrant/html/wordpress/index.php${NC}\n    Files copied\n\n"
 
