@@ -28,12 +28,15 @@ printf "  - Moved Vagrant config ${GREEN}Copy vagrant.json -> vagrant/vagrant.js
 
 cp assets/data/wp-config.php vagrant/html/wp-config.php
 
-printf "  - Copy wp-config ${GREEN}wp-config.php -> vagrant/html/wp-config.php${NC})\n    Files copied\n\n"
+printf "  - Copy wp-config ${GREEN}wp-config.php -> vagrant/html/wordpress/wp-config.php${NC})\n    Files copied\n\n"
 
 cp assets/data/.htaccess.dist vagrant/html/.htaccess
 
-printf "  - Copy .htaccess ${GREEN}.htaccess.dist -> vagrant/html/.htaccess${NC})\n    Files copied\n\n"
+printf "  - Copy .htaccess ${GREEN}.htaccess.dist -> vagrant/html/wordpress/.htaccess${NC})\n    Files copied\n\n"
 
 cp assets/data/playbox.sql ${dumpfolder}playbox.sql
 
 printf "  - Copy scotchbox.sql ${GREEN}playbox.sql -> ${dumpfolder}playbox.sql${NC})\n    Files copied\n\n"
+
+cp assets/data/index.dist.php vagrant/html/wordpress/index.php
+printf "  - Copy ${GREEN}index.dist.php -> vagrant/html/wordpress/index.php${NC}\n    Files copied\n\n"
