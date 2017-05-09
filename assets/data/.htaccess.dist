@@ -1,13 +1,17 @@
-Redirect 301 /foo http://test.wp/bar
-Redirect 301 /wp/foo/ http://test.wp/foo
-# BEGIN WordPress
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /
-RewriteRule ^index\.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
-</IfModule>
+SetEnv REDIRECT_ENV vagrant
 
-# END WordPress
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+	RewriteRule ^index\.php$ - [L]
+
+	# add a trailing slash to /wp-admin
+	RewriteRule ^(?:([_0-9a-zA-Z-]+)/?){0,2}wp-admin$ $1/wp-admin/ [R=302,L]
+
+	RewriteCond %{REQUEST_FILENAME} -f [OR]
+	RewriteCond %{REQUEST_FILENAME} -d
+	RewriteRule ^ - [L]
+	RewriteRule ^(?:(?:[_0-9a-zA-Z-]+)/){0,2}(wp-(admin|includes|login).*) wp/$1 [L]
+	RewriteRule ^(?:(?:[_0-9a-zA-Z-]+)/){0,2}(.*\.php)$ wp/$1 [L]
+	RewriteRule . index.php [L]
+</IfModule>
