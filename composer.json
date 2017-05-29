@@ -121,7 +121,7 @@
 
 		"myhotelshop/ibe-widget": "dev-master",
 		"myhotelshop/controller": "dev-master",
-		"myhotelshop/m-privathotels-theme": "1.02",
+		"myhotelshop/m-privathotels-theme": "1.0*",
 		"myhotelshop/cpt-custompages": "dev-master",
 
 		"stuttter/wp-multi-network": "dev-master"
