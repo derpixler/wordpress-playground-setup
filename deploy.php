@@ -19,6 +19,7 @@ server('preview', 'p366984.mittwaldserver.info')
 	->set('base_path', '/home/www/p366984/html/preview')
 	->set('sudo', FALSE)
 	->set('stage', 'preview' )
+	->set('branch', 'preview' )
 	->set('DB_HOST', 'db4686.mydbserver.com' )
 	->set('DB_USERNAME', 'p366984' )
 	->set('DB_PASSWORD', 'usr_p366984_2' )
@@ -31,6 +32,7 @@ server('production', 'p366984.mittwaldserver.info')
 	->set('base_path', '/home/www/p366984/html/public')
 	->set('sudo', FALSE)
 	->set('stage', 'production' )
+	->set('branch', 'live' )
 	->set('DB_HOST', 'db4686.mydbserver.com' )
 	->set('DB_USERNAME', 'p366984' )
 	->set('DB_PASSWORD', 'usr_p366984_1' )
@@ -61,8 +63,10 @@ desc('Show deploy msg');
 task('deploy:start_info', function() {
 
 	$deployPath = get('deploy_path');
+	$stage = get('stage');
+	$branch = get('branch');
 
-	writeln('<info>Deploying... to ' . $deployPath. '</info>');
+	writeln('<info>Deploying... to ' . $deployPath. ' on stage: ' . $stage . ' from branch: ' . $branch . '</info>');
 
 });
 
