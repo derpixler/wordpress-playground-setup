@@ -34,7 +34,15 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@bitbucket.org:webdevmedia/themify-portfolio-post.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@bitbucket.org:webdevmedia/m-privathotels-theme.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@bitbucket.org:webdevmedia/mhs-2-theme.git"
 		},
 		{
 			"type": "vcs",
@@ -122,13 +130,16 @@
 
 		"myhotelshop/ibe-widget": "1.0.2",
 		"myhotelshop/controller": "dev-master",
-		"myhotelshop/m-privathotels-theme": "dev-master",
 		"myhotelshop/cpt-custompages": "dev-master",
+		"myhotelshop/themify-portfolio-post" : "dev-master",
 
-		"stuttter/wp-multi-network": "dev-master"
+		"stuttter/wp-multi-network": "dev-master",
 
-    },
-    "extra": {
+		"myhotelshop/m-privathotels-theme": "dev-master",
+		"myhotelshop/mhs-2-theme": "dev-master"
+
+	},
+	"extra": {
 		"wordpress-install-dir": "vagrant/html/wordpress/wp",
 		"wordpress-content-dir": "vagrant/html/wordpress/wp-content",
         "installer-paths": {
