@@ -124,7 +124,9 @@
 		"wpackagist-plugin/image-widget": "4.3.1",
 		"wpackagist-plugin/social-media-icons-widget": "16.07",
 		"wpackagist-plugin/secondary-title": "1.9.1",
-		"wpackagist-plugin/adminer": "dev-trunk",
+		"wpackagist-plugin/use-any-font": "4.7.3",
+		"wpackagist-plugin/getyourguide-widget": "1.1.0",
+
 
 		"webdevmedia/customeralliance-reviews": "0.2.0",
 
