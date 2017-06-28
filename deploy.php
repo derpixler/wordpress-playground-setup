@@ -52,6 +52,19 @@ server('test', '139.59.135.182')
 	->set('DB_PASSWORD', 'IKiu2eiqu1shahghievoo9teidoc5ies' )
 	->set('DB_DATABASE', 'wordpress' );
 
+	server('uberspace', '95.143.172.224')
+    ->user('mhs')
+	->identityFile('~/.ssh/mhs_uberspace.pub', '~/.ssh/mhs_uberspace', '')
+    ->set('deploy_path', '/var/www/virtual/mhs/deployment/')
+	->set('base_path',   '/var/www/virtual/mhs/html')
+	->set('sudo', TRUE)
+	->set('stage', 'uberspace' )
+	->set('branch', 'mhs_uberspace' )
+	->set('DB_HOST', 'localhost' )
+	->set('DB_USERNAME', 'mhs' )
+	->set('DB_PASSWORD', 'pie7xah7rierah3Aet' )
+	->set('DB_DATABASE', 'mhs' );
+
 
 
 /**
