@@ -42,6 +42,10 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@bitbucket.org:webdevmedia/mhs-new-header-theme.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@bitbucket.org:webdevmedia/mhs-2-theme.git"
 		},
 		{
@@ -141,7 +145,8 @@
 
 
 		"myhotelshop/m-privathotels-theme": "dev-master",
-		"myhotelshop/mhs-2-theme": "dev-master"
+		"myhotelshop/mhs-2-theme": "dev-master",
+		"myhotelshop/mhs-theme-new-header": "dev-master"
 
 	},
 	"extra": {
