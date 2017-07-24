@@ -16,7 +16,10 @@
 				"www.kastanienhof.wp",
 				"controller.kastanienhof.websites.myhotelshop.wp",
 				"controller.hotelambruehl.websites.myhotelshop.wp",
-				"hotelambruehl.wp"
+				"hotelambruehl.wp",
+				"controller.the-alpinalodge.websites.wp",
+				"controller.the-alpinalodge.wp",
+				"the-alpinalodge.wp"
 			]
 		},
 		"forwarded_port": {}
