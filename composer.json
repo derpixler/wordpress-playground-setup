@@ -42,6 +42,10 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@bitbucket.org:webdevmedia/mhs-new-header-theme.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@bitbucket.org:webdevmedia/mhs-2-theme.git"
 		},
 		{
@@ -99,6 +103,8 @@
 	    "johnpbloch/wordpress-core-installer": "~0.2",
 	    "johnpbloch/wordpress-core": "4.*",
 
+		"stuttter/wp-multi-network": "dev-master",
+
 		"myhotelshop/wp-db-migrate-pro": "1.7.*",
 		"myhotelshop/wp-migrate-db-pro-multisite-tools": "1.1.5",
 		"myhotelshop/contact-form-db": "dev-master",
@@ -125,20 +131,21 @@
 		"wpackagist-plugin/image-widget": "4.3.1",
 		"wpackagist-plugin/social-media-icons-widget": "16.07",
 		"wpackagist-plugin/secondary-title": "1.9.1",
+		"wpackagist-plugin/use-any-font": "4.7.3",
+		"wpackagist-plugin/getyourguide-widget": "1.1.0",
 
 		"wpackagist-theme/twentyseventeen": "1.3",
 
 		"webdevmedia/customeralliance-reviews": "0.2.0",
 
-		"myhotelshop/ibe-widget": "1.0.2",
+		"myhotelshop/ibe-widget": "1.0.4",
 		"myhotelshop/controller": "dev-master",
 		"myhotelshop/cpt-custompages": "dev-master",
 		"myhotelshop/themify-portfolio-post" : "dev-master",
 
-		"stuttter/wp-multi-network": "dev-master",
 
 		"myhotelshop/m-privathotels-theme": "dev-master",
-		"myhotelshop/mhs-2-theme": "dev-master"
+		"myhotelshop/mhs-2-theme": "dev-master",
 
 	},
 	"extra": {
