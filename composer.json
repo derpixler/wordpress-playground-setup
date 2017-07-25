@@ -144,7 +144,8 @@
 		"myhotelshop/themify-portfolio-post" : "dev-master",
 
 
-		"myhotelshop/m-privathotels-theme": "dev-master"
+		"myhotelshop/m-privathotels-theme": "dev-master",
+		"myhotelshop/mhs-2-theme": "dev-master"
 
 	},
 	"extra": {
