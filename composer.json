@@ -145,7 +145,8 @@
 
 
 		"myhotelshop/m-privathotels-theme": "dev-master",
-		"myhotelshop/mhs-2-theme": "dev-master"
+		"myhotelshop/mhs-2-theme": "dev-master",
+		"myhotelshop/mhs-theme-new-header": "dev-master"
 
 	},
 	"extra": {
