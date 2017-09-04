@@ -19,7 +19,22 @@
 				"hotelambruehl.wp",
 				"controller.the-alpinalodge.websites.wp",
 				"controller.the-alpinalodge.wp",
-				"the-alpinalodge.wp"
+				"the-alpinalodge.wp",
+
+				"controller.stage.dev.websites.myhotelshop.de",
+				"controller.m-privathotels.stage.dev.websites.myhotelshop.de",
+				"m-privathotels.stage.dev.websites.myhotelshop.de",
+				"controller.m-privathotels.stage.dev.websites.myhotelshop.de",
+				"controller.hotel-waldeck.stage.dev.websites.myhotelshop.de",
+				"hotel-waldeck.stage.dev.websites.myhotelshop.de",
+				"klinik-waldeck.stage.dev.websites.myhotelshop.de",
+				"waldeck-spa.stage.dev.websites.myhotelshop.de",
+				"controller.kastanienhof.stage.dev.websites.myhotelshop.de",
+				"kastanienhof.stage.dev.websites.myhotelshop.de",
+				"controller.hotelambruehl.stage.dev.websites.myhotelshop.de",
+				"hotelambruehl.stage.dev.websites.myhotelshop.de",
+				"controller.enjoyhotel.stage.dev.websites.myhotelshop.de",
+				"enjoyhotel.stage.dev.websites.myhotelshop.de"
 			]
 		},
 		"forwarded_port": {}
