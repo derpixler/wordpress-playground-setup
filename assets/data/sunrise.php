@@ -25,8 +25,6 @@ add_action( 'site_by_path_segments_count', function (){ return 2; } );
 /* Remove Page from wordpress admin menu */
 //add_action( 'admin_menu', function(){ remove_menu_page( 'edit.php?post_type=page' ); });
 
-
-
 add_action( 'admin_bar_menu', function ( $wp_admin_bar ){
 
 	switch ( $_SERVER[ 'REDIRECT_ENV' ] ) {
