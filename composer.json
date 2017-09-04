@@ -46,6 +46,10 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@bitbucket.org:webdevmedia/mhs-new-header-theme.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@bitbucket.org:webdevmedia/customeralliance-reviews.git"
 		},
 		{
