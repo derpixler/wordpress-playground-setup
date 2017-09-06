@@ -36,8 +36,8 @@ printf "  - Copy ${GREEN}index.dist.php -> vagrant/html/wordpress/index.php${NC}
 cp assets/data/.htaccess.dist vagrant/html/wordpress/.htaccess
 printf "  - Copy ${GREEN}.htaccess.dist -> vagrant/html/wordpress/.htaccess${NC}\n    Files copied\n\n"
 
-cp assets/data/databases/dev_usr_p366984_2.sql ${dumpfolder}dev_usr_p366984_2.sql
-printf "  - Copy ${GREEN}dev_usr_p366984_2.sql -> ${dumpfolder}dev_usr_p366984_2.sql${NC}\n    Files copied\n\n"
+cp assets/data/databases/0609017_usr_p366984_2.sql ${dumpfolder}0609017_usr_p366984_2.sql
+printf "  - Copy ${GREEN}0609017_usr_p366984_2.sql -> ${dumpfolder}0609017_usr_p366984_2.sql${NC}\n    Files copied\n\n"
 
 cp assets/data/sunrise.php vagrant/html/wordpress/wp-content/sunrise.php
 printf "  - Copy ${GREEN}sunrise.php -> vagrant/html/wordpress/wp-content/sunrise.php${NC}\n    Files copied\n\n"
