@@ -7,7 +7,7 @@
 			"alias": [
 				"controller.stage.dev.websites.myhotelshop.de",
 
-				"controller.stage.dev.m-privathotels.websites.myhotelshop.wp",
+				"controller.stage.dev.m-privathotels.websites.myhotelshop.de",
 				"m-privathotels.stage.dev.websites.myhotelshop.de",
 
 				"controller.hotel-waldeck.stage.dev.websites.myhotelshop.de",
@@ -34,7 +34,13 @@
 				"alteschmiede-usedom.stage.dev.websites.myhotelshop.de",
 
 				"controller.the-alpinalodge.stage.dev.websites.myhotelshop.de",
-				"the-alpinalodge.stage.dev.websites.myhotelshop.de"
+				"the-alpinalodge.stage.dev.websites.myhotelshop.de",
+
+				"controller.johannesbad-hotels.stage.dev.websites.myhotelshop.de",
+				"johannesbad-hotels.stage.dev.websites.myhotelshop.de",
+
+				"controller.rindenmuehle.stage.dev.websites.myhotelshop.de",
+				"rindenmuehle.stage.dev.websites.myhotelshop.de"
 
 			]
 		},
