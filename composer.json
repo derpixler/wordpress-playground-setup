@@ -42,11 +42,11 @@
 		},
 		{
 			"type": "vcs",
-			"url": "git@bitbucket.org:webdevmedia/mhs-new-header-theme.git"
+			"url": "git@bitbucket.org:webdevmedia/mhs-2-theme.git"
 		},
 		{
 			"type": "vcs",
-			"url": "git@bitbucket.org:webdevmedia/mhs-2-theme.git"
+			"url": "git@bitbucket.org:webdevmedia/mhs-new-header-theme.git"
 		},
 		{
 			"type": "vcs",
@@ -139,11 +139,10 @@
 
 		"webdevmedia/customeralliance-reviews": "0.2.0",
 
-		"myhotelshop/ibe-widget": 				"1.0.4",
-		"myhotelshop/controller": 				"dev-master",
-		"myhotelshop/cpt-custompages": 			"dev-master",
-		"myhotelshop/themify-portfolio-post" :	"dev-master",
-
+		"myhotelshop/ibe-widget": "1.0.4",
+		"myhotelshop/controller": "1.1.0",
+		"myhotelshop/cpt-custompages": "dev-master",
+		"myhotelshop/themify-portfolio-post": "dev-master",
 
 		"myhotelshop/m-privathotels-theme":	"1.1.0",
 		"myhotelshop/mhs-2-theme": 			"1.0.1",

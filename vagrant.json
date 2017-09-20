@@ -3,49 +3,12 @@
 	"network" : {
 		"private_network": {
 			"ip": "172.23.0.2",
-			"host": "websites.myhotelshop.wp",
+			"host": "websites.myhotelshop.de",
 			"alias": [
-				"controller.websites.myhotelshop.wp",
-
-				"controller.m-privathotels.websites.myhotelshop.wp",
-				"www.m-privathotels.wp",
-
-				"controller.hotel-waldeck.websites.myhotelshop.wp",
-				"hotel-waldeck.wp",
-				"www.hotel-waldeck.wp",
-				"waldeck-spa.wp",
-				"wwww.waldeck-spa.wp",
-				"klinik-waldeck.wp",
-				"www.klinik-waldeck.wp",
-
-				"controller.kastanienhof.websites.myhotelshop.wp",
-				"kastanienhof.wp",
-				"www.kastanienhof.wp",
-
-				"controller.hotelambruehl.websites.myhotelshop.wp",
-				"www.hotelambruehl.wp",
-
-				"controller.hotel-merkur.websites.myhotelshop.wp",
-				"hotel-merkur.wp",
-				"wwww.hotel-merkur.wp",
-
-				"controller.the-alpinalodge.websites.myhotelshop.wp",
-				"www.the-alpinalodge.wp",
-				"the-alpinalodge.wp",
-
-				"controller.alteschmiede-usedom.websites.myhotelshop.wp",
-				"www.alteschmiede-usedom.wp",
-				"alteschmiede-usedom.wp",
-
-				"controller.the-alpinalodge.websites.wp",
-				"controller.the-alpinalodge.wp",
-				"the-alpinalodge.wp",
-
 				"controller.stage.dev.websites.myhotelshop.de",
-				"controller.m-privathotels.stage.dev.websites.myhotelshop.de",
 
+				"controller.stage.dev.m-privathotels.websites.myhotelshop.de",
 				"m-privathotels.stage.dev.websites.myhotelshop.de",
-				"controller.m-privathotels.stage.dev.websites.myhotelshop.de",
 
 				"controller.hotel-waldeck.stage.dev.websites.myhotelshop.de",
 				"hotel-waldeck.stage.dev.websites.myhotelshop.de",
@@ -59,7 +22,26 @@
 				"hotelambruehl.stage.dev.websites.myhotelshop.de",
 
 				"controller.enjoyhotel.stage.dev.websites.myhotelshop.de",
-				"enjoyhotel.stage.dev.websites.myhotelshop.de"
+				"enjoyhotel.stage.dev.websites.myhotelshop.de",
+
+				"controller.hotel-merkur.stage.dev.websites.myhotelshop.de",
+				"hotel-merkur.stage.dev.websites.myhotelshop.de",
+
+				"controller.the-alpinalodge.stage.dev.websites.myhotelshop.de",
+				"the-alpinalodge.stage.dev.websites.myhotelshop.de",
+
+				"controller.alteschmiede-usedom.stage.dev.websites.myhotelshop.de",
+				"alteschmiede-usedom.stage.dev.websites.myhotelshop.de",
+
+				"controller.the-alpinalodge.stage.dev.websites.myhotelshop.de",
+				"the-alpinalodge.stage.dev.websites.myhotelshop.de",
+
+				"controller.johannesbad-hotels.stage.dev.websites.myhotelshop.de",
+				"johannesbad-hotels.stage.dev.websites.myhotelshop.de",
+
+				"controller.rindenmuehle.stage.dev.websites.myhotelshop.de",
+				"rindenmuehle.stage.dev.websites.myhotelshop.de"
+
 			]
 		},
 		"forwarded_port": {}
