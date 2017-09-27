@@ -110,7 +110,8 @@
 		"myhotelshop/contact-form-db": "dev-master",
 
 		"wpackagist-plugin/wp-multisite-sso": "1.*",
-		"wpackagist-plugin/multilingual-press": "2.*",
+		"wpackagist-plugin/multilingual-press": "2.9.1",
+
 		"wpackagist-plugin/wordpress-seo": "4.*",
 		"wpackagist-plugin/kirki": "2.3.*",
 		"wpackagist-plugin/wp-super-cache": "1.4.*",
