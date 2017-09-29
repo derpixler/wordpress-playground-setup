@@ -114,7 +114,8 @@
 		"myhotelshop/contact-form-db": "dev-master",
 
 		"wpackagist-plugin/wp-multisite-sso": "1.*",
-		"wpackagist-plugin/multilingual-press": "2.*",
+		"wpackagist-plugin/multilingual-press": "2.9.1",
+
 		"wpackagist-plugin/wordpress-seo": "4.*",
 		"wpackagist-plugin/kirki": "2.3.*",
 		"wpackagist-plugin/wp-super-cache": "1.4.*",
@@ -148,9 +149,9 @@
 		"myhotelshop/themify-portfolio-post": "dev-master",
 		"myhotelshop/redirection_rules": "dev-master",
 
-		"myhotelshop/m-privathotels-theme":	"1.1.0",
-		"myhotelshop/mhs-2-theme": 			"1.0.1",
-		"myhotelshop/mhs-theme-new-header":	"1.1.1"
+		"myhotelshop/m-privathotels-theme": "1.1.4",
+		"myhotelshop/mhs-2-theme":          "1.0.1",
+		"myhotelshop/mhs-theme-new-header": "1.1.4"
 
 	},
 	"extra": {
