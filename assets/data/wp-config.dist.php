@@ -54,7 +54,7 @@ switch ( $_SERVER[ 'REDIRECT_ENV' ] ) {
 		break;
 	case 'vagrant':
 		$args = [
-			'DB_NAME'						=> '0609017_usr_p366984_2',
+			'DB_NAME'						=> '0809017_usr_p366984_1_preview',
 			'DB_USER'						=> 'root',
 			'DB_PASSWORD' 					=> 'root',
 			'DB_HOST'						=> 'localhost',

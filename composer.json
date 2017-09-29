@@ -76,6 +76,10 @@
 			"type": "vcs",
 			"url": "git@bitbucket.org:webdevmedia/uploads.git"
 		},
+		{
+			"type": "vcs",
+			"url": "git@bitbucket.org:webdevmedia/redirection_rules.git"
+		},
 	    {
 	      "type": "package",
 	      "package": {
@@ -121,7 +125,6 @@
 		"wpackagist-plugin/lazy-load": "0.6.1",
 		"wpackagist-plugin/duracelltomi-google-tag-manager": "1.5.*",
 		"wpackagist-plugin/attachment-taxonomies": "1.0.*",
-		"wpackagist-plugin/redirection": "2.5",
 		"wpackagist-plugin/backwpup": "3.3.*",
 		"wpackagist-plugin/popup-maker": "1.4.*",
 		"wpackagist-plugin/regenerate-thumbnails-advanced": "1.4.*",
@@ -140,9 +143,10 @@
 		"webdevmedia/customeralliance-reviews": "0.2.1",
 
 		"myhotelshop/ibe-widget": "1.0.4",
-		"myhotelshop/controller": "1.1.0",
+		"myhotelshop/controller": "1.1.5",
 		"myhotelshop/cpt-custompages": "dev-master",
 		"myhotelshop/themify-portfolio-post": "dev-master",
+		"myhotelshop/redirection_rules": "dev-master",
 
 		"myhotelshop/m-privathotels-theme":	"1.1.0",
 		"myhotelshop/mhs-2-theme": 			"1.0.1",
@@ -156,6 +160,9 @@
 	      "vagrant/": ["vagrant"],
 		  "vagrant/html/wordpress/wp-content/mu-plugins/{$name}/": [
 			  "myhotelshop/controller"
+		  ],
+		  "vagrant/html/wordpress/wp-content/mu-plugins/controller/assets/redirection_rules": [
+			  "myhotelshop/redirection_rules"
 		  ],
 		  "vagrant/html/wordpress/": ["wordpress/core"],
           "vagrant/html/wordpress/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
