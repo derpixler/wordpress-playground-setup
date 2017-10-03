@@ -21,13 +21,16 @@ vagrantDbFolder='vagrant/databases/imports/'
 # import the SQL file into the database of the same name
 #sql_count=`ls -1 ${dumpfolder%%*.sql} 2>/dev/null | wc -l`
 
-exit
+dumpfolder='vagrant/database/imports/'
+
+if [ ! -d "$dumpfolder" ]; then
+	mkdir -p ${dumpfolder}
+fi
 
 cp vagrant.json vagrant/vagrant.json
 cp vagrant.dist.json vagrant/vagrant.dist.json
 
 printf "  - Moved Vagrant config ${GREEN}Copy vagrant.json -> vagrant/vagrant.json${NC})\n    Files copied\n\n"
-
 
 cp assets/data/wp-config.php vagrant/html/wp-config.php
 
@@ -50,6 +53,8 @@ printf "  - Copy ${GREEN}index.dist.php -> vagrant/html/wordpress/index.php${NC}
 cp -r assets/data/languages/ vagrant/html/wordpress/wp-content/languages
 printf "  - Copy ${GREEN}languages/ -> vagrant/html/wordpress/wp-content/languages/${NC}\n    Files copied\n\n"
 
-
 cp assets/data/load-mu-plugins.php vagrant/html/wordpress/wp-content/mu-plugins/load-mu-plugins.php
 printf "  - Copy ${GREEN}load-mu-plugins.php -> vagrant/html/wordpress/wp-content/mu-plugins/load-mu-plugins.php${NC}\n    Files copied\n\n"
+
+cp assets/data/index.dist.php vagrant/html/wordpress/index.php
+printf "  - Copy ${GREEN}index.dist.php -> vagrant/html/wordpress/index.php${NC}\n    Files copied\n\n"

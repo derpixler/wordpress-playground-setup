@@ -11,8 +11,7 @@
 		"forwarded_port": {
 			"80": "80",
 			"9200": "9200"
-		}
-	},
+		},
 	"synced_folder": {
 		"./html": "/var/www"
 	},
