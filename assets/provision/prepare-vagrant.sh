@@ -34,7 +34,7 @@ cp assets/data/wp-config.dist.php vagrant/html/wordpress/wp-config.php
 
 printf "  - Copy wp-config ${GREEN}wp-config.dist.php -> vagrant/html/wordpress/wp-config.php${NC})\n    Files copied\n\n"
 
-cp assets/data/.htaccess.dist vagrant/html/.htaccess
+cp assets/data/.htaccess.dist vagrant/html/wordpress/.htaccess
 
 printf "  - Copy .htaccess ${GREEN}.htaccess.dist -> vagrant/html/wordpress/.htaccess${NC})\n    Files copied\n\n"
 

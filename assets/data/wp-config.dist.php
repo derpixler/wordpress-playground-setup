@@ -115,21 +115,21 @@ define('NONCE_SALT',       'g!.`p,+2U%@j9r/xeO3$:Gh#x<Bxl,pq;S{LIus.y@lU]aO_e,W6
 
 
 
-$table_prefix = 'nwtmyhsp_';
+$table_prefix = 'wp_';
 
 /* Multisite */
-define( 'WP_ALLOW_MULTISITE', true );
-define(	'MULTISITE', true);
-define(	'SUBDOMAIN_INSTALL', true);
+#define( 'WP_ALLOW_MULTISITE', true );
+#define(	'MULTISITE', true);
+#define(	'SUBDOMAIN_INSTALL', true);
 #define	('DOMAIN_CURRENT_SITE', 'network.websites.myhotelshop.de');
-define(	'PATH_CURRENT_SITE', '/');
-define(	'SITE_ID_CURRENT_SITE', 1);
-define(	'BLOG_ID_CURRENT_SITE', 1);
+#define(	'PATH_CURRENT_SITE', '/');
+#define(	'SITE_ID_CURRENT_SITE', 1);
+#define(	'BLOG_ID_CURRENT_SITE', 1);
 
 #define('ADMIN_COOKIE_PATH', '/');
-define(	'COOKIE_DOMAIN', '');
-define(	'COOKIEPATH', '');
-define(	'SITECOOKIEPATH', '');
+#define(	'COOKIE_DOMAIN', '');
+#define(	'COOKIEPATH', '');
+#define(	'SITECOOKIEPATH', '');
 
 /**
  * Set the COOKIEHASH Netwokwide for this Netwok
@@ -137,7 +137,7 @@ define(	'SITECOOKIEPATH', '');
  */
 define( 'COOKIEHASH', md5( SECURE_AUTH_KEY . AUTH_KEY . LOGGED_IN_KEY ) );
 
-define( 'SUNRISE', 'on' );
+#define( 'SUNRISE', 'on' );
 
 /**
  * For developers: WordPress debugging mode.
