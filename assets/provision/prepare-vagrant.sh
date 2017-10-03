@@ -15,16 +15,14 @@ NC='\033[0m' # No Color
 symlinkFile="create-symlink.sh"
 
 assetsFolder='assets/data/databases/'
-vagrantDbFolder='vagrant/databases/imports/'
+vagrantDbFolder='vagrant/database/imports/'
 
 # Parse through each file in the directory and use the file name to
 # import the SQL file into the database of the same name
 #sql_count=`ls -1 ${dumpfolder%%*.sql} 2>/dev/null | wc -l`
 
-dumpfolder='vagrant/database/imports/'
-
-if [ ! -d "$dumpfolder" ]; then
-	mkdir -p ${dumpfolder}
+if [ ! -d "$vagrantDbFolder" ]; then
+	mkdir -p ${vagrantDbFolder}
 fi
 
 cp vagrant.json vagrant/vagrant.json
@@ -43,7 +41,6 @@ printf "  - Copy .htaccess ${GREEN}.htaccess.dist -> vagrant/html/wordpress/.hta
 for i in $(ls ${assetsFolder%%*.sql}); do
     cp ${assetsFolder}$i ${vagrantDbFolder}
 	printf "  - Copy ${assetsFolder}$i ${GREEN}-> ${vagrantDbFolder}${i}${NC}\n    Files copied\n\n"
-
 done
 
 cp assets/data/index.dist.php vagrant/html/wordpress/index.php

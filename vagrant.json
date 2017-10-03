@@ -12,10 +12,8 @@
 				"partner.idealo.wp"
 			]
 		},
-		"forwarded_port": {
-			"80": "80",
-			"9200": "9200"
-		},
+		"forwarded_port": {}
+	},
 	"synced_folder": {
 		"./html": "/var/www"
 	},
