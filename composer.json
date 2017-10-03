@@ -48,11 +48,7 @@
 	  "johnpbloch/wordpress-core-installer": "~0.2",
 	  "johnpbloch/wordpress-core": "dev-master",
 
-	  "wpackagist-theme/hueman":"*",
-
-	  "wpackagist-plugin/multilingual-press": "2.4.6",
-	  "wpackagist-theme/onepress": "1.2.8"
-
+	  "wpackagist-plugin/multilingual-press": "2.4.6"
     },
     "extra": {
 	    "wordpress-install-dir": "vagrant/html/wordpress/wp",
