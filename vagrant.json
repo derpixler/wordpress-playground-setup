@@ -2,58 +2,24 @@
 	"box": "scotch/box",
 	"network" : {
 		"private_network": {
-			"ip": "172.23.0.2",
-			"host": "websites.myhotelshop.de",
+			"ip": "172.123.12.2",
+			"host": "test.wp",
 			"alias": [
-				"controller.stage.dev.websites.myhotelshop.de",
-
-				"controller.stage.dev.m-privathotels.websites.myhotelshop.de",
-				"m-privathotels.stage.dev.websites.myhotelshop.de",
-
-				"controller.hotel-waldeck.stage.dev.websites.myhotelshop.de",
-				"hotel-waldeck.stage.dev.websites.myhotelshop.de",
-				"klinik-waldeck.stage.dev.websites.myhotelshop.de",
-				"waldeck-spa.stage.dev.websites.myhotelshop.de",
-
-				"controller.kastanienhof.stage.dev.websites.myhotelshop.de",
-				"kastanienhof.stage.dev.websites.myhotelshop.de",
-
-				"controller.hotelambruehl.stage.dev.websites.myhotelshop.de",
-				"hotelambruehl.stage.dev.websites.myhotelshop.de",
-
-				"controller.enjoyhotel.stage.dev.websites.myhotelshop.de",
-				"enjoyhotel.stage.dev.websites.myhotelshop.de",
-
-				"controller.hotel-merkur.stage.dev.websites.myhotelshop.de",
-				"hotel-merkur.stage.dev.websites.myhotelshop.de",
-
-				"controller.the-alpinalodge.stage.dev.websites.myhotelshop.de",
-				"the-alpinalodge.stage.dev.websites.myhotelshop.de",
-
-				"controller.alteschmiede-usedom.stage.dev.websites.myhotelshop.de",
-				"alteschmiede-usedom.stage.dev.websites.myhotelshop.de",
-
-				"controller.the-alpinalodge.stage.dev.websites.myhotelshop.de",
-				"the-alpinalodge.stage.dev.websites.myhotelshop.de",
-
-				"controller.johannesbad-hotels.stage.dev.websites.myhotelshop.de",
-				"johannesbad-hotels.stage.dev.websites.myhotelshop.de",
-
-				"controller.rindenmuehle.stage.dev.websites.myhotelshop.de",
-				"rindenmuehle.stage.dev.websites.myhotelshop.de"
-
+				"partner.test.wp"
 			]
 		},
-		"forwarded_port": {}
+		"forwarded_port": {
+			"80": "80",
+			"9200": "9200"
+		}
 	},
 	"synced_folder": {
-		"./html": "/var/www",
-		"~/.ssh/": "/vagrant/.ssh"
+		"./html": "/var/www"
 	},
 	"provision": {
 		"file": {},
 		"shell_script": [
-			"../assets/provision/vhost.sh",
+			"provisioning/vhost.sh",
 			"provisioning/phpmyadmin.sh",
 			"provisioning/import-db.sh"
 		]

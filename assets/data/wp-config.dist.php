@@ -1,60 +1,9 @@
 <?php
 
 switch ( $_SERVER[ 'REDIRECT_ENV' ] ) {
-    case 'production':
-		$args = [
-			'DB_NAME'						=> 'usr_p366984_1',
-			'DB_USER'						=> 'p366984',
-			'DB_PASSWORD' 					=> 'Adivimaq%965',
-			'DB_HOST'						=> 'db4686.mydbserver.com',
-			'DB_CHARSET'					=> 'utf8',
-			'DB_COLLATE'					=> '',
-			'WP_CONTENT_DIR'				=> '/html/public/wp-content',
-			'WP_DEBUG'						=> TRUE,
-			'SCRIPT_DEBUG'					=> TRUE,
-			'WP_DEBUG_LOG'					=> TRUE,
-			'WP_DEBUG_DISPLAY'				=> FALSE,
-			'DISALLOW_FILE_MODS'			=> TRUE,
-			'AUTOMATIC_UPDATER_DISABLED'	=> TRUE,
-		];
-		break;
-	case 'preview':
-		$args = [
-			'DB_NAME'						=> 'usr_p366984_2',
-			'DB_USER'						=> 'p366984',
-			'DB_PASSWORD' 					=> 'Adivimaq%965',
-			'DB_HOST'						=> 'db4686.mydbserver.com',
-			'DB_CHARSET'					=> 'utf8',
-			'DB_COLLATE'					=> '',
-			'WP_CONTENT_DIR'				=> '/html/preview/wp-content',
-			'WP_DEBUG'						=> TRUE,
-			'SCRIPT_DEBUG'					=> TRUE,
-			'WP_DEBUG_DISPLAY'				=> FALSE,
-			'WP_DEBUG_LOG'					=> TRUE,
-			'DISALLOW_FILE_MODS'			=> TRUE,
-			'AUTOMATIC_UPDATER_DISABLED'	=> TRUE,
-		];
-		break;
-	case 'test':
-		$args = [
-			'DB_NAME'						=> 'wordpress',
-			'DB_USER'						=> 'wordpress',
-			'DB_PASSWORD' 					=> 'IKiu2eiqu1shahghievoo9teidoc5ies',
-			'DB_HOST'						=> 'localhost',
-			'DB_CHARSET'					=> 'utf8',
-			'DB_COLLATE'					=> '',
-			'WP_CONTENT_DIR'				=> '/var/www/public/wp-content',
-			'WP_DEBUG'						=> TRUE,
-			'SCRIPT_DEBUG'					=> TRUE,
-			'WP_DEBUG_DISPLAY'				=> TRUE,
-			'WP_DEBUG_LOG'					=> TRUE,
-			'DISALLOW_FILE_MODS'			=> FALSE,
-			'AUTOMATIC_UPDATER_DISABLED'	=> TRUE,
-		];
-		break;
 	case 'vagrant':
 		$args = [
-			'DB_NAME'						=> '0809017_usr_p366984_1_preview',
+			'DB_NAME'						=> 'playbox',
 			'DB_USER'						=> 'root',
 			'DB_PASSWORD' 					=> 'root',
 			'DB_HOST'						=> 'localhost',

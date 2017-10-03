@@ -1,6 +1,6 @@
 {
-	"name": "WordPress Playground",
-	"description": "Build a vagrant Playground with a running Wordpress inside",
+	"name": "Idealo VM",
+	"description": "Vagrant Box with a running WordPress",
 	"keywords": [
 		"wordpress",
 		"multisite",
@@ -9,13 +9,13 @@
 		"vagrant"
 	],
 	"license": "GPL-3.0+",
-	"type": "wordpress-playground-vagrant",
-	"homepage": "https://gist.github.com/derpixler/7d26324e651fcb72816a",
+	"type": "wordpress-vagrant",
+	"homepage": "http://web-dev-media.de",
 	"authors": [
 		{
-			"name": "Rene Reimann",
-			"homepage": "http://rene-reimann.de",
-			"email": "info@rene-reimann.de",
+			"name": "web dev media UG",
+			"homepage": "http://wwww.web-dev-media.de",
+			"email": "info@web-dev-media.de",
 			"role": "Developer"
 		}
 	],
@@ -23,62 +23,6 @@
 		{
 			"type": "composer",
 			"url": "https://wpackagist.org"
-		},
-		{
-			"type": "vcs",
-			"url": "git@bitbucket.org:webdevmedia/myhotelshop-booking-widget.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@bitbucket.org:webdevmedia/cpt-custompages.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@bitbucket.org:webdevmedia/themify-portfolio-post.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@bitbucket.org:webdevmedia/m-privathotels-theme.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@bitbucket.org:webdevmedia/mhs-2-theme.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@bitbucket.org:webdevmedia/mhs-new-header-theme.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@bitbucket.org:webdevmedia/customeralliance-reviews.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@bitbucket.org:webdevmedia/wp-db-migrate-pro.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@bitbucket.org:webdevmedia/mhs-controller-handle.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@bitbucket.org:webdevmedia/wp-migrate-db-pro-multisite-tools.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@bitbucket.org:webdevmedia/contact-form-7-to-database-extension.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@bitbucket.org:webdevmedia/wp-multi-network.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@bitbucket.org:webdevmedia/uploads.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@bitbucket.org:webdevmedia/redirection_rules.git"
 		},
 	    {
 	      "type": "package",
@@ -104,70 +48,24 @@
 		"mnsami/composer-custom-directory-installer": "1.1.*",
 		"vagrant": "1.3.*",
 
-	    "johnpbloch/wordpress-core-installer": "~0.2",
-	    "johnpbloch/wordpress-core": "4.*",
+		"johnpbloch/wordpress": "4.8.1",
 
-		"stuttter/wp-multi-network": "dev-master",
-
-		"myhotelshop/wp-db-migrate-pro": "1.7.*",
-		"myhotelshop/wp-migrate-db-pro-multisite-tools": "1.1.5",
-		"myhotelshop/contact-form-db": "dev-master",
-
-		"wpackagist-plugin/wp-multisite-sso": "1.*",
-		"wpackagist-plugin/multilingual-press": "2.9.1",
-
-		"wpackagist-plugin/wordpress-seo": "4.*",
-		"wpackagist-plugin/kirki": "2.3.*",
-		"wpackagist-plugin/wp-super-cache": "1.4.*",
+		"wpackagist-plugin/multilingual-press": "2.*",
 		"wpackagist-plugin/contact-form-7": "4.*",
 		"wpackagist-plugin/duplicate-post": "3.1.*",
 		"wpackagist-plugin/widget-importer-exporter": "1.4.*",
 		"wpackagist-plugin/wordpress-importer": "0.6.3",
-		"wpackagist-plugin/lazy-load": "0.6.1",
-		"wpackagist-plugin/duracelltomi-google-tag-manager": "1.5.*",
-		"wpackagist-plugin/attachment-taxonomies": "1.0.*",
-		"wpackagist-plugin/backwpup": "3.3.*",
-		"wpackagist-plugin/popup-maker": "1.4.*",
-		"wpackagist-plugin/regenerate-thumbnails-advanced": "1.4.*",
-		"wpackagist-plugin/post-thumbnail-editor": "2.4.8",
-		"wpackagist-plugin/update-alt-attribute": "2.2.0",
-		"wpackagist-plugin/wordfence": "6.3.*",
-		"wpackagist-plugin/image-widget": "4.3.1",
-		"wpackagist-plugin/social-media-icons-widget": "16.07",
-		"wpackagist-plugin/secondary-title": "1.9.1",
-		"wpackagist-plugin/use-any-font": "4.7.3",
-		"wpackagist-plugin/getyourguide-widget": "1.1.0",
-		"wpackagist-plugin/cookie-law-info": "1.5.*",
+		"wpackagist-plugin/backwpup": "3.3.*"
 
-		"wpackagist-theme/twentyseventeen": "1.3",
-
-		"webdevmedia/customeralliance-reviews": "0.2.1",
-
-		"myhotelshop/ibe-widget": "1.0.4",
-		"myhotelshop/controller": "1.1.5",
-		"myhotelshop/cpt-custompages": "dev-master",
-		"myhotelshop/themify-portfolio-post": "dev-master",
-		"myhotelshop/redirection_rules": "dev-master",
-
-		"myhotelshop/m-privathotels-theme": "1.1.4",
-		"myhotelshop/mhs-2-theme":          "1.0.1",
-		"myhotelshop/mhs-theme-new-header": "1.1.4"
-
-	},
-	"extra": {
-		"wordpress-install-dir": "vagrant/html/wordpress/wp",
+    },
+    "extra": {
+		"wordpress-install-dir": "vagrant/html/wordpress/",
 		"wordpress-content-dir": "vagrant/html/wordpress/wp-content",
         "installer-paths": {
-	      "vagrant/": ["vagrant"],
-		  "vagrant/html/wordpress/wp-content/mu-plugins/{$name}/": [
-			  "myhotelshop/controller"
-		  ],
-		  "vagrant/html/wordpress/wp-content/mu-plugins/controller/assets/redirection_rules": [
-			  "myhotelshop/redirection_rules"
-		  ],
-		  "vagrant/html/wordpress/": ["wordpress/core"],
-          "vagrant/html/wordpress/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
-          "vagrant/html/wordpress/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+			"vagrant/": ["vagrant"],
+			"vagrant/html/wordpress/": ["wordpress/core"],
+			"vagrant/html/wordpress/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+			"vagrant/html/wordpress/wp-content/themes/{$name}/": ["type:wordpress-theme"]
 
 		}
     },
