@@ -22,7 +22,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "http://wpackagist.org"
+            "url": "https://wpackagist.org"
         },
 	    {
 	      "type": "package",
@@ -38,7 +38,7 @@
 	    }
     ],
     "config": {
-      "secure-http": false
+      "secure-http": true
     },
     "require": {
       "php": ">=5.3.0",
