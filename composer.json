@@ -49,10 +49,7 @@
 	  "johnpbloch/wordpress-core-installer": "~0.2",
 	  "johnpbloch/wordpress-core": "4.8.2",
 
-	  "wpackagist-theme/hueman":"*",
-
 	  "wpackagist-plugin/multilingual-press": "2.4.6",
-	  "wpackagist-theme/onepress": "1.2.8"
 
     },
     "extra": {
