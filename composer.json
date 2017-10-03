@@ -28,11 +28,11 @@
 	      "type": "package",
 	      "package": {
 	        "name": "vagrant",
-	        "version": "1.3.2",
+	        "version": "1.3.3",
 	        "source": {
 	          "url": "https://github.com/derpixler/vagrant-apache-php-mysql.git",
 	          "type": "git",
-	          "reference": "1.3.2"
+	          "reference": "1.3.3"
 	        }
 	      }
 	    }
