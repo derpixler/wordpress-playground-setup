@@ -30,7 +30,7 @@ cp vagrant.dist.json vagrant/vagrant.dist.json
 
 printf "  - Moved Vagrant config ${GREEN}Copy vagrant.json -> vagrant/vagrant.json${NC})\n    Files copied\n\n"
 
-cp assets/data/wp-config.dist.php vagrant/html/wp-config.php
+cp assets/data/wp-config.dist.php vagrant/html/wordpress/wp-config.php
 
 printf "  - Copy wp-config ${GREEN}wp-config.dist.php -> vagrant/html/wordpress/wp-config.php${NC})\n    Files copied\n\n"
 
