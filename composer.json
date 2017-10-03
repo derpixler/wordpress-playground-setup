@@ -47,7 +47,7 @@
       "php": ">=5.3.0",
 
 	  "johnpbloch/wordpress-core-installer": "~0.2",
-	  "johnpbloch/wordpress-core": "dev-master",
+	  "johnpbloch/wordpress-core": "4.8.2",
 
 	  "wpackagist-theme/hueman":"*",
 
