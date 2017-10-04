@@ -1,7 +1,7 @@
 <?php
 
 switch ( $_SERVER[ 'REDIRECT_ENV' ] ) {
-	case 'vagrant':
+	default:
 		$args = [
 			'DB_NAME'						=> 'playbox',
 			'DB_USER'						=> 'root',
