@@ -34,9 +34,9 @@ cp assets/data/wp-config.dist.php vagrant/html/wordpress/wp-config.php
 
 printf "  - Copy wp-config ${GREEN}wp-config.dist.php -> vagrant/html/wordpress/wp-config.php${NC})\n    Files copied\n\n"
 
-cp assets/data/.htaccess.dist vagrant/html/wordpress/.htaccess
+cp assets/data/.htaccess.dist vagrant/html/.htaccess
 
-printf "  - Copy .htaccess ${GREEN}.htaccess.dist -> vagrant/html/wordpress/.htaccess${NC})\n    Files copied\n\n"
+printf "  - Copy .htaccess ${GREEN}.htaccess.dist -> vagrant/html/.htaccess${NC})\n    Files copied\n\n"
 
 for i in $(ls ${assetsFolder%%*.sql}); do
     cp ${assetsFolder}$i ${vagrantDbFolder}
