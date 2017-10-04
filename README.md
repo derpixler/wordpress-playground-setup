@@ -14,7 +14,7 @@ git clone https://github.com/derpixler/wordpress-playground-setup.git playground
 cd playground-box && composer install && cd vagrant && vagrant up
 ```
 
-[4] Browse to http://www.playground.wp
+[4] Browse to http://www.test.wp
 
 ## Whats in the Playground?
 We have a small set of plugins and themes.
