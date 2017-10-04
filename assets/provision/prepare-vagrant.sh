@@ -26,7 +26,6 @@ if [ ! -d "$vagrantDbFolder" ]; then
 fi
 
 cp vagrant.json vagrant/vagrant.json
-cp vagrant.dist.json vagrant/vagrant.dist.json
 
 printf "  - Moved Vagrant config ${GREEN}Copy vagrant.json -> vagrant/vagrant.json${NC})\n    Files copied\n\n"
 
