@@ -3,13 +3,10 @@
 	"network" : {
 		"private_network": {
 			"ip": "172.123.12.2",
-			"host": "idealo.wp",
+			"host": "test.wp",
 			"alias": [
-				"*.idealo.wp",
-				"www.idealo.wp",
-				"magazin.idealo.wp",
-				"jobs.idealo.wp",
-				"partner.idealo.wp"
+				"*.test.wp",
+				"www.test.wp"
 			]
 		},
 		"forwarded_port": {}
